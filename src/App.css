@@ -12,19 +12,30 @@ body {
   width: 100%;
   height: 72px;
   background-color: rgba(255, 255, 255, 1);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   font-size: 16px;
   font-family: "NotoSansKR";
   font-weight: 600;
   color: rgba(60, 52, 51, 1);
 }
 
+.navbar_Container {
+  height: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
 .navbar_Logo_Container {
-  padding-left: 300px;
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .navbar_Logo {
@@ -33,11 +44,17 @@ body {
 }
 
 .navbar_Logo_Img {
-  width: 50%;
+  width: 35px;
+  height: 50px;
 }
 
 .navbar_Menu_Container {
-  padding-right: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .navbar_Menu {
