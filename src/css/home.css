@@ -1,0 +1,425 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+    background-color: white;
+    margin: 0;
+    font-family: "NotoSansKR ";
+}
+
+/*
+-----------------
+----Home-Main----
+-----------------
+*/
+
+/* PC+ */
+@media all and (min-width:1200px) {
+    .home-main {
+        background-image: url("../../public/assets/home/Home_Main_Background.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: calc(100vh - 300px);
+    }
+
+    .home-main-container {
+        max-width: 1200px;
+        height: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .home-main-left {
+        text-align: left;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .home-main-left-title {
+        font-family: "Noto Sans KR";
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .home-main-left-title p {
+        font-size: 3.3em;
+        margin-top: 0px;
+        margin-bottom: -10px;
+    }
+
+    .home-main-left-subtext {
+        font-family: "Noto Sans KR";
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .home-main-left-subtext p {
+        font-size: 1em;
+        margin-top: 3px;
+        margin-bottom: 0px;
+    }
+
+    .home-main-right {
+        text-align: center;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-main-right-image{
+        width: 538px;
+        height: 431px;
+    }
+}
+
+/* PC */
+@media all and (min-width:1024px) and (max-width:1199px) {
+    .home-main{
+        background-image: url("../../public/assets/home/Home_Main_Background.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        /*height: calc(100vh - 500px);*/
+        height: auto;
+    }
+
+    .home-main-container{
+        max-width: 1200px;
+        height: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .home-main-left{
+        text-align: left;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .home-main-left-title {
+        font-family: "Noto Sans KR";
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .home-main-left-title p {
+        font-size: 2.5em;
+        margin-top: 0px;
+        margin-bottom: -10px;
+    }
+
+    .home-main-left-subtext {
+        font-family: "Noto Sans KR";
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .home-main-left-subtext p {
+        font-size: 0.9em;
+        margin-top: 3px;
+        margin-bottom: 0px;
+    }
+
+    .home-main-right {
+        text-align: center;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-main-right-image {
+        width: 393px;
+        height: 315px;
+    }
+}
+
+/* Tablet */
+@media all and (min-width:768px) and (max-width:1023px) {
+    .home-main {
+        background-image: url("../../public/assets/home/Home_Main_Background.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        /*height: calc(100vh - 400px);*/
+        height: auto;
+    }
+
+    .home-main-container {
+        max-width: 1200px;
+        height: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .home-main-left {
+        text-align: left;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .home-main-left-title {
+        font-family: "Noto Sans KR";
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .home-main-left-title p {
+        font-size: 2em;
+        margin-top: 0px;
+        margin-bottom: -10px;
+        line-height: 1.7em;
+    }
+
+    .home-main-left-subtext {
+        font-family: "Noto Sans KR";
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .home-main-left-subtext p {
+        font-size: 0.8em;
+        margin-top: 3px;
+        margin-bottom: 0px;
+    }
+
+    .home-main-right {
+        text-align: center;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-main-right-image {
+        width: 287px;
+        height: 230px;
+    }
+}
+
+/* Mobile */
+@media all and (max-width:767px) {
+    .home-main {
+        background-image: url("../../public/assets/home/Home_Main_Background.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        /*height: calc(100vh - 100px);*/
+        height: auto;
+    }
+
+    .home-main-container {
+        /* max-width: 1200px; */
+        height: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .home-main-left {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-main-left-title {
+        font-family: "Noto Sans KR";
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .home-main-left-title p {
+        font-size: 1.5em;
+        margin-top: 0px;
+        margin-bottom: -10px;
+        line-height: 2em;
+    }
+
+    .home-main-left-subtext {
+        font-family: "Noto Sans KR";
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .home-main-left-subtext p {
+        font-size: 0.75em;
+        margin-top: 3px;
+        margin-bottom: 0px;
+    }
+
+    .home-main-right {
+        text-align: center;
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-main-right-image {
+        padding-top: 15px;
+        width: 201px;
+        height: 161px;
+    }
+}
+
+/*
+-----------------
+-Home-Statistics-
+-----------------
+*/
+
+/* PC+ */
+@media all and (min-width:1200px) {
+    .home-statistics{
+        height: auto;
+    }
+
+    .home-statistics-container{
+        height: 100%;
+        max-width: 1200px;
+        margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .home-statistics-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-statistics-title h2{
+        font-family: "Noto Sans KR";
+        font-size: 1.6em;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .home-statistics-title span{
+        font-family: "Noto Sans KR";
+        font-size: 1em;
+        font-weight: 400;
+        color: rgba(137, 137, 137, 1);
+    }
+
+    .home-statistics-contents {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-statistics-item{
+        width: 250px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-statistics-item-title{
+        font-family: "Noto Sans KR";
+        font-size: 1em;
+        font-weight: 700;
+        color: rgba(230, 63, 55, 1);
+    }
+
+    .home-statistics-item-number {
+        font-family: "Noto Sans KR";
+        font-size: 3em;
+        font-weight: 600;
+        color: black;
+    }
+}

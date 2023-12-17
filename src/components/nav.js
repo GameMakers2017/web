@@ -7,30 +7,30 @@ const Nav = () => {
   return (
     <>
       <div className="navbar">
-        <div className="navbar_Container">
-          <div className="navbar_Logo_Container">
-            <Link className="navbar_Logo" to={"/"}>
+        <div className="navbar-container">
+          <div className="navbar-logo-container">
+            <Link className="navbar-logo" to={"/"}>
               <img
-                className="navbar_Logo_Img"
+                className="navbar-logo-img"
                 alt="로고"
-                src={process.env.PUBLIC_URL + `/assets/GM_Logo_Black.png`}
+                src={process.env.PUBLIC_URL + `/assets/home/Navbar_GM_Logo_Black.png`}
               ></img>
             </Link>
           </div>
-          <div className="navbar_Menu_Container">
-            <Link className="navbar_Menu" to={"/project"}>
+          <div className="navbar-menu-container">
+            <Link className="navbar-menu" to={"/project"}>
               프로젝트
             </Link>
-            <Link className="navbar_Menu" to={"/review"}>
+            <Link className="navbar-menu" to={"/review"}>
               활동후기
             </Link>
-            <Link className="navbar_Menu" to={"/hof"}>
+            <Link className="navbar-menu" to={"/hof"}>
               명예의 전당
             </Link>
-            <Link className="navbar_Menu" to={"/recruit"}>
+            <Link className="navbar-menu" to={"/recruit"}>
               모집
             </Link>
-            <Link className="navbar_Menu" to={"/inquiry"}>
+            <Link className="navbar-menu" to={"/inquiry"}>
               문의
             </Link>
           </div>
