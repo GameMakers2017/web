@@ -30,7 +30,7 @@ const Home = () => {
         <div className="home-statistics-container">
           <div className="home-statistics-title">
             <h2>
-              국내 최대 규모의 전국 게임개발 연합동아리
+              국내 최대 규모의 전국 게임개발 연합동아리dd
             </h2>
             <span>
               ( 2024년 1월 기준 )
