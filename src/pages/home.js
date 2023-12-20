@@ -58,71 +58,73 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="home-wish">
-        <div className="home-wish-container">
-          <div className="home-wish-emoji">
-            <img
-              src={process.env.PUBLIC_URL + `/assets/home/Home_Wish_Emoji.png`}
-              alt="이모지"
-            ></img>
-          </div>
-          <div className="home-wish-title">
-            <h2>혹시, 이런 고민들을 하고 계신가요?</h2>
-          </div>
-          <div className="home-wish-contents">
-            <div className="home-wish-item">
-              <div className="home-wish-item-container">
-                <img
-                  src={
-                    process.env.PUBLIC_URL + `/assets/home/Home_Wish_Emoji.png`
-                  }
-                  alt="이모지"
-                ></img>
-                <span>
-                  나만의 게임 아이디어를 실현시켜줄&nbsp;
-                  <span>팀원을 구하고 싶다!</span>
-                </span>
-              </div>
+      <div className="home-wi">
+        <div className="home-wish">
+          <div className="home-wish-container">
+            <div className="home-wish-emoji">
+              <img
+                src={process.env.PUBLIC_URL + `/assets/home/Home_Wish_Emoji.png`}
+                alt="이모지"
+              ></img>
             </div>
-            <div className="home-wish-item">
-              <div className="home-wish-item-container">
-                <img
-                  src={
-                    process.env.PUBLIC_URL + `/assets/home/Home_Wish_Emoji.png`
-                  }
-                  alt="이모지"
-                ></img>
-                <span>
-                  실제 앱 마켓에&nbsp;
-                  <span>내가 만든 게임을 출시</span>해 보고 싶다!
-                </span>
-              </div>
+            <div className="home-wish-title">
+              <h2>혹시, 이런 고민들을 하고 계신가요?</h2>
             </div>
-            <div className="home-wish-item">
-              <div className="home-wish-item-container">
-                <img
-                  src={
-                    process.env.PUBLIC_URL + `/assets/home/Home_Wish_Emoji.png`
-                  }
-                  alt="이모지"
-                ></img>
-                <span>
-                  <span>게임 회사에 취업</span>해, 게임 개발자가 되고 싶다!
-                </span>
+            <div className="home-wish-contents">
+              <div className="home-wish-item">
+                <div className="home-wish-item-container">
+                  <img
+                    src={
+                      process.env.PUBLIC_URL + `/assets/home/Home_Wish_Check.png`
+                    }
+                    alt="이모지"
+                  ></img>
+                  <span>
+                    나만의 게임 아이디어를 실현시켜줄&nbsp;
+                    <span>팀원을 구하고 싶다!</span>
+                  </span>
+                </div>
               </div>
-            </div>
-            <div className="home-wish-item">
-              <div className="home-wish-item-container">
-                <img
-                  src={
-                    process.env.PUBLIC_URL + `/assets/home/Home_Wish_Emoji.png`
-                  }
-                  alt="이모지"
-                ></img>
-                <span>
-                  내가 만든 게임으로 직접&nbsp;
-                  <span>라이브 서비스</span>를 해보고 싶다!
-                </span>
+              <div className="home-wish-item">
+                <div className="home-wish-item-container">
+                  <img
+                    src={
+                      process.env.PUBLIC_URL + `/assets/home/Home_Wish_Check.png`
+                    }
+                    alt="이모지"
+                  ></img>
+                  <span>
+                    실제 앱 마켓에&nbsp;
+                    <span>내가 만든 게임을 출시</span>해 보고 싶다!
+                  </span>
+                </div>
+              </div>
+              <div className="home-wish-item">
+                <div className="home-wish-item-container">
+                  <img
+                    src={
+                      process.env.PUBLIC_URL + `/assets/home/Home_Wish_Check.png`
+                    }
+                    alt="이모지"
+                  ></img>
+                  <span>
+                    <span>게임 회사에 취업</span>해, 게임 개발자가 되고 싶다!
+                  </span>
+                </div>
+              </div>
+              <div className="home-wish-item">
+                <div className="home-wish-item-container">
+                  <img
+                    src={
+                      process.env.PUBLIC_URL + `/assets/home/Home_Wish_Check.png`
+                    }
+                    alt="이모지"
+                  ></img>
+                  <span>
+                    내가 만든 게임으로 직접&nbsp;
+                    <span>라이브 서비스</span>를 해보고 싶다!
+                  </span>
+                </div>
               </div>
             </div>
           </div>
@@ -140,16 +142,89 @@ const Home = () => {
               <h3>프로젝트 팀 매칭</h3>
               <div className="home-benefits-item-explanation">
                 기획, 아트 디자이너, 프로그래머가 한 팀이 되어
-                <br />
                 게임을 개발할 수 있도록 팀을 매칭해 드립니다.
               </div>
-              <div className="home-benefits-item-img">이미지</div>
+              <div className="home-benefits-item-img">
+                <img
+                  src={
+                    process.env.PUBLIC_URL + `/assets/home/Home_Benefits_1.png`
+                  }
+                  alt="benefits1"
+                ></img>
+                </div>
             </div>
-            <div className="home-benefits-item">2</div>
-            <div className="home-benefits-item">3</div>
-            <div className="home-benefits-item">4</div>
-            <div className="home-benefits-item">5</div>
-            <div className="home-benefits-item">6</div>
+            <div className="home-benefits-item">
+              <span>POINT 2.</span>
+              <h3>체계적인 팀 관리</h3>
+              <div className="home-benefits-item-explanation">
+              매주 활동 보고서를 통해, 프로젝트 상태를 점검하고 피드백 해드립니다.
+              </div>
+              <div className="home-benefits-item-img">
+                <img
+                  src={
+                    process.env.PUBLIC_URL + `/assets/home/Home_Benefits_2.png`
+                  }
+                  alt="benefits1"
+                ></img>
+                </div>
+            </div><div className="home-benefits-item">
+              <span>POINT 3.</span>
+              <h3>현업인 멘토링 시스템</h3>
+              <div className="home-benefits-item-explanation">
+                한 팀에 한 명의 현업 멘토가 배정되어, 팀의 방향성과 개발 노하우를 공유합니다.
+              </div>
+              <div className="home-benefits-item-img">
+                <img
+                  src={
+                    process.env.PUBLIC_URL + `/assets/home/Home_Benefits_3.png`
+                  }
+                  alt="benefits1"
+                ></img>
+                </div>
+            </div><div className="home-benefits-item">
+              <span>POINT 4.</span>
+              <h3>게임 디자인 에셋 지원</h3>
+              <div className="home-benefits-item-explanation">
+                게임의 퀄리티와 완성도를 위해, 유니티 에셋 디자인 에셋을 지원합니다.
+              </div>
+              <div className="home-benefits-item-img">
+                <img
+                  src={
+                    process.env.PUBLIC_URL + `/assets/home/Home_Benefits_4.png`
+                  }
+                  alt="benefits1"
+                ></img>
+                </div>
+            </div><div className="home-benefits-item">
+              <span>POINT 5.</span>
+              <h3>스터디 활동비 지원</h3>
+              <div className="home-benefits-item-explanation">
+                프로젝트를 통한 개발 능력 향상뿐만아니라, 추가적인 역량 강화를 위해
+                스터디를 운영하고 지원합니다.
+              </div>
+              <div className="home-benefits-item-img">
+                <img
+                  src={
+                    process.env.PUBLIC_URL + `/assets/home/Home_Benefits_5.png`
+                  }
+                  alt="benefits1"
+                ></img>
+                </div>
+            </div><div className="home-benefits-item">
+              <span>POINT 6.</span>
+              <h3>활동 증명서 발급</h3>
+              <div className="home-benefits-item-explanation">
+                해당 기수에서 정해진 커리큘럼을 이수할 경우, GameMakers 활동 증명서를 발급해 드립니다.
+              </div>
+              <div className="home-benefits-item-img">
+                <img
+                  src={
+                    process.env.PUBLIC_URL + `/assets/home/Home_Benefits_6.png`
+                  }
+                  alt="benefits1"
+                ></img>
+                </div>
+            </div>
           </div>
         </div>
       </div>
