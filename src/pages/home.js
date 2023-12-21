@@ -24,7 +24,7 @@ const Home = () => {
           <div className="home-main-right">
             <img
               className="home-main-right-image"
-              alt="로고"
+              alt="main_image"
               src={
                 process.env.PUBLIC_URL + `/assets/home/Home_Main_Objects.png`
               }
@@ -58,77 +58,83 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="home-wi">
-        <div className="home-wish">
-          <div className="home-wish-container">
-            <div className="home-wish-emoji">
-              <img
-                src={process.env.PUBLIC_URL + `/assets/home/Home_Wish_Emoji.png`}
-                alt="이모지"
-              ></img>
+      <div className="home-wish">
+        <div className="home-wish-container">
+          <div className="home-wish-emoji">
+            <img
+              src={process.env.PUBLIC_URL + `/assets/home/Home_Wish_Emoji.png`}
+              alt="이모지"
+            ></img>
+          </div>
+          <div className="home-wish-title">
+            <h2>혹시, 이런 고민들을 하고 계신가요?</h2>
+          </div>
+          <div className="home-wish-contents">
+            <div className="home-wish-item">
+              <div className="home-wish-item-container">
+                <img
+                  src={
+                    process.env.PUBLIC_URL + `/assets/home/Home_Wish_Check.png`
+                  }
+                  alt="이모지"
+                ></img>
+                <span>
+                  나만의 게임 아이디어를 실현시켜줄&nbsp;
+                  <span>팀원을 구하고 싶다!</span>
+                </span>
+              </div>
             </div>
-            <div className="home-wish-title">
-              <h2>혹시, 이런 고민들을 하고 계신가요?</h2>
+            <div className="home-wish-item">
+              <div className="home-wish-item-container">
+                <img
+                  src={
+                    process.env.PUBLIC_URL + `/assets/home/Home_Wish_Check.png`
+                  }
+                  alt="이모지"
+                ></img>
+                <span>
+                  실제 앱 마켓에&nbsp;
+                  <span>내가 만든 게임을 출시</span>해 보고 싶다!
+                </span>
+              </div>
             </div>
-            <div className="home-wish-contents">
-              <div className="home-wish-item">
-                <div className="home-wish-item-container">
-                  <img
-                    src={
-                      process.env.PUBLIC_URL + `/assets/home/Home_Wish_Check.png`
-                    }
-                    alt="이모지"
-                  ></img>
-                  <span>
-                    나만의 게임 아이디어를 실현시켜줄&nbsp;
-                    <span>팀원을 구하고 싶다!</span>
-                  </span>
-                </div>
+            <div className="home-wish-item">
+              <div className="home-wish-item-container">
+                <img
+                  src={
+                    process.env.PUBLIC_URL + `/assets/home/Home_Wish_Check.png`
+                  }
+                  alt="이모지"
+                ></img>
+                <span>
+                  <span>게임 회사에 취업</span>해, 게임 개발자가 되고 싶다!
+                </span>
               </div>
-              <div className="home-wish-item">
-                <div className="home-wish-item-container">
-                  <img
-                    src={
-                      process.env.PUBLIC_URL + `/assets/home/Home_Wish_Check.png`
-                    }
-                    alt="이모지"
-                  ></img>
-                  <span>
-                    실제 앱 마켓에&nbsp;
-                    <span>내가 만든 게임을 출시</span>해 보고 싶다!
-                  </span>
-                </div>
-              </div>
-              <div className="home-wish-item">
-                <div className="home-wish-item-container">
-                  <img
-                    src={
-                      process.env.PUBLIC_URL + `/assets/home/Home_Wish_Check.png`
-                    }
-                    alt="이모지"
-                  ></img>
-                  <span>
-                    <span>게임 회사에 취업</span>해, 게임 개발자가 되고 싶다!
-                  </span>
-                </div>
-              </div>
-              <div className="home-wish-item">
-                <div className="home-wish-item-container">
-                  <img
-                    src={
-                      process.env.PUBLIC_URL + `/assets/home/Home_Wish_Check.png`
-                    }
-                    alt="이모지"
-                  ></img>
-                  <span>
-                    내가 만든 게임으로 직접&nbsp;
-                    <span>라이브 서비스</span>를 해보고 싶다!
-                  </span>
-                </div>
+            </div>
+            <div className="home-wish-item">
+              <div className="home-wish-item-container">
+                <img
+                  src={
+                    process.env.PUBLIC_URL + `/assets/home/Home_Wish_Check.png`
+                  }
+                  alt="이모지"
+                ></img>
+                <span>
+                  내가 만든 게임으로 직접&nbsp;
+                  <span>라이브 서비스</span>를 해보고 싶다!
+                </span>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div className="home-wish-baseline">
+        <img
+              alt="로고"
+              src={
+                process.env.PUBLIC_URL + `/assets/home/Home_Wish_BottomLine.png`
+              }
+        ></img>
       </div>
       <div className="home-benefits">
         <div className="home-benefits-container">
@@ -225,6 +231,50 @@ const Home = () => {
                 ></img>
                 </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="home-activity">
+        <div className="home-activity-container">
+          <div className="home-activity-title">
+            <span>주요 활동</span>
+            <h2>
+              다양한 활동들을 통해서, 게임 개발자들과의 네트워크도 쌓고
+              <br />
+              게임 개발에 대한 시야도 넓혀 보세요!
+            </h2>
+          </div>
+          <div className="home-activity-subtitle">
+            <img
+                  src={
+                    process.env.PUBLIC_URL + `/assets/home/Home_Activity_Subtitle_Star.png`
+                  }
+                  alt="Subtitle_Star"
+            ></img>
+            <span>실제 7기에서 진행한 행사들입니다</span>
+            <img
+                  src={
+                    process.env.PUBLIC_URL + `/assets/home/Home_Activity_Subtitle_Star.png`
+                  }
+                  alt="Subtitle_Star"
+            ></img>
+          </div>
+          <div className="home-activity-taps">
+            <button type="button" className="home-activity-button">팀 빌딩</button>
+            <button type="button" className="home-activity-button">정기 모임</button>
+            <button type="button" className="home-activity-button">발표회</button>
+            <button type="button" className="home-activity-button">연합 발표회</button>
+            <button type="button" className="home-activity-button">번개 모임</button>
+          </div>
+          <div className="home-activity-explanation">
+            <span>
+              한 기수동안 게임 개발 프로젝트를 진행하기위한 팀을 결성합니다.
+              <br />
+              한 팀에 프로그래머, 기획자, 아트 디자이너가 최소 1명씩 배정됩니다.
+            </span>
+          </div>
+          <div className="home-activity-image">
+            <image></image>
           </div>
         </div>
       </div>
