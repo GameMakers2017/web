@@ -1,6 +1,10 @@
+import { useState } from "react";
 import "../css/home.css";
 
+import ActivityBtn from "../components/ActivityBtns";
+
 const Home = () => {
+
   return (
     <>
       <div className="home-main">
@@ -260,21 +264,18 @@ const Home = () => {
             ></img>
           </div>
           <div className="home-activity-taps">
-            <button type="button" className="home-activity-button">팀 빌딩</button>
-            <button type="button" className="home-activity-button">정기 모임</button>
-            <button type="button" className="home-activity-button">발표회</button>
-            <button type="button" className="home-activity-button">연합 발표회</button>
-            <button type="button" className="home-activity-button">번개 모임</button>
+            <ActivityBtn />
           </div>
           <div className="home-activity-explanation">
             <span>
-              한 기수동안 게임 개발 프로젝트를 진행하기위한 팀을 결성합니다.
-              <br />
-              한 팀에 프로그래머, 기획자, 아트 디자이너가 최소 1명씩 배정됩니다.
+              {/* {activityDataList[activatedNum].text} */}
             </span>
           </div>
           <div className="home-activity-image">
-            <image></image>
+            <img
+                  // src={activityDataList[activatedNum].img}
+                  alt="activity_image"
+            ></img>
           </div>
         </div>
       </div>

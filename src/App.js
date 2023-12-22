@@ -8,7 +8,7 @@ import Hof from "./pages/hof";
 import Recruit from "./pages/recruit";
 import Inquiry from "./pages/inquiry";
 
-import Nav from "./components/nav";
+import Nav from "./components/Nav";
 
 function App() {
   return (
