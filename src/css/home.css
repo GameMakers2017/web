@@ -6,6 +6,9 @@ body {
   font-family: "NotoSansKR ";
 }
 
+/* Def */
+
+
 /*
 -----------------
 ----Home-Main----
@@ -1184,10 +1187,8 @@ body {
         font-family: "Noto Sans KR";
         font-weight: 400;
         font-size: 15px;
-        color: white;
         border: none;
-        border-radius: 10px;
-        background-color: rgba(230, 63, 55, 1);
+        border-radius: 9px;
         text-align: center;
         margin-left: 10px;
         margin-right: 10px;
@@ -1195,6 +1196,16 @@ body {
         padding-right: 30px;
         padding-top: 5px;
         padding-bottom: 5px;
+    }
+
+    .activated{
+      color: white;
+      background-color: rgba(230, 63, 55, 1);
+    }
+
+    .inActivated {
+      color: rgba(153, 153, 153, 1);
+      background-color: rgba(216, 216, 216, 1);
     }
 
     .home-activity-button:hover {
