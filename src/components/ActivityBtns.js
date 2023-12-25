@@ -45,17 +45,30 @@ const ActivityBtns = () =>{
     };
 
     return (
-        <>
-            {activityDataList.map((e, index) =>
-                <ActivityBtn
-                    key={e.id}
-                    btnHandler={ActivityBtnHandler}
-                    btnText={e.text}
-                    btnIndex={index}
-                    isSelected={activityBtnArr[index]}
-                ></ActivityBtn>)
-            }
-        </>
+        <div>
+            <div className="home-activity-taps">
+                {activityDataList.map((e, index) =>
+                    <ActivityBtn
+                        key={e.id}
+                        btnHandler={ActivityBtnHandler}
+                        btnText={e.text}
+                        btnIndex={index}
+                        isSelected={activityBtnArr[index]}
+                    ></ActivityBtn>)
+                }
+            </div>
+            <div className="home-activity-explanation">
+            <span>
+              {/* {activityDataList[activatedNum].text} */}
+            </span>
+          </div>
+          <div className="home-activity-image">
+            <img
+                  // src={activityDataList[activatedNum].img}
+                  alt="activity_image"
+            ></img>
+          </div>
+        </div>
     );
 }
 
