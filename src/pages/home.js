@@ -263,19 +263,8 @@ const Home = () => {
                   alt="Subtitle_Star"
             ></img>
           </div>
-          <div className="home-activity-taps">
+          <div>
             <ActivityBtn />
-          </div>
-          <div className="home-activity-explanation">
-            <span>
-              {/* {activityDataList[activatedNum].text} */}
-            </span>
-          </div>
-          <div className="home-activity-image">
-            <img
-                  // src={activityDataList[activatedNum].img}
-                  alt="activity_image"
-            ></img>
           </div>
         </div>
       </div>
