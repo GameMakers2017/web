@@ -268,6 +268,117 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="home-ability">
+        <div className="home-ability-container">
+          <div className="home-ability-title">
+            <span>능력치 상승</span>
+            <h2>활동 수료 후, 이런 것들을 얻을 수 있어요!</h2>
+          </div>
+          <div className="home-ability-contents">
+            <div className="home-ability-item">
+              <div className="home-ability-item-text">
+                <div className="home-ability-item-number">
+                  <span>01</span>
+                </div>
+                <div className="home-ability-item-title">
+                  <span>게임이 개발되는 과정에 대한<br/>전반적인 프로세스 이해</span>
+                </div>
+                <div className="home-ability-item-explanation">
+                  <span>
+                    기획부터 출시까지 모든 과정을 직접 경험하며,<br/>
+                    게임 개발에 대한 전반적인 과정을 이해할 수 있습니다.
+                  </span>
+                </div>
+              </div>
+              <div className="home-ability-item-image">
+                <img
+                    src={
+                      process.env.PUBLIC_URL + `/assets/home/Home_Ability_1.png`
+                    }
+                    alt="Subtitle_Star"
+                ></img>
+              </div>
+            </div>
+            <div className="home-ability-item">
+              <div className="home-ability-item-text">
+                <div className="home-ability-item-number">
+                  <span>02</span>
+                </div>
+                <div className="home-ability-item-title">
+                  <span>프로젝트 관리 역량,<br/>문제 해결능력, 커뮤니케이션 능력</span>
+                </div>
+                <div className="home-ability-item-explanation">
+                  <span>
+                    기획부터 출시까지 모든 과정을 직접 경험하며,<br/>
+                    게임 개발에 대한 전반적인 과정을 이해할 수 있습니다.
+                  </span>
+                </div>
+              </div>
+              <div className="home-ability-item-image">
+                <img
+                    src={
+                      process.env.PUBLIC_URL + `/assets/home/Home_Ability_1.png`
+                    }
+                    alt="Subtitle_Star"
+                ></img>
+              </div>
+            </div>
+            <div className="home-ability-item">
+              <div className="home-ability-item-text">
+                <div className="home-ability-item-number">
+                  <span>03</span>
+                </div>
+                <div className="home-ability-item-title">
+                  <span>자신만의 게임을 출시한 경험</span>
+                </div>
+                <div className="home-ability-item-explanation">
+                  <span>
+                    기획부터 출시까지 모든 과정을 직접 경험하며,<br/>
+                    게임 개발에 대한 전반적인 과정을 이해할 수 있습니다.
+                  </span>
+                </div>
+              </div>
+              <div className="home-ability-item-image">
+                <img
+                    src={
+                      process.env.PUBLIC_URL + `/assets/home/Home_Ability_1.png`
+                    }
+                    alt="Subtitle_Star"
+                ></img>
+              </div>
+            </div>
+            <div className="home-ability-item">
+              <div className="home-ability-item-text">
+                <div className="home-ability-item-number">
+                  <span>04</span>
+                </div>
+                <div className="home-ability-item-title">
+                  <span>게임업계의 회원분들과의<br/>네트워킹 기회</span>
+                </div>
+                <div className="home-ability-item-explanation">
+                  <span>
+                    기획부터 출시까지 모든 과정을 직접 경험하며,<br/>
+                    게임 개발에 대한 전반적인 과정을 이해할 수 있습니다.
+                  </span>
+                </div>
+              </div>
+              <div className="home-ability-item-image">
+                <img
+                    src={
+                      process.env.PUBLIC_URL + `/assets/home/Home_Ability_1.png`
+                    }
+                    alt="Subtitle_Star"
+                ></img>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="home-games">
+        <div className="home-games-container">
+          
+        </div>
+      </div>
     </>
   );
 };

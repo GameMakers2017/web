@@ -6,13 +6,13 @@ const activityDataList = [
             id: 1,
             text: "팀 빌딩",
             explanation: "한 기수동안 게임 개발 프로젝트를 진행하기위한 팀을 결성합니다.\n한 팀에 프로그래머, 기획자, 아트 디자이너가 최소 1명씩 배정됩니다.",
-            img : process.env.PUBLIC_URL + `/assets/home/Home_Benefits_1.png`
+            img : process.env.PUBLIC_URL + `/assets/home/Home_Activity_Teambuilding.png`
         },
         {
             id: 2,
             text: "정기모임",
             explanation: "팀과의 대면 만남을 통해 게임 개발 프로젝트를 진행합니다.",
-            img : process.env.PUBLIC_URL + `/assets/home/Home_Benefits_2.png`
+            img : process.env.PUBLIC_URL + `/assets/home/Home_Activity_Mentoring.png`
         },
         {
             id: 3,
@@ -37,10 +37,12 @@ const activityDataList = [
 const ActivityBtns = () =>{
     
     const [activityBtnArr, setActivityData] = useState([true, false, false, false, false]);
+    const [activatedNum, setActivatedNum] = useState(0);
 
     const ActivityBtnHandler = (idx) => {
         const newArr = Array(activityDataList.length).fill(false);
         newArr[idx] = true;
+        setActivatedNum(idx);
         setActivityData(newArr.map((item) => item));
     };
 
@@ -56,18 +58,18 @@ const ActivityBtns = () =>{
                         isSelected={activityBtnArr[index]}
                     ></ActivityBtn>)
                 }
-            </div>
+            </div> 
             <div className="home-activity-explanation">
-            <span>
-              {/* {activityDataList[activatedNum].text} */}
-            </span>
-          </div>
-          <div className="home-activity-image">
-            <img
-                  // src={activityDataList[activatedNum].img}
+                <span>
+                    {activityDataList[activatedNum].explanation}
+                </span>
+            </div>
+            <div className="home-activity-image">
+                <img
+                  src={activityDataList[activatedNum].img}
                   alt="activity_image"
-            ></img>
-          </div>
+                ></img>
+            </div>
         </div>
     );
 }

@@ -3,7 +3,6 @@ import React from "react";
 const ActivityBtn = (props) =>{
 
     const sendActivityBtnIndex = () => {
-        console.log("isSelected : " + props.isSelected);
         props.btnHandler(props.btnIndex);
         
     };

@@ -648,7 +648,7 @@ body {
   }
 
   .home-wish-item-container span span {
-    background-image: linear-gradient(to top, #e6403781, #e6403781);
+    background-image: linear-gradient(to top, #e6403765, #e640374b);
     background-size: 100% 11px;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -728,7 +728,7 @@ body {
   }
 
   .home-wish-item-container span span {
-    background-image: linear-gradient(to top, #e6403781, #e6403781);
+    background-image: linear-gradient(to top, #e6403765, #e640374b);
     background-size: 100% 11px;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -809,7 +809,7 @@ body {
   }
 
   .home-wish-item-container span span {
-    background-image: linear-gradient(to top, #e6403781, #e6403781);
+    background-image: linear-gradient(to top, #e6403765, #e640374b);
     background-size: 100% 11px;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -827,13 +827,35 @@ body {
 
 /* PC */
 @media all and (min-width: 1024px) {
-    .home-wish-baseline{
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .home-wish-baseline{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Tablet */
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .home-wish-baseline{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Mobile */
+@media all and (max-width: 767px) {
+  .home-wish-baseline{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /*
@@ -1119,121 +1141,357 @@ body {
 
 /* PC */
 @media all and (min-width: 1024px) {
-    .home-activity{
-        background-color: rgba(244, 244, 244, 1);
-        height: auto;
-    }
+  .home-activity{
+      background-color: rgba(244, 244, 244, 1);
+      height: auto;
+  }
 
-    .home-activity-container{
-        max-width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
+  .home-activity-container{
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 80px;
+      padding-bottom: 80px;
+  }
 
-    .home-activity-title{
-        text-align: center;
-    }
+  .home-activity-title{
+      text-align: center;
+  }
 
-    .home-activity-title span{
-        color: rgba(230, 63, 55, 1);
-        font-family: "Noto Sans KR";
-        font-size: 1em;
-        font-weight: 700;
-    }
+  .home-activity-title span{
+      color: rgba(230, 63, 55, 1);
+      font-family: "Noto Sans KR";
+      font-size: 1em;
+      font-weight: 700;
+  }
 
-    .home-activity-title h2{
-        font-family: "Noto Sans KR";
-        margin-top: 10px;
-        margin-bottom: 40px;
-        line-height: 35px;
-    }
+  .home-activity-title h2{
+      font-family: "Noto Sans KR";
+      margin-top: 10px;
+      margin-bottom: 40px;
+      line-height: 35px;
+  }
 
-    .home-activity-subtitle{
-        font-family: "Noto Sans KR";
-        background-color: white;
-        border-radius: 12px;
-        border: 1px solid rgba(193, 193, 193, 1);
-        padding-top: 7px;
-        padding-bottom: 7px;
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-bottom: 50px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
+  .home-activity-subtitle{
+      font-family: "Noto Sans KR";
+      background-color: white;
+      border-radius: 12px;
+      border: 1px solid rgba(193, 193, 193, 1);
+      padding-top: 7px;
+      padding-bottom: 7px;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-bottom: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
 
-    .home-activity-subtitle span{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+  .home-activity-subtitle span{
+      padding-left: 10px;
+      padding-right: 10px;
+  }
 
-    .home-activity-taps{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 50px;
-    }
+  .home-activity-taps{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px;
+  }
 
-    .home-activity-button {
-        font-family: "Noto Sans KR";
-        font-weight: 400;
-        font-size: 15px;
-        border: none;
-        border-radius: 9px;
-        text-align: center;
-        margin-left: 10px;
-        margin-right: 10px;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
+  .home-activity-button {
+      font-family: "Noto Sans KR";
+      font-weight: 400;
+      font-size: 15px;
+      border: none;
+      border-radius: 9px;
+      text-align: center;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
 
-    .activated{
-      color: white;
-      background-color: rgba(230, 63, 55, 1);
-    }
+  .activated{
+    color: white;
+    background-color: rgba(230, 63, 55, 1);
+  }
 
-    .inActivated {
-      color: rgba(153, 153, 153, 1);
-      background-color: rgba(216, 216, 216, 1);
-    }
+  .inActivated {
+    color: rgba(153, 153, 153, 1);
+    background-color: rgba(216, 216, 216, 1);
+  }
 
-    .home-activity-button:hover {
-        cursor: pointer;
-    }
+  .home-activity-button:hover {
+      cursor: pointer;
+  }
 
-    .home-activity-explanation {
-        max-width: 1200px;
-        height: 70px;
-        text-align: center;
-        margin-bottom: 30px;
-    }
+  .home-activity-explanation {
+      max-width: 1200px;
+      height: 70px;
+      text-align: center;
+      margin-bottom: 30px;
+  }
 
-    .home-activity-explanation span{
-        white-space: pre-line;
-        font-family: "Noto Sans KR";
-        font-weight: 400;
-        font-size: 1.1em;
-        line-height: 27px;
-    }
+  .home-activity-explanation span{
+      white-space: pre-line;
+      font-family: "Noto Sans KR";
+      font-weight: 400;
+      font-size: 1.1em;
+      line-height: 27px;
+  }
 
-    .home-activity-image{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        width: 556px;
-        height: 328px;
-    }
+  .home-activity-image{
+    text-align: center;
+      width: 100%;
+  }
+
+  .home-activity-image img{
+    text-align: center;
 }
+}
+
+/* Tablet */
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .home-activity{
+    background-color: rgba(244, 244, 244, 1);
+    height: auto;
+  }
+
+  .home-activity-container{
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 80px;
+      padding-bottom: 80px;
+  }
+
+  .home-activity-title{
+      text-align: center;
+  }
+
+  .home-activity-title span{
+      color: rgba(230, 63, 55, 1);
+      font-family: "Noto Sans KR";
+      font-size: 1em;
+      font-weight: 700;
+  }
+
+  .home-activity-title h2{
+      font-family: "Noto Sans KR";
+      margin-top: 10px;
+      margin-bottom: 40px;
+      line-height: 35px;
+  }
+
+  .home-activity-subtitle{
+      font-family: "Noto Sans KR";
+      background-color: white;
+      border-radius: 12px;
+      border: 1px solid rgba(193, 193, 193, 1);
+      padding-top: 7px;
+      padding-bottom: 7px;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-bottom: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .home-activity-subtitle span{
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+
+  .home-activity-taps{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px;
+  }
+
+  .home-activity-button {
+      font-family: "Noto Sans KR";
+      font-weight: 400;
+      font-size: 15px;
+      border: none;
+      border-radius: 9px;
+      text-align: center;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
+
+  .activated{
+    color: white;
+    background-color: rgba(230, 63, 55, 1);
+  }
+
+  .inActivated {
+    color: rgba(153, 153, 153, 1);
+    background-color: rgba(216, 216, 216, 1);
+  }
+
+  .home-activity-button:hover {
+      cursor: pointer;
+  }
+
+  .home-activity-explanation {
+      max-width: 1200px;
+      height: 70px;
+      text-align: center;
+      margin-bottom: 30px;
+  }
+
+  .home-activity-explanation span{
+      white-space: pre-line;
+      font-family: "Noto Sans KR";
+      font-weight: 400;
+      font-size: 1.1em;
+      line-height: 27px;
+  }
+
+  .home-activity-image{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+}
+
+/* Mobile */
+@media all and (max-width: 767px) {
+
+}
+
+/*
+-----------------
+---Home-Ability--
+-----------------
+*/
+
+/* PC */
+@media all and (min-width: 1024px) {
+  .home-ability{
+    height: auto;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .home-ability-container{
+    max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 80px;
+      padding-bottom: 80px;
+  }
+
+  .home-ability-title{
+    text-align: center;
+  }
+
+  .home-ability-title span{
+    color: rgba(230, 63, 55, 1);
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  .home-ability-title h2 {
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+
+  .home-ability-contents{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-ability-item{
+    background-color: rgba(251, 251, 251, 1);
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    gap: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .home-ability-item-text{
+    
+  }
+  
+  .home-ability-item-number{
+    width: 41px;
+    height: 30px;
+    background-color: rgba(255, 240, 240, 1);
+    padding: 3px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .home-ability-item-number span{
+    color: rgba(230, 63, 55, 1);
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  .home-ability-item-title{
+    margin-bottom: 10px;
+    line-height: 26px;
+  }
+
+  .home-ability-item-title span{
+    font-family: "Noto Sans KR";
+    font-size: 1.1em;
+    font-weight: 700;
+  }
+
+  .home-ability-item-explanation{
+    line-height: 19px;
+  }
+
+  .home-ability-item-explanation span{
+    color: rgba(142, 142, 142, 1);
+    font-family: "Noto Sans KR";
+    font-size: 0.8em;
+    font-weight: 400;
+  }
+}
+
+
+
+  
