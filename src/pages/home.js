@@ -209,7 +209,7 @@ const Home = () => {
               <span>POINT 5.</span>
               <h3>스터디 활동비 지원</h3>
               <div className="home-benefits-item-explanation">
-                프로젝트를 통한 개발 능력 향상뿐만아니라, 추가적인 역량 강화를 위해
+                프로젝트를 통한 개발 능력 향상과, 추가적인 역량 강화를 위해
                 스터디를 운영하고 지원합니다.
               </div>
               <div className="home-benefits-item-img">
@@ -263,9 +263,7 @@ const Home = () => {
                   alt="Subtitle_Star"
             ></img>
           </div>
-          <div>
-            <ActivityBtn />
-          </div>
+          <ActivityBtn />
         </div>
       </div>
       <div className="home-ability">
@@ -376,7 +374,73 @@ const Home = () => {
       </div>
       <div className="home-games">
         <div className="home-games-container">
-          
+          <div className="home-games-left">
+            <span>프로젝트 결과물</span>
+            <h1>GameMakers의<br />게임들이 궁금하다면?</h1>
+            <p>BIC, GIGDC 등 각종 행사에서 수상한 작품과<br />Google TOP 20에 선정된 게임들이 있습니다.</p>
+            <button>프로젝트 더보기</button>
+          </div>
+          <div className="home-games-right">
+            <img
+              src={
+                process.env.PUBLIC_URL + `/assets/home/Home_Games_Games.png`
+              }
+              alt="Subtitle_Star"
+            ></img>
+          </div>
+        </div>
+      </div>
+      <div className="home-curriculum">
+        <div className="home-curriculum-container">
+          <div className="home-curriculum-title">
+            <img
+              src={
+                process.env.PUBLIC_URL + `/assets/home/Home_Curriculum_Logo.png`
+              }
+              alt="Subtitle_Star"
+            ></img>
+            <h2>2024년 8기 커리큘럼</h2>
+            <span>동아리의 운영상황에 따라서 일정의 변동이 생길 수 있습니다.</span>
+          </div>
+          <div className="home-curriculum-month">
+            <div className="home-curriculum-month-row">
+              <button>
+                <span>2월</span>
+                <div className="home-curriculum-month-line"></div>
+              </button>
+            </div>
+            <div className="home-curriculum-month-row">
+              <button>
+                <span>3월</span>
+                <div className="home-curriculum-month-line"></div>
+              </button>
+            </div>
+            <div className="home-curriculum-month-row">
+              <button>
+                <span>4월</span>
+                <div className="home-curriculum-month-line"></div>
+              </button>
+            </div>
+            <div className="home-curriculum-month-row">
+              <button>
+                <span>5월</span>
+                <div className="home-curriculum-month-line"></div>
+              </button>
+            </div>
+            <div className="home-curriculum-month-row">
+              <button>
+                <span>6월</span>
+                <div className="home-curriculum-month-line"></div>
+              </button>
+            </div>
+            <div className="home-curriculum-month-row">
+              <button>
+                <span>7월</span>
+                <div className="home-curriculum-month-line"></div>
+              </button>
+            </div>
+          </div>
+          <div className="home-curriculum-contents"></div>
         </div>
       </div>
     </>

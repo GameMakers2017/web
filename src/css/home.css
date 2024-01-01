@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;800;900&display=swap");
 
+* {
+  font-family: "NotoSansKR" !important;
+}
+
 body {
   background-color: white;
   margin: 0;
@@ -266,7 +270,7 @@ body {
 }
 
 /* Mobile */
-@media all and (max-width: 767px) {
+@media all and (min-width:480px) and (max-width:767px) {
   .home-main {
     background-image: url("../../public/assets/home/Home_Main_Background.png");
     background-size: cover;
@@ -292,6 +296,92 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .home-main-left {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-main-left-title {
+    font-family: "Noto Sans KR";
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .home-main-left-title p {
+    font-size: 1.5em;
+    margin-top: 0px;
+    margin-bottom: -10px;
+    line-height: 2em;
+  }
+
+  .home-main-left-subtext {
+    font-family: "Noto Sans KR";
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .home-main-left-subtext p {
+    font-size: 0.75em;
+    margin-top: 3px;
+    margin-bottom: 0px;
+  }
+
+  .home-main-right {
+    text-align: center;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-main-right-image {
+    padding-top: 15px;
+    width: 201px;
+    height: 161px;
+  }
+}
+
+@media all and (max-width:479px) {
+  .home-main {
+    background-image: url("../../public/assets/home/Home_Main_Background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    /*height: calc(100vh - 100px);*/
+    height: auto;
+  }
+
+  .home-main-container {
+    /* max-width: 1200px; */
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
   }
 
   .home-main-left {
@@ -500,7 +590,7 @@ body {
 }
 
 /* Mobile */
-@media all and (max-width: 767px) {
+@media all and (min-width:480px) and (max-width:767px) {
   .home-statistics {
     height: auto;
   }
@@ -527,6 +617,78 @@ body {
   .home-statistics-title h2 {
     font-family: "Noto Sans KR";
     font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .home-statistics-title span {
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 400;
+    color: rgba(137, 137, 137, 1);
+  }
+
+  .home-statistics-contents {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-statistics-item {
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-statistics-item-title {
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 700;
+    color: rgba(230, 63, 55, 1);
+  }
+
+  .home-statistics-item-number {
+    font-family: "Noto Sans KR";
+    font-size: 3em;
+    font-weight: 600;
+    color: black;
+  }
+}
+
+@media all and (max-width:479px) {
+  .home-statistics {
+    height: auto;
+  }
+
+  .home-statistics-container {
+    height: 100%;
+    max-width: 1200px;
+    margin-top: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-statistics-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .home-statistics-title h2 {
+    font-family: "Noto Sans KR";
+    font-size: 1.2em;
     font-weight: 600;
     margin-bottom: 10px;
   }
@@ -738,7 +900,7 @@ body {
 }
 
 /* Mobile */
-@media all and (max-width: 767px) {
+@media all and (min-width:480px) and (max-width:767px) {
   .home-wish {
     background-color: black;
     height: auto;
@@ -819,6 +981,91 @@ body {
   }
 }
 
+@media all and (max-width:479px) {
+  .home-wish {
+    background-color: black;
+    height: auto;
+  }
+
+  .home-wish-container {
+    max-width: 479px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-wish-emoji {
+    width: 77px;
+    height: 77px;
+  }
+
+  .home-wish-title h2 {
+    font-family: "Noto Sans KR";
+    font-size: 1.2em;
+    font-weight: 600;
+    color: white;
+    margin-top: 12px;
+    text-align: center;
+  }
+
+  .home-wish-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-wish-item {
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+
+  .home-wish-item-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .home-wish-item img {
+    width: 30px;
+    height: 30px;
+    padding-bottom: 10px;
+  }
+
+  .home-wish-item-container span {
+    font-family: "Noto Sans KR";
+    font-weight: 500;
+    font-size: 0.8em;
+    text-align: center;
+  }
+
+  .home-wish-item-container span span {
+    background-image: linear-gradient(to top, #e6403765, #e640374b);
+    background-size: 100% 11px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: rgba(230, 63, 55, 1);
+    font-weight: 700;
+    font-size: 1em;
+  }
+}
+
 /*
 -----------------
 ----Home-Wish---- ( baseline )
@@ -855,6 +1102,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .home-wish-baseline img{
+    width: 204px;
+    height: 38px;
   }
 }
 
@@ -1044,7 +1296,7 @@ body {
 }
 
 /* Mobile */
-@media all and (max-width: 767px) {
+@media all and (min-width:480px) and (max-width:767px) {
   .home-benefits {
     background-color: white;
     height: auto;
@@ -1133,6 +1385,104 @@ body {
   }
 }
 
+@media all and (max-width:479px) {
+  .home-benefits {
+    background-color: white;
+    height: auto;
+  }
+
+  .home-benefits-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .home-benefits-title {
+    text-align: center;
+    max-width: 400px;
+  }
+
+  .home-benefits-title span {
+    color: rgba(230, 63, 55, 1);
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  .home-benefits-title h2 {
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+
+  .home-benefits-contents {
+    display: grid;
+    grid-template-columns: 220px;
+    grid-auto-rows: 250px;
+    grid-gap: 10px;
+  }
+
+  .home-benefits-item {
+    background-color: rgba(249, 249, 249, 1);
+    border: 1px solid rgba(218, 218, 218, 1);
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .home-benefits-item span {
+    color: rgba(230, 63, 55, 1);
+    font-family: "Noto Sans KR";
+    font-size: 0.8em;
+    font-weight: 700;
+    padding-bottom: 10px;
+  }
+
+  .home-benefits-item h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: "Noto Sans KR";
+    font-size: 1.1em;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .home-benefits-item-explanation {
+    font-size: 0.8em;
+    color: rgba(142, 142, 142, 1);
+    padding-bottom: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .home-benefits-item-img{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 5px;
+  }
+
+  .home-benefits-item-img img{
+    width: 92px;
+    height: 64px;
+  }
+}
+
 /*
 -----------------
 --Home-Activity--
@@ -1142,121 +1492,121 @@ body {
 /* PC */
 @media all and (min-width: 1024px) {
   .home-activity{
-      background-color: rgba(244, 244, 244, 1);
-      height: auto;
+    background-color: rgba(244, 244, 244, 1);
+    height: auto;
   }
 
   .home-activity-container{
-      max-width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding-top: 80px;
-      padding-bottom: 80px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 
   .home-activity-title{
-      text-align: center;
+    text-align: center;
   }
 
   .home-activity-title span{
-      color: rgba(230, 63, 55, 1);
-      font-family: "Noto Sans KR";
-      font-size: 1em;
-      font-weight: 700;
+    color: rgba(230, 63, 55, 1);
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 700;
   }
 
   .home-activity-title h2{
-      font-family: "Noto Sans KR";
-      margin-top: 10px;
-      margin-bottom: 40px;
-      line-height: 35px;
+    font-family: "Noto Sans KR";
+    margin-top: 10px;
+    margin-bottom: 40px;
+    line-height: 35px;
   }
 
   .home-activity-subtitle{
-      font-family: "Noto Sans KR";
-      background-color: white;
-      border-radius: 12px;
-      border: 1px solid rgba(193, 193, 193, 1);
-      padding-top: 7px;
-      padding-bottom: 7px;
-      padding-left: 20px;
-      padding-right: 20px;
-      margin-bottom: 50px;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
+    font-family: "Noto Sans KR";
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid rgba(193, 193, 193, 1);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 
   .home-activity-subtitle span{
-      padding-left: 10px;
-      padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .home-activity-taps{
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
   }
 
   .home-activity-button {
-      font-family: "Noto Sans KR";
-      font-weight: 400;
-      font-size: 15px;
-      border: none;
-      border-radius: 9px;
-      text-align: center;
-      margin-left: 10px;
-      margin-right: 10px;
-      padding-left: 30px;
-      padding-right: 30px;
-      padding-top: 5px;
-      padding-bottom: 5px;
+    font-family: "Noto Sans KR";
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+    border-radius: 9px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .activated{
-    color: white;
-    background-color: rgba(230, 63, 55, 1);
+  color: white;
+  background-color: rgba(230, 63, 55, 1);
   }
 
   .inActivated {
-    color: rgba(153, 153, 153, 1);
-    background-color: rgba(216, 216, 216, 1);
+  color: rgba(153, 153, 153, 1);
+  background-color: rgba(216, 216, 216, 1);
   }
 
   .home-activity-button:hover {
-      cursor: pointer;
+    cursor: pointer;
   }
 
   .home-activity-explanation {
-      max-width: 1200px;
-      height: 70px;
-      text-align: center;
-      margin-bottom: 30px;
+    max-width: 1200px;
+    height: 70px;
+    text-align: center;
+    margin-bottom: 10px;
   }
 
   .home-activity-explanation span{
-      white-space: pre-line;
-      font-family: "Noto Sans KR";
-      font-weight: 400;
-      font-size: 1.1em;
-      line-height: 27px;
+    white-space: pre-line;
+    font-family: "Noto Sans KR";
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 27px;
   }
 
   .home-activity-image{
     text-align: center;
-      width: 100%;
+    width: 100%;
   }
 
   .home-activity-image img{
     text-align: center;
-}
+  }
 }
 
 /* Tablet */
@@ -1358,7 +1708,7 @@ body {
       max-width: 1200px;
       height: 70px;
       text-align: center;
-      margin-bottom: 30px;
+      margin-bottom: 10px;
   }
 
   .home-activity-explanation span{
@@ -1378,8 +1728,250 @@ body {
 }
 
 /* Mobile */
-@media all and (max-width: 767px) {
+@media all and (min-width:480px) and (max-width:767px) {
+  .home-activity {
+    background-color: rgba(244, 244, 244, 1);
+    height: auto;
+  }
 
+  .home-activity-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .home-activity-title {
+    text-align: center;
+    width: 100%;
+  }
+
+  .home-activity-title span {
+    color: rgba(230, 63, 55, 1);
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  .home-activity-title h2 {
+    font-family: "Noto Sans KR";
+    margin-top: 10px;
+    margin-bottom: 40px;
+    line-height: 35px;
+  }
+
+  .home-activity-subtitle {
+    font-family: "Noto Sans KR";
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid rgba(193, 193, 193, 1);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-activity-subtitle span {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .home-activity-taps {
+    display: flex;
+    flex-flow: wrap;
+    gap: 15px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .home-activity-button {
+    font-family: "Noto Sans KR";
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+    border-radius: 9px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .activated {
+    color: white;
+    background-color: rgba(230, 63, 55, 1);
+  }
+
+  .inActivated {
+    color: rgba(153, 153, 153, 1);
+    background-color: rgba(216, 216, 216, 1);
+  }
+
+  .home-activity-button:hover {
+    cursor: pointer;
+  }
+
+  .home-activity-explanation {
+    height: auto;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .home-activity-explanation span {
+    white-space: pre-line;
+    font-family: "Noto Sans KR";
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 27px;
+  }
+
+  .home-activity-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-activity-image img{
+    width: 343px;
+    height: 202px;
+  }
+}
+
+@media all and (max-width:479px) {
+  .home-activity {
+    background-color: rgba(244, 244, 244, 1);
+    height: auto;
+  }
+
+  .home-activity-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .home-activity-title {
+    text-align: center;
+    width: 100%;
+  }
+
+  .home-activity-title span {
+    color: rgba(230, 63, 55, 1);
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  .home-activity-title h2 {
+    font-family: "Noto Sans KR";
+    margin-top: 10px;
+    margin-bottom: 40px;
+    line-height: 35px;
+  }
+
+  .home-activity-subtitle {
+    font-family: "Noto Sans KR";
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid rgba(193, 193, 193, 1);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-activity-subtitle span {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .home-activity-taps {
+    display: flex;
+    flex-flow: wrap;
+    gap: 15px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .home-activity-button {
+    font-family: "Noto Sans KR";
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+    border-radius: 9px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .activated {
+    color: white;
+    background-color: rgba(230, 63, 55, 1);
+  }
+
+  .inActivated {
+    color: rgba(153, 153, 153, 1);
+    background-color: rgba(216, 216, 216, 1);
+  }
+
+  .home-activity-button:hover {
+    cursor: pointer;
+  }
+
+  .home-activity-explanation {
+    height: auto;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .home-activity-explanation span {
+    white-space: pre-line;
+    font-family: "Noto Sans KR";
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 27px;
+  }
+
+  .home-activity-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-activity-image img{
+    width: 238px;
+    height: 140px;
+  }
 }
 
 /*
@@ -1408,12 +2000,12 @@ body {
   }
 
   .home-ability-title{
+    font-family: "Noto Sans KR";
     text-align: center;
   }
 
   .home-ability-title span{
     color: rgba(230, 63, 55, 1);
-    font-family: "Noto Sans KR";
     font-size: 1em;
     font-weight: 700;
   }
@@ -1432,27 +2024,23 @@ body {
   }
 
   .home-ability-item{
-    background-color: rgba(251, 251, 251, 1);
+    background-color: rgba(250, 250, 250, 1);
     border-radius: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 25px;
-    padding-right: 25px;
+    padding-right: 15px;
     display: flex;
     gap: 100px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
-
-  .home-ability-item-text{
-    
-  }
   
   .home-ability-item-number{
-    width: 41px;
-    height: 30px;
-    background-color: rgba(255, 240, 240, 1);
+    width: 43px;
+    height: 27px;
+    background-color: rgba(255, 239, 239, 1);
     padding: 3px;
     border-radius: 10px;
     display: flex;
@@ -1492,6 +2080,176 @@ body {
   }
 }
 
+/*
+-----------------
+----Home-Games---
+-----------------
+*/
 
+/* PC */
+@media all and (min-width: 1024px) {
+  .home-games{
+    height: auto;
+    background-color: black;
+  }
 
-  
+  .home-games-container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-games-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .home-games-left span{
+    color: rgba(230, 63, 55, 1);
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  .home-games-left h1{
+    font-family: "Noto Sans KR";
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: white;
+  }
+
+  .home-games-left p {
+    font-family: "Noto Sans KR";
+    font-weight: 400;
+    font-size: 0.9em;
+    margin-top: 30px;
+    color: gray;
+  }
+
+  .home-games-left button{
+    border: none;
+    margin-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(230, 63, 55, 1);
+    border-radius: 8px;
+    color: white;
+    font-family: "Noto Sans KR";
+    font-weight: 500;
+  }
+}
+
+/*
+-----------------
+-Home-Curriculum-
+-----------------
+*/
+
+/* PC */
+@media all and (min-width: 1024px) {
+  .home-curriculum{
+    height: auto;
+    background-color: rgba(27, 27, 29, 1);
+  }
+
+  .home-curriculum-container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    padding-bottom: 25px;
+    display: flex;
+    gap: 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-curriculum-title{
+    text-align: center;
+  }
+
+  .home-curriculum-title h2{
+    color: white;
+    margin-bottom: 5px;
+  }
+
+  .home-curriculum-title span{
+    color: rgba(136, 136, 136, 1);
+    font-size: 0.8em;
+    font-weight: 400;
+  }
+
+  .home-curriculum-month{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+  }
+
+  .home-curriculum-month:before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    top: 8px;
+  }
+
+  .home-curriculum-month-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .home-curriculum-month-row:after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    top: 8px;
+  }
+
+  .home-curriculum-month button{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+  }
+
+  .home-curriculum-month button:hover{
+    cursor: pointer;
+  }
+
+  .home-curriculum-month button span{
+    color: white;
+    font-size: 1.3em;
+    font-weight: 500;
+    padding-bottom: 15px;
+  }
+
+  .home-curriculum-month button div {
+    background-color: white;
+    width: 150px;
+    height: 3px;
+  }
+}
