@@ -4,38 +4,146 @@ const curriculumData = [
   {
     id: 1,
     month: 2,
-    week: "1주",
+    week: "02.17",
     content: "8기 OT, MT",
   },
   {
-    id: 1,
+    id: 2,
     month: 2,
-    week: "2주",
+    week: "02.24",
     content: "동아리 휴무",
   },
   {
-    id: 1,
+    id: 3,
     month: 3,
-    week: "3주",
+    week: "03.02",
     content: "프로젝트 발표 및 팀 빌딩",
   },
   {
-    id: 1,
+    id: 4,
     month: 3,
-    week: "4주",
+    week: "03.09",
     content: "팀별 단합 행사",
   },
   {
-    id: 1,
-    month: 4,
-    week: "5주",
+    id: 5,
+    month: 3,
+    week: "03.16",
     content: "멘토 네트워킹 데이",
   },
   {
-    id: 1,
-    month: 4,
-    week: "6주",
+    id: 6,
+    month: 3,
+    week: "03.23",
     content: "프로토타입 발표회",
+  },
+  {
+    id: 7,
+    month: 3,
+    week: "03.30",
+    content: "프로젝트 간담회",
+  },
+  {
+    id: 8,
+    month: 4,
+    week: "04.06",
+    content: "보드게임 단합 행사",
+  },
+  {
+    id: 9,
+    month: 4,
+    week: "04.13",
+    content: "알파버전 발표회",
+  },
+  {
+    id: 10,
+    month: 4,
+    week: "04.20",
+    content: "동아리 휴무",
+  },
+  {
+    id: 11,
+    month: 4,
+    week: "04.27",
+    content: "동아리 휴무",
+  },
+  {
+    id: 12,
+    month: 5,
+    week: "05.04",
+    content: "프로젝트 간담회",
+  },
+  {
+    id: 13,
+    month: 5,
+    week: "05.11",
+    content: "OB, YB 네트워킹 MT",
+  },
+  {
+    id: 14,
+    month: 5,
+    week: "05.18",
+    content: "베타 버전 발표회",
+  },
+  {
+    id: 15,
+    month: 5,
+    week: "05.25",
+    content: "프로젝트 간담회",
+  },
+  {
+    id: 16,
+    month: 6,
+    week: "06.01",
+    content: "게임잼",
+  },
+  {
+    id: 17,
+    month: 6,
+    week: "06.08",
+    content: "동아리 휴무",
+  },
+  {
+    id: 18,
+    month: 6,
+    week: "06.15",
+    content: "동아리 휴무",
+  },
+  {
+    id: 19,
+    month: 6,
+    week: "06.22",
+    content: "소프트런칭 발표회",
+  },
+  {
+    id: 20,
+    month: 6,
+    week: "06.29",
+    content: "프로젝트 간담회",
+  },
+  {
+    id: 21,
+    month: 7,
+    week: "07.06",
+    content: "중간 출시 발표회",
+  },
+  {
+    id: 22,
+    month: 7,
+    week: "07.13",
+    content: "E-Sports 대회",
+  },
+  {
+    id: 23,
+    month: 7,
+    week: "07.20",
+    content: "최종 발표회",
+  },
+  {
+    id: 24,
+    month: 7,
+    week: "07.27",
+    content: "8기 수료식",
   },
 ];
 
@@ -136,7 +244,7 @@ const Curriculum = () => {
           <table>
             <thead>
               <tr>
-                <th className="home-curriculum-table-date">기간</th>
+                <th className="home-curriculum-table-date">일자</th>
                 <th className="home-curriculum-table-content">활동내용</th>
               </tr>
             </thead>
@@ -151,14 +259,6 @@ const Curriculum = () => {
                   );
                 }
               })}
-              {/* <tr>
-                <td>1주</td>
-                <td>8기 OT, MT, 프로젝트 기획 발표</td>
-              </tr>
-              <tr>
-                <td>2주</td>
-                <td>동아리 휴무</td>
-              </tr> */}
             </thead>
           </table>
         </div>
