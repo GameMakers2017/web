@@ -1,10 +1,9 @@
-import { useState } from "react";
 import "../css/home.css";
 
 import ActivityBtn from "../components/ActivityBtns";
+import Curriculum from "../components/Curriculum";
 
 const Home = () => {
-
   return (
     <>
       <div className="home-main">
@@ -134,10 +133,8 @@ const Home = () => {
       </div>
       <div className="home-wish-baseline">
         <img
-              alt="로고"
-              src={
-                process.env.PUBLIC_URL + `/assets/home/Home_Wish_BottomLine.png`
-              }
+          alt="로고"
+          src={process.env.PUBLIC_URL + `/assets/home/Home_Wish_BottomLine.png`}
         ></img>
       </div>
       <div className="home-benefits">
@@ -151,8 +148,8 @@ const Home = () => {
               <span>POINT 1.</span>
               <h3>프로젝트 팀 매칭</h3>
               <div className="home-benefits-item-explanation">
-                기획, 아트 디자이너, 프로그래머가 한 팀이 되어
-                게임을 개발할 수 있도록 팀을 매칭해 드립니다.
+                기획, 아트 디자이너, 프로그래머가 한 팀이 되어 게임을 개발할 수
+                있도록 팀을 매칭해 드립니다.
               </div>
               <div className="home-benefits-item-img">
                 <img
@@ -161,13 +158,14 @@ const Home = () => {
                   }
                   alt="benefits1"
                 ></img>
-                </div>
+              </div>
             </div>
             <div className="home-benefits-item">
               <span>POINT 2.</span>
               <h3>체계적인 팀 관리</h3>
               <div className="home-benefits-item-explanation">
-              매주 활동 보고서를 통해, 프로젝트 상태를 점검하고 피드백 해드립니다.
+                매주 활동 보고서를 통해, 프로젝트 상태를 점검하고 피드백
+                해드립니다.
               </div>
               <div className="home-benefits-item-img">
                 <img
@@ -176,12 +174,14 @@ const Home = () => {
                   }
                   alt="benefits1"
                 ></img>
-                </div>
-            </div><div className="home-benefits-item">
+              </div>
+            </div>
+            <div className="home-benefits-item">
               <span>POINT 3.</span>
               <h3>현업인 멘토링 시스템</h3>
               <div className="home-benefits-item-explanation">
-                한 팀에 한 명의 현업 멘토가 배정되어, 팀의 방향성과 개발 노하우를 공유합니다.
+                한 팀에 한 명의 현업 멘토가 배정되어, 팀의 방향성과 개발
+                노하우를 공유합니다.
               </div>
               <div className="home-benefits-item-img">
                 <img
@@ -190,12 +190,14 @@ const Home = () => {
                   }
                   alt="benefits1"
                 ></img>
-                </div>
-            </div><div className="home-benefits-item">
+              </div>
+            </div>
+            <div className="home-benefits-item">
               <span>POINT 4.</span>
               <h3>게임 디자인 에셋 지원</h3>
               <div className="home-benefits-item-explanation">
-                게임의 퀄리티와 완성도를 위해, 유니티 에셋 디자인 에셋을 지원합니다.
+                게임의 퀄리티와 완성도를 위해, 유니티 에셋 디자인 에셋을
+                지원합니다.
               </div>
               <div className="home-benefits-item-img">
                 <img
@@ -204,8 +206,9 @@ const Home = () => {
                   }
                   alt="benefits1"
                 ></img>
-                </div>
-            </div><div className="home-benefits-item">
+              </div>
+            </div>
+            <div className="home-benefits-item">
               <span>POINT 5.</span>
               <h3>스터디 활동비 지원</h3>
               <div className="home-benefits-item-explanation">
@@ -219,12 +222,14 @@ const Home = () => {
                   }
                   alt="benefits1"
                 ></img>
-                </div>
-            </div><div className="home-benefits-item">
+              </div>
+            </div>
+            <div className="home-benefits-item">
               <span>POINT 6.</span>
               <h3>활동 증명서 발급</h3>
               <div className="home-benefits-item-explanation">
-                해당 기수에서 정해진 커리큘럼을 이수할 경우, GameMakers 활동 증명서를 발급해 드립니다.
+                해당 기수에서 정해진 커리큘럼을 이수할 경우, GameMakers 활동
+                증명서를 발급해 드립니다.
               </div>
               <div className="home-benefits-item-img">
                 <img
@@ -233,7 +238,7 @@ const Home = () => {
                   }
                   alt="benefits1"
                 ></img>
-                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -250,17 +255,19 @@ const Home = () => {
           </div>
           <div className="home-activity-subtitle">
             <img
-                  src={
-                    process.env.PUBLIC_URL + `/assets/home/Home_Activity_Subtitle_Star.png`
-                  }
-                  alt="Subtitle_Star"
+              src={
+                process.env.PUBLIC_URL +
+                `/assets/home/Home_Activity_Subtitle_Star.png`
+              }
+              alt="Subtitle_Star"
             ></img>
             <span>실제 7기에서 진행한 행사들입니다</span>
             <img
-                  src={
-                    process.env.PUBLIC_URL + `/assets/home/Home_Activity_Subtitle_Star.png`
-                  }
-                  alt="Subtitle_Star"
+              src={
+                process.env.PUBLIC_URL +
+                `/assets/home/Home_Activity_Subtitle_Star.png`
+              }
+              alt="Subtitle_Star"
             ></img>
           </div>
           <ActivityBtn />
@@ -279,21 +286,26 @@ const Home = () => {
                   <span>01</span>
                 </div>
                 <div className="home-ability-item-title">
-                  <span>게임이 개발되는 과정에 대한<br/>전반적인 프로세스 이해</span>
+                  <span>
+                    게임이 개발되는 과정에 대한
+                    <br />
+                    전반적인 프로세스 이해
+                  </span>
                 </div>
                 <div className="home-ability-item-explanation">
                   <span>
-                    기획부터 출시까지 모든 과정을 직접 경험하며,<br/>
+                    기획부터 출시까지 모든 과정을 직접 경험하며,
+                    <br />
                     게임 개발에 대한 전반적인 과정을 이해할 수 있습니다.
                   </span>
                 </div>
               </div>
               <div className="home-ability-item-image">
                 <img
-                    src={
-                      process.env.PUBLIC_URL + `/assets/home/Home_Ability_1.png`
-                    }
-                    alt="Subtitle_Star"
+                  src={
+                    process.env.PUBLIC_URL + `/assets/home/Home_Ability_1.png`
+                  }
+                  alt="Subtitle_Star"
                 ></img>
               </div>
             </div>
@@ -303,21 +315,26 @@ const Home = () => {
                   <span>02</span>
                 </div>
                 <div className="home-ability-item-title">
-                  <span>프로젝트 관리 역량,<br/>문제 해결능력, 커뮤니케이션 능력</span>
+                  <span>
+                    프로젝트 관리 역량,
+                    <br />
+                    문제 해결능력, 커뮤니케이션 능력
+                  </span>
                 </div>
                 <div className="home-ability-item-explanation">
                   <span>
-                    기획부터 출시까지 모든 과정을 직접 경험하며,<br/>
+                    기획부터 출시까지 모든 과정을 직접 경험하며,
+                    <br />
                     게임 개발에 대한 전반적인 과정을 이해할 수 있습니다.
                   </span>
                 </div>
               </div>
               <div className="home-ability-item-image">
                 <img
-                    src={
-                      process.env.PUBLIC_URL + `/assets/home/Home_Ability_1.png`
-                    }
-                    alt="Subtitle_Star"
+                  src={
+                    process.env.PUBLIC_URL + `/assets/home/Home_Ability_1.png`
+                  }
+                  alt="Subtitle_Star"
                 ></img>
               </div>
             </div>
@@ -331,17 +348,18 @@ const Home = () => {
                 </div>
                 <div className="home-ability-item-explanation">
                   <span>
-                    기획부터 출시까지 모든 과정을 직접 경험하며,<br/>
+                    기획부터 출시까지 모든 과정을 직접 경험하며,
+                    <br />
                     게임 개발에 대한 전반적인 과정을 이해할 수 있습니다.
                   </span>
                 </div>
               </div>
               <div className="home-ability-item-image">
                 <img
-                    src={
-                      process.env.PUBLIC_URL + `/assets/home/Home_Ability_1.png`
-                    }
-                    alt="Subtitle_Star"
+                  src={
+                    process.env.PUBLIC_URL + `/assets/home/Home_Ability_1.png`
+                  }
+                  alt="Subtitle_Star"
                 ></img>
               </div>
             </div>
@@ -351,21 +369,26 @@ const Home = () => {
                   <span>04</span>
                 </div>
                 <div className="home-ability-item-title">
-                  <span>게임업계의 회원분들과의<br/>네트워킹 기회</span>
+                  <span>
+                    게임업계의 회원분들과의
+                    <br />
+                    네트워킹 기회
+                  </span>
                 </div>
                 <div className="home-ability-item-explanation">
                   <span>
-                    기획부터 출시까지 모든 과정을 직접 경험하며,<br/>
+                    기획부터 출시까지 모든 과정을 직접 경험하며,
+                    <br />
                     게임 개발에 대한 전반적인 과정을 이해할 수 있습니다.
                   </span>
                 </div>
               </div>
               <div className="home-ability-item-image">
                 <img
-                    src={
-                      process.env.PUBLIC_URL + `/assets/home/Home_Ability_1.png`
-                    }
-                    alt="Subtitle_Star"
+                  src={
+                    process.env.PUBLIC_URL + `/assets/home/Home_Ability_1.png`
+                  }
+                  alt="Subtitle_Star"
                 ></img>
               </div>
             </div>
@@ -376,73 +399,27 @@ const Home = () => {
         <div className="home-games-container">
           <div className="home-games-left">
             <span>프로젝트 결과물</span>
-            <h1>GameMakers의<br />게임들이 궁금하다면?</h1>
-            <p>BIC, GIGDC 등 각종 행사에서 수상한 작품과<br />Google TOP 20에 선정된 게임들이 있습니다.</p>
+            <h1>
+              GameMakers의
+              <br />
+              게임들이 궁금하다면?
+            </h1>
+            <p>
+              BIC, GIGDC 등 각종 행사에서 수상한 작품과
+              <br />
+              Google TOP 20에 선정된 게임들이 있습니다.
+            </p>
             <button>프로젝트 더보기</button>
           </div>
           <div className="home-games-right">
             <img
-              src={
-                process.env.PUBLIC_URL + `/assets/home/Home_Games_Games.png`
-              }
+              src={process.env.PUBLIC_URL + `/assets/home/Home_Games_Games.png`}
               alt="Subtitle_Star"
             ></img>
           </div>
         </div>
       </div>
-      <div className="home-curriculum">
-        <div className="home-curriculum-container">
-          <div className="home-curriculum-title">
-            <img
-              src={
-                process.env.PUBLIC_URL + `/assets/home/Home_Curriculum_Logo.png`
-              }
-              alt="Subtitle_Star"
-            ></img>
-            <h2>2024년 8기 커리큘럼</h2>
-            <span>동아리의 운영상황에 따라서 일정의 변동이 생길 수 있습니다.</span>
-          </div>
-          <div className="home-curriculum-month">
-            <div className="home-curriculum-month-row">
-              <button>
-                <span>2월</span>
-                <div className="home-curriculum-month-line"></div>
-              </button>
-            </div>
-            <div className="home-curriculum-month-row">
-              <button>
-                <span>3월</span>
-                <div className="home-curriculum-month-line"></div>
-              </button>
-            </div>
-            <div className="home-curriculum-month-row">
-              <button>
-                <span>4월</span>
-                <div className="home-curriculum-month-line"></div>
-              </button>
-            </div>
-            <div className="home-curriculum-month-row">
-              <button>
-                <span>5월</span>
-                <div className="home-curriculum-month-line"></div>
-              </button>
-            </div>
-            <div className="home-curriculum-month-row">
-              <button>
-                <span>6월</span>
-                <div className="home-curriculum-month-line"></div>
-              </button>
-            </div>
-            <div className="home-curriculum-month-row">
-              <button>
-                <span>7월</span>
-                <div className="home-curriculum-month-line"></div>
-              </button>
-            </div>
-          </div>
-          <div className="home-curriculum-contents"></div>
-        </div>
-      </div>
+      <Curriculum />
     </>
   );
 };
