@@ -2,6 +2,7 @@ import "../css/home.css";
 
 import ActivityBtn from "../components/ActivityBtns";
 import Curriculum from "../components/Curriculum";
+import LogoSlider from "../components/LogoSlider";
 
 const Home = () => {
   return (
@@ -420,6 +421,16 @@ const Home = () => {
         </div>
       </div>
       <Curriculum />
+      <div className="home-review">
+        <div className="home-review-container">
+          <div className="home-review-title">
+            <h2>OB 회원분들의 생생한 후기</h2>
+          </div>
+          <LogoSlider />
+          <div className="home-review-contents"></div>
+          <div className="home-review-button"></div>
+        </div>
+      </div>
     </>
   );
 };
