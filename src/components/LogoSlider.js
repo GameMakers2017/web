@@ -1,29 +1,175 @@
 import { useEffect, useRef, useState } from "react";
 
-
-const LogoSlider = () =>{
-    
-    const trainCompartment = ['1', '2', '3', '4', '5', '6'];
-
-    return (
-        
-        <div className="train">
-            <div className="show">
-                {
-                    trainCompartment.map((item, index) => (
-                        <div
-                          className='compartment'
-                          key={index}
-                          style={{
-                            // transform: `translateX(-100px)`,
-                            // transition: 'all 1s ease-in-out',
-                          }}>
-                          {item}
-                        </div>
-                    ))
-                }
-            </div>
+const LogoSlider = () => {
+  return (
+    <div className="logoslider">
+      <div className="animation_list animation">
+        <div className="logoslider-container">
+          <div className="img-box">
+            <img
+              src={
+                process.env.PUBLIC_URL + `/assets/home/Navbar_GM_Logo_Black.png`
+              }
+              alt="Subtitle_Star"
+            ></img>
+          </div>
+          <div className="img-box">
+            <img
+              src={
+                process.env.PUBLIC_URL + `/assets/home/Navbar_GM_Logo_Black.png`
+              }
+              alt="Subtitle_Star"
+            ></img>
+          </div>
+          <div className="img-box">
+            <img
+              src={
+                process.env.PUBLIC_URL + `/assets/home/Navbar_GM_Logo_Black.png`
+              }
+              alt="Subtitle_Star"
+            ></img>
+          </div>
+          <div className="img-box">
+            <img
+              src={
+                process.env.PUBLIC_URL + `/assets/home/Navbar_GM_Logo_Black.png`
+              }
+              alt="Subtitle_Star"
+            ></img>
+          </div>
+          <div className="img-box">
+            <img
+              src={
+                process.env.PUBLIC_URL + `/assets/home/Navbar_GM_Logo_Black.png`
+              }
+              alt="Subtitle_Star"
+            ></img>
+          </div>
+          <div className="img-box">
+            <img
+              src={
+                process.env.PUBLIC_URL + `/assets/home/Navbar_GM_Logo_Black.png`
+              }
+              alt="Subtitle_Star"
+            ></img>
+          </div>
+          <div className="img-box">
+            <img
+              src={
+                process.env.PUBLIC_URL + `/assets/home/Navbar_GM_Logo_Black.png`
+              }
+              alt="Subtitle_Star"
+            ></img>
+          </div>
+          <div className="img-box">
+            <img
+              src={
+                process.env.PUBLIC_URL + `/assets/home/Navbar_GM_Logo_Black.png`
+              }
+              alt="Subtitle_Star"
+            ></img>
+          </div>
+          <div className="img-box">
+            <img
+              src={
+                process.env.PUBLIC_URL + `/assets/home/Navbar_GM_Logo_Black.png`
+              }
+              alt="Subtitle_Star"
+            ></img>
+          </div>
+          <div className="img-box">
+            <img
+              src={
+                process.env.PUBLIC_URL + `/assets/home/Navbar_GM_Logo_Black.png`
+              }
+              alt="Subtitle_Star"
+            ></img>
+          </div>
         </div>
-    );
-}
+        <div className="logoslider-container">
+          <div className="img-box">
+            <img
+              src={
+                process.env.PUBLIC_URL + `/assets/home/Navbar_GM_Logo_Black.png`
+              }
+              alt="Subtitle_Star"
+            ></img>
+          </div>
+          <div className="img-box">
+            <img
+              src={
+                process.env.PUBLIC_URL + `/assets/home/Navbar_GM_Logo_Black.png`
+              }
+              alt="Subtitle_Star"
+            ></img>
+          </div>
+          <div className="img-box">
+            <img
+              src={
+                process.env.PUBLIC_URL + `/assets/home/Navbar_GM_Logo_Black.png`
+              }
+              alt="Subtitle_Star"
+            ></img>
+          </div>
+          <div className="img-box">
+            <img
+              src={
+                process.env.PUBLIC_URL + `/assets/home/Navbar_GM_Logo_Black.png`
+              }
+              alt="Subtitle_Star"
+            ></img>
+          </div>
+          <div className="img-box">
+            <img
+              src={
+                process.env.PUBLIC_URL + `/assets/home/Navbar_GM_Logo_Black.png`
+              }
+              alt="Subtitle_Star"
+            ></img>
+          </div>
+          <div className="img-box">
+            <img
+              src={
+                process.env.PUBLIC_URL + `/assets/home/Navbar_GM_Logo_Black.png`
+              }
+              alt="Subtitle_Star"
+            ></img>
+          </div>
+          <div className="img-box">
+            <img
+              src={
+                process.env.PUBLIC_URL + `/assets/home/Navbar_GM_Logo_Black.png`
+              }
+              alt="Subtitle_Star"
+            ></img>
+          </div>
+          <div className="img-box">
+            <img
+              src={
+                process.env.PUBLIC_URL + `/assets/home/Navbar_GM_Logo_Black.png`
+              }
+              alt="Subtitle_Star"
+            ></img>
+          </div>
+          <div className="img-box">
+            <img
+              src={
+                process.env.PUBLIC_URL + `/assets/home/Navbar_GM_Logo_Black.png`
+              }
+              alt="Subtitle_Star"
+            ></img>
+          </div>
+          <div className="img-box">
+            <img
+              src={
+                process.env.PUBLIC_URL + `/assets/home/Navbar_GM_Logo_Black.png`
+              }
+              alt="Subtitle_Star"
+            ></img>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 export default LogoSlider;
