@@ -4,6 +4,7 @@ body {
   background-color: white;
   margin: 0;
   font-family: "NotoSansKR ";
+  /* overflow-x: hidden; */
 }
 
 /* Def */
@@ -2310,35 +2311,32 @@ body {
   }
 
   .animation_list {
-    width: 4000px;
+    width: 6510px;
+    width: auto;
     display: flex;
   }
 
   .logoslider-container {
-    width: 2000px;
+    width: 3255px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    margin-left: 60px;
   }
 
   .img-box {
-    width: 200px;
-    height: 300px;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .img-box img {
-    width: 200px;
-    height: 300px;
-  }
-
   .animation {
     animation-name: infinite_slide;
-    animation-duration: 10s;
+    animation-duration: 12s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
   }
@@ -2348,7 +2346,13 @@ body {
       transform: translateX(0%);
     }
     100% {
-      transform: translateX(-50%);
+      /* transform: translateX(calc(-100% - 1352px)); */
+      /* transform: translateX(calc(-3255px)); */
+      transform: translateX(calc(-3315px));
+      /* 한 컨테이너가 완벽히 끝나면 바로 리셋 할 수 있게 하기 위해,
+      사이즈를 컨테이너 width 만큼 계산 + 컨테이너 시작의 왼쪽 마진 값
+      3225px + 60px = 3315px
+      */
     }
   }
 }
