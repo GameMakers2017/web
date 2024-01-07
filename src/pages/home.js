@@ -430,8 +430,12 @@ const Home = () => {
           <div className="home-review-contents">
             <div className="home-review-box">
               <div className="home-review-information">
-                <img className="home-review-memoji"
-                  src={process.env.PUBLIC_URL + `/assets/home/Home_Review_KangWoo.png`}
+                <img
+                  className="home-review-memoji"
+                  src={
+                    process.env.PUBLIC_URL +
+                    `/assets/home/Home_Review_KangWoo.png`
+                  }
                   alt="Subtitle_Star"
                 ></img>
                 <div className="home-review-profile">
@@ -441,13 +445,12 @@ const Home = () => {
                       <span className="text-bg-lightgray">3기</span>
                       <span className="text-bg-lightgreen">프로그래머</span>
                     </div>
-                    
                   </div>
                   <div className="home-review-profile-bottom">
                     <span>
-                      현 엔씨소프트 / 클라이언트 프로그래머
+                      현&#41; 엔씨소프트 / 클라이언트 프로그래머
                       <br />
-                      전 위메이드플레이 / 클라이언트 프로그래머
+                      전&#41; 위메이드플레이 / 클라이언트 프로그래머
                     </span>
                     <span></span>
                   </div>
@@ -456,27 +459,199 @@ const Home = () => {
 
               <div className="home-review-divider"></div>
 
-              <div className="home-review-contents">
-                <div className="home-review-contents-titile">
+              <div className="home-review-detail">
+                <div className="home-review-detail-title">
                   저에게 GameMakers란
                   <br />
                   "인생의 전환점" 이라고 말하고 싶습니다.
                 </div>
-                <div>GameMakers를 하는 동안 팀 해체, 팀원 간의 갈등, 산으로 가는
-                    프로젝트 등 우여곡절이 있엇지만 그 속에서 많은 걸 경험하고 배울 수 있었습니다.
-                    그리고 이 때 얻은 경험을 토대로 좋은 팀원들과 Electroad라는 게임을 만들어
-                    인디게임 페스티벌에도 나갈 수 있었고요.
-                    그래서 저는 GameMakers를 통해 잊지 못할 추억과 경험을 얻을 수 있었고 좋은
-                    시간이었다고 생각합니다.
+                <div className="home-review-detail-content">
+                  GameMakers를 하는 동안 팀 해체, 팀원 간의 갈등, 산으로 가는
+                  프로젝트 등 우여곡절이 있엇지만 그 속에서 많은 걸 경험하고
+                  배울 수 있었습니다. 그리고 이 때 얻은 경험을 토대로 좋은
+                  팀원들과 Electroad라는 게임을 만들어 인디게임 페스티벌에도
+                  나갈 수 있었고요. 그래서 저는 GameMakers를 통해 잊지 못할
+                  추억과 경험을 얻을 수 있었고 좋은 시간이었다고 생각합니다.
                 </div>
               </div>
             </div>
             <div className="home-review-box">
+              <div className="home-review-information">
+                <img
+                  className="home-review-memoji"
+                  src={
+                    process.env.PUBLIC_URL +
+                    `/assets/home/Home_Review_Hojin.png`
+                  }
+                  alt="Subtitle_Star"
+                ></img>
+                <div className="home-review-profile">
+                  <div className="home-review-profile-top">
+                    <span>정호진</span>
+                    <div className="home-review-profile-role">
+                      <span className="text-bg-lightgray">5기</span>
+                      <span className="text-bg-lightgreen">프로그래머</span>
+                    </div>
+                  </div>
+                  <div className="home-review-profile-bottom">
+                    <span>현&#41; 넥슨코리아 / 클라이언트 프로그래머</span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="home-review-divider"></div>
+
+              <div className="home-review-detail">
+                <div className="home-review-detail-title">
+                  저에게 GameMakers란
+                  <br />
+                  "인생의 전환점" 이라고 말하고 싶습니다.
+                </div>
+                <div className="home-review-detail-content">
+                  GameMakers를 하는 동안 팀 해체, 팀원 간의 갈등, 산으로 가는
+                  프로젝트 등 우여곡절이 있엇지만 그 속에서 많은 걸 경험하고
+                  배울 수 있었습니다. 그리고 이 때 얻은 경험을 토대로 좋은
+                  팀원들과 Electroad라는 게임을 만들어 인디게임 페스티벌에도
+                  나갈 수 있었고요. 그래서 저는 GameMakers를 통해 잊지 못할
+                  추억과 경험을 얻을 수 있었고 좋은 시간이었다고 생각합니다.
+                </div>
+              </div>
             </div>
           </div>
-          <div className="home-review-button"></div>
+          <div className="home-review-button">
+            <a>OB들의 활동후기 더보기</a>
+          </div>
         </div>
       </div>
+      <div className="home-faq">
+        <div className="home-faq-container">
+          <div className="home-faq-title">
+            <h2>자주 묻는 질문</h2>
+          </div>
+          <div className="home-faq-contents">
+            <div className="home-faq-item">
+              <div className="home-faq-item-container">
+                <h2>Q.</h2>
+                <span>게임개발 경험이 없어도 지원이 가능한가요?</span>
+              </div>
+            </div>
+            <div className="home-faq-item">
+              <div className="home-faq-item-container">
+                <h2>Q.</h2>
+                <span>게임개발 경험이 없어도 지원이 가능한가요?</span>
+              </div>
+            </div>
+            <div className="home-faq-item">
+              <div className="home-faq-item-container">
+                <h2>Q.</h2>
+                <span>게임개발 경험이 없어도 지원이 가능한가요?</span>
+              </div>
+            </div>
+            <div className="home-faq-item">
+              <div className="home-faq-item-container">
+                <h2>Q.</h2>
+                <span>게임개발 경험이 없어도 지원이 가능한가요?</span>
+              </div>
+            </div>
+            <div className="home-faq-item">
+              <div className="home-faq-item-container">
+                <h2>Q.</h2>
+                <span>게임개발 경험이 없어도 지원이 가능한가요?</span>
+              </div>
+            </div>
+            <div className="home-faq-item">
+              <div className="home-faq-item-container">
+                <h2>Q.</h2>
+                <span>게임개발 경험이 없어도 지원이 가능한가요?</span>
+              </div>
+            </div>
+            <div className="home-faq-item">
+              <div className="home-faq-item-container">
+                <h2>Q.</h2>
+                <span>게임개발 경험이 없어도 지원이 가능한가요?</span>
+              </div>
+            </div>
+            <div className="home-faq-item">
+              <div className="home-faq-item-container">
+                <h2>Q.</h2>
+                <span>게임개발 경험이 없어도 지원이 가능한가요?</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="home-inquiry">
+        <div className="home-inquiry-container">
+          <div className="home-inquiry-title">
+            <h1>
+              <span>궁금한 것이 있으세요?</span>
+              <br />
+              신속하게 해결해 드리겠습니다.
+            </h1>
+          </div>
+          <div className="home-inquiry-image">
+            <img
+              src={process.env.PUBLIC_URL + `/assets/home/Home_Inquiry.png`}
+              alt="benefits1"
+            ></img>
+            <a href="#">문의하러 가기</a>
+          </div>
+        </div>
+      </div>
+      <div className="home-partners">
+        <div className="home-partners-container">
+          <div className="home-partners-title">
+            <h2>GameMakers와 함께하는 파트너</h2>
+          </div>
+          <div className="home-partners-item-box">
+            <div className="home-partners-item">
+              <img
+                src={process.env.PUBLIC_URL + `/assets/home/Home_Inquiry.png`}
+                alt="benefits1"
+              ></img>
+            </div>
+            <div className="home-partners-item">
+              <img
+                src={process.env.PUBLIC_URL + `/assets/home/Home_Inquiry.png`}
+                alt="benefits1"
+              ></img>
+            </div>
+            <div className="home-partners-item">
+              <img
+                src={process.env.PUBLIC_URL + `/assets/home/Home_Inquiry.png`}
+                alt="benefits1"
+              ></img>
+            </div>
+            <div className="home-partners-item">
+              <img
+                src={process.env.PUBLIC_URL + `/assets/home/Home_Inquiry.png`}
+                alt="benefits1"
+              ></img>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer id="footer">
+        <section className="footer">
+          <div className="footer-container">
+            <div className="footer-above">
+              <span>
+                Contact
+                <br />
+                gamemakers2017@gmail.com
+              </span>
+            </div>
+            <div className="footer-below">
+              <span>
+                GameMakers ( 게임메이커스, 전국 게임개발 연합동아리 )
+                <br />
+                Copyright&copy;2024.GameMakers.All rights reserved.
+              </span>
+            </div>
+          </div>
+        </section>
+      </footer>
     </>
   );
 };
