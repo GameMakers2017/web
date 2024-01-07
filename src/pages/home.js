@@ -427,7 +427,53 @@ const Home = () => {
             <h2>OB 회원분들의 생생한 후기</h2>
           </div>
           <LogoSlider />
-          <div className="home-review-contents"></div>
+          <div className="home-review-contents">
+            <div className="home-review-box">
+              <div className="home-review-information">
+                <img className="home-review-memoji"
+                  src={process.env.PUBLIC_URL + `/assets/home/Home_Review_KangWoo.png`}
+                  alt="Subtitle_Star"
+                ></img>
+                <div className="home-review-profile">
+                  <div className="home-review-profile-top">
+                    <span>이강우</span>
+                    <div className="home-review-profile-role">
+                      <span className="text-bg-lightgray">3기</span>
+                      <span className="text-bg-lightgreen">프로그래머</span>
+                    </div>
+                    
+                  </div>
+                  <div className="home-review-profile-bottom">
+                    <span>
+                      현 엔씨소프트 / 클라이언트 프로그래머
+                      <br />
+                      전 위메이드플레이 / 클라이언트 프로그래머
+                    </span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="home-review-divider"></div>
+
+              <div className="home-review-contents">
+                <div className="home-review-contents-titile">
+                  저에게 GameMakers란
+                  <br />
+                  "인생의 전환점" 이라고 말하고 싶습니다.
+                </div>
+                <div>GameMakers를 하는 동안 팀 해체, 팀원 간의 갈등, 산으로 가는
+                    프로젝트 등 우여곡절이 있엇지만 그 속에서 많은 걸 경험하고 배울 수 있었습니다.
+                    그리고 이 때 얻은 경험을 토대로 좋은 팀원들과 Electroad라는 게임을 만들어
+                    인디게임 페스티벌에도 나갈 수 있었고요.
+                    그래서 저는 GameMakers를 통해 잊지 못할 추억과 경험을 얻을 수 있었고 좋은
+                    시간이었다고 생각합니다.
+                </div>
+              </div>
+            </div>
+            <div className="home-review-box">
+            </div>
+          </div>
           <div className="home-review-button"></div>
         </div>
       </div>
