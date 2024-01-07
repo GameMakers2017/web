@@ -333,7 +333,7 @@ const Home = () => {
               <div className="home-ability-item-image">
                 <img
                   src={
-                    process.env.PUBLIC_URL + `/assets/home/Home_Ability_1.png`
+                    process.env.PUBLIC_URL + `/assets/home/Home_Ability_2.png`
                   }
                   alt="Subtitle_Star"
                 ></img>
@@ -358,7 +358,7 @@ const Home = () => {
               <div className="home-ability-item-image">
                 <img
                   src={
-                    process.env.PUBLIC_URL + `/assets/home/Home_Ability_1.png`
+                    process.env.PUBLIC_URL + `/assets/home/Home_Ability_3.png`
                   }
                   alt="Subtitle_Star"
                 ></img>
@@ -387,7 +387,7 @@ const Home = () => {
               <div className="home-ability-item-image">
                 <img
                   src={
-                    process.env.PUBLIC_URL + `/assets/home/Home_Ability_1.png`
+                    process.env.PUBLIC_URL + `/assets/home/Home_Ability_4.png`
                   }
                   alt="Subtitle_Star"
                 ></img>
