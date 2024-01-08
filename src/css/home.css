@@ -7,6 +7,18 @@ body {
   overflow-x: hidden;
 }
 
+/* Tablet */
+@media all and (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* Mobile */
+@media all and (min-width: 480px) and (max-width: 767px) {
+}
+
+/* Mobile- */
+@media all and (max-width: 479px) {
+}
+
 /* Def */
 
 /*
@@ -1142,6 +1154,7 @@ body {
   }
 
   .home-benefits-title h2 {
+    font-family: "Noto Sans KR";
     margin-top: 10px;
     margin-bottom: 60px;
   }
@@ -1273,7 +1286,7 @@ body {
   }
 
   .home-benefits-item-explanation {
-    font-size: 0.8em;
+    font-size: 0.9em;
     color: rgba(142, 142, 142, 1);
     padding-bottom: 10px;
     font-weight: 500;
@@ -1310,6 +1323,7 @@ body {
   }
 
   .home-benefits-title {
+    font-family: "Noto Sans KR";
     text-align: center;
     max-width: 400px;
   }
@@ -1322,6 +1336,7 @@ body {
   }
 
   .home-benefits-title h2 {
+    font-family: "Noto Sans KR";
     margin-top: 10px;
     margin-bottom: 60px;
   }
@@ -1363,7 +1378,7 @@ body {
   }
 
   .home-benefits-item-explanation {
-    font-size: 0.8em;
+    font-size: 0.9em;
     color: rgba(142, 142, 142, 1);
     padding-bottom: 10px;
     font-weight: 500;
@@ -1381,6 +1396,7 @@ body {
   }
 }
 
+/* Mobile- */
 @media all and (max-width: 479px) {
   .home-benefits {
     background-color: white;
@@ -1411,6 +1427,7 @@ body {
   }
 
   .home-benefits-title h2 {
+    font-family: "Noto Sans KR";
     margin-top: 10px;
     margin-bottom: 60px;
   }
@@ -1553,7 +1570,7 @@ body {
 
   .home-activity-button {
     font-family: "Noto Sans KR";
-    font-weight: 600;
+    font-weight: 500;
     font-size: 15px;
     border: none;
     border-radius: 9px;
@@ -1673,7 +1690,7 @@ body {
 
   .home-activity-button {
     font-family: "Noto Sans KR";
-    font-weight: 400;
+    font-weight: 500;
     font-size: 15px;
     border: none;
     border-radius: 9px;
@@ -1686,12 +1703,12 @@ body {
     padding-bottom: 5px;
   }
 
-  .activated {
+  .activated-activity {
     color: white;
     background-color: rgba(230, 63, 55, 1);
   }
 
-  .inActivated {
+  .inActivated-activity {
     color: rgba(153, 153, 153, 1);
     background-color: rgba(216, 216, 216, 1);
   }
@@ -1793,7 +1810,7 @@ body {
 
   .home-activity-button {
     font-family: "Noto Sans KR";
-    font-weight: 400;
+    font-weight: 500;
     font-size: 15px;
     border: none;
     border-radius: 9px;
@@ -1806,12 +1823,12 @@ body {
     padding-bottom: 5px;
   }
 
-  .activated {
+  .activated-activity {
     color: white;
     background-color: rgba(230, 63, 55, 1);
   }
 
-  .inActivated {
+  .inActivated-activity {
     color: rgba(153, 153, 153, 1);
     background-color: rgba(216, 216, 216, 1);
   }
@@ -1900,6 +1917,7 @@ body {
   }
 
   .home-activity-subtitle span {
+    font-size: 0.8em;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -1916,7 +1934,7 @@ body {
 
   .home-activity-button {
     font-family: "Noto Sans KR";
-    font-weight: 400;
+    font-weight: 500;
     font-size: 15px;
     border: none;
     border-radius: 9px;
@@ -1929,12 +1947,12 @@ body {
     padding-bottom: 5px;
   }
 
-  .activated {
+  .activated-activity {
     color: white;
     background-color: rgba(230, 63, 55, 1);
   }
 
-  .inActivated {
+  .inActivated-activity {
     color: rgba(153, 153, 153, 1);
     background-color: rgba(216, 216, 216, 1);
   }
@@ -1953,7 +1971,7 @@ body {
     white-space: pre-line;
     font-family: "Noto Sans KR";
     font-weight: 400;
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 27px;
   }
 
@@ -2020,17 +2038,18 @@ body {
   }
 
   .home-ability-item {
+    width: 650px;
     background-color: rgba(250, 250, 250, 1);
     border-radius: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 25px;
-    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
-    gap: 100px;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    gap: 70px;
   }
 
   .home-ability-item-number {
@@ -2074,6 +2093,345 @@ body {
     font-size: 0.8em;
     font-weight: 400;
   }
+
+  .home-ability-item-image {
+    width: 300px;
+    height: 170px;
+  }
+}
+
+/* Tablet */
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .home-ability {
+    height: auto;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .home-ability-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .home-ability-title {
+    font-family: "Noto Sans KR";
+    text-align: center;
+  }
+
+  .home-ability-title span {
+    color: rgba(230, 63, 55, 1);
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  .home-ability-title h2 {
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+
+  .home-ability-contents {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-ability-item {
+    width: 650px;
+    background-color: rgba(250, 250, 250, 1);
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+  }
+
+  .home-ability-item-number {
+    width: 43px;
+    height: 27px;
+    background-color: rgba(255, 239, 239, 1);
+    padding: 3px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .home-ability-item-number span {
+    color: rgba(230, 63, 55, 1);
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  .home-ability-item-title {
+    margin-bottom: 10px;
+    line-height: 26px;
+  }
+
+  .home-ability-item-title span {
+    font-family: "Noto Sans KR";
+    font-size: 1.1em;
+    font-weight: 700;
+  }
+
+  .home-ability-item-explanation {
+    line-height: 19px;
+  }
+
+  .home-ability-item-explanation span {
+    color: rgba(142, 142, 142, 1);
+    font-family: "Noto Sans KR";
+    font-size: 0.8em;
+    font-weight: 400;
+  }
+
+  .home-ability-item-image {
+    width: 300px;
+    height: 170px;
+  }
+}
+
+/* Mobile */
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .home-ability {
+    height: auto;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .home-ability-container {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .home-ability-title {
+    font-family: "Noto Sans KR";
+    text-align: center;
+  }
+
+  .home-ability-title span {
+    color: rgba(230, 63, 55, 1);
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  .home-ability-title h2 {
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+
+  .home-ability-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .home-ability-item {
+    width: 275px;
+    background-color: rgba(250, 250, 250, 1);
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .home-ability-item-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-ability-item-number {
+    width: 43px;
+    height: 27px;
+    background-color: rgba(255, 239, 239, 1);
+    padding: 3px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .home-ability-item-number span {
+    color: rgba(230, 63, 55, 1);
+    font-family: "Noto Sans KR";
+    font-size: 0.9em;
+    font-weight: 700;
+  }
+
+  .home-ability-item-title {
+    text-align: center;
+    margin-bottom: 7px;
+    line-height: 22px;
+  }
+
+  .home-ability-item-title span {
+    font-family: "Noto Sans KR";
+    font-size: 0.9em;
+    font-weight: 700;
+  }
+
+  .home-ability-item-explanation {
+    text-align: center;
+    line-height: 17px;
+  }
+
+  .home-ability-item-explanation span {
+    color: rgba(142, 142, 142, 1);
+    font-family: "Noto Sans KR";
+    font-size: 0.65em;
+    font-weight: 400;
+  }
+
+  .home-ability-item-image {
+    width: 200px;
+  }
+}
+
+/* Mobile- */
+@media all and (max-width: 479px) {
+  .home-ability {
+    height: auto;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .home-ability-container {
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .home-ability-title {
+    font-family: "Noto Sans KR";
+    text-align: center;
+  }
+
+  .home-ability-title span {
+    color: rgba(230, 63, 55, 1);
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  .home-ability-title h2 {
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+
+  .home-ability-contents {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-ability-item {
+    width: 200px;
+    background-color: rgba(250, 250, 250, 1);
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-ability-item-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-ability-item-number {
+    width: 43px;
+    height: 27px;
+    background-color: rgba(255, 239, 239, 1);
+    padding: 3px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .home-ability-item-number span {
+    color: rgba(230, 63, 55, 1);
+    font-family: "Noto Sans KR";
+    font-size: 0.9em;
+    font-weight: 700;
+  }
+
+  .home-ability-item-title {
+    text-align: center;
+    margin-bottom: 7px;
+    line-height: 22px;
+  }
+
+  .home-ability-item-title span {
+    font-family: "Noto Sans KR";
+    font-size: 0.9em;
+    font-weight: 700;
+  }
+
+  .home-ability-item-explanation {
+    text-align: center;
+    line-height: 17px;
+  }
+
+  .home-ability-item-explanation span {
+    color: rgba(142, 142, 142, 1);
+    font-family: "Noto Sans KR";
+    font-size: 0.65em;
+    font-weight: 400;
+  }
+
+  .home-ability-item-image {
+    width: 200px;
+  }
 }
 
 /*
@@ -2082,8 +2440,8 @@ body {
 -----------------
 */
 
-/* PC */
-@media all and (min-width: 1024px) {
+/* PC+ */
+@media all and (min-width: 1200px) {
   .home-games {
     height: auto;
     background-color: black;
@@ -2093,8 +2451,8 @@ body {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     gap: 50px;
     flex-direction: row;
@@ -2131,7 +2489,7 @@ body {
     color: gray;
   }
 
-  .home-games-left button {
+  .home-games-left a {
     border: none;
     margin-top: 30px;
     padding-left: 25px;
@@ -2143,6 +2501,311 @@ body {
     color: white;
     font-family: "Noto Sans KR";
     font-weight: 500;
+  }
+}
+
+/* PC */
+@media all and (min-width: 1024px) and (max-width: 1199px) {
+  .home-games {
+    height: auto;
+    background-color: black;
+  }
+
+  .home-games-container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-games-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .home-games-left span {
+    color: rgba(230, 63, 55, 1);
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  .home-games-left h1 {
+    font-family: "Noto Sans KR";
+    font-size: 1.7em;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: white;
+  }
+
+  .home-games-left p {
+    font-family: "Noto Sans KR";
+    font-weight: 400;
+    font-size: 0.9em;
+    margin-top: 10px;
+    color: gray;
+  }
+
+  .home-games-left a {
+    border: none;
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 17px;
+    background-color: rgba(230, 63, 55, 1);
+    border-radius: 8px;
+    color: white;
+    font-family: "Noto Sans KR";
+    font-weight: 500;
+  }
+
+  .home-games-right {
+    width: 412px;
+    height: 264px;
+  }
+
+  .home-games-right img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Tablet */
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .home-games {
+    height: auto;
+    background-color: black;
+  }
+
+  .home-games-container {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-games-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .home-games-left span {
+    color: rgba(230, 63, 55, 1);
+    font-family: "Noto Sans KR";
+    font-size: 0.9em;
+    font-weight: 700;
+  }
+
+  .home-games-left h1 {
+    font-family: "Noto Sans KR";
+    font-size: 1.5em;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: white;
+  }
+
+  .home-games-left p {
+    font-family: "Noto Sans KR";
+    font-weight: 400;
+    font-size: 0.8em;
+    margin-top: 10px;
+    color: gray;
+  }
+
+  .home-games-left a {
+    border: none;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    background-color: rgba(230, 63, 55, 1);
+    border-radius: 8px;
+    color: white;
+    font-family: "Noto Sans KR";
+    font-weight: 500;
+    font-size: 0.7em;
+  }
+
+  .home-games-right {
+    width: 329px;
+    height: 211px;
+  }
+
+  .home-games-right img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Mobile */
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .home-games {
+    height: auto;
+    background-color: black;
+  }
+
+  .home-games-container {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-games-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .home-games-left span {
+    color: rgba(230, 63, 55, 1);
+    font-family: "Noto Sans KR";
+    font-size: 0.7em;
+    font-weight: 700;
+  }
+
+  .home-games-left h1 {
+    font-family: "Noto Sans KR";
+    font-size: 1.1em;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: white;
+  }
+
+  .home-games-left p {
+    font-family: "Noto Sans KR";
+    font-weight: 400;
+    font-size: 9px;
+    margin-top: 10px;
+    color: gray;
+  }
+
+  .home-games-left a {
+    border: none;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    background-color: rgba(230, 63, 55, 1);
+    border-radius: 6px;
+    color: white;
+    font-family: "Noto Sans KR";
+    font-weight: 500;
+    font-size: 0.5em;
+  }
+
+  .home-games-right {
+    width: 206px;
+    height: 132x;
+  }
+
+  .home-games-right img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Mobile- */
+@media all and (max-width: 479px) {
+  .home-games {
+    height: auto;
+    background-color: black;
+  }
+
+  .home-games-container {
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-games-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-games-left span {
+    color: rgba(230, 63, 55, 1);
+    font-family: "Noto Sans KR";
+    font-size: 0.7em;
+    font-weight: 700;
+  }
+
+  .home-games-left h1 {
+    font-family: "Noto Sans KR";
+    font-size: 1.1em;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: white;
+    text-align: center;
+  }
+
+  .home-games-left p {
+    font-family: "Noto Sans KR";
+    font-weight: 400;
+    font-size: 9px;
+    margin-top: 10px;
+    color: gray;
+    text-align: center;
+  }
+
+  .home-games-left a {
+    border: none;
+    margin-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    background-color: rgba(230, 63, 55, 1);
+    border-radius: 6px;
+    color: white;
+    font-family: "Noto Sans KR";
+    font-weight: 500;
+    font-size: 0.5em;
+  }
+
+  .home-games-right {
+    width: 206px;
+    height: 132x;
+  }
+
+  .home-games-right img {
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -2267,6 +2930,360 @@ body {
   }
 }
 
+/* Tablet */
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .home-curriculum {
+    height: auto;
+    background-color: rgba(27, 27, 29, 1);
+  }
+
+  .home-curriculum-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-curriculum-title {
+    text-align: center;
+  }
+
+  .home-curriculum-title h2 {
+    color: white;
+    margin-bottom: 5px;
+  }
+
+  .home-curriculum-title span {
+    color: rgba(136, 136, 136, 1);
+    font-size: 0.8em;
+    font-weight: 400;
+  }
+
+  .home-curriculum-contents {
+    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 100px;
+  }
+
+  .home-curriculum-contents button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .home-curriculum-contents button img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .home-curriculum-btn-disabled {
+    cursor: default;
+  }
+
+  .home-curriculum-btn-enabled {
+    cursor: pointer;
+  }
+
+  .home-curriculum-contents span {
+    color: white;
+    width: 100px;
+    padding-bottom: 8px;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 700;
+    font-family: "Noto Sans KR";
+  }
+
+  .home-curriculum-table {
+    max-width: 1000px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1.5px solid rgba(230, 63, 55, 1);
+  }
+
+  .home-curriculum-table table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+  }
+
+  .home-curriculum-table th {
+    padding: 10px;
+    color: rgba(230, 63, 55, 1);
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Noto Sans KR";
+  }
+
+  .home-curriculum-table td {
+    font-family: "Noto Sans KR";
+    padding: 15px;
+    border-top: 0.5px solid rgb(78, 78, 78);
+    border-bottom: 0.5px solid rgb(78, 78, 78);
+    border-collapse: collapse;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+  }
+
+  .home-curriculum-table-date {
+    width: 140px;
+  }
+
+  .home-curriculum-table-content {
+    width: 420px;
+  }
+}
+
+/* Mobile */
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .home-curriculum {
+    height: auto;
+    background-color: rgba(27, 27, 29, 1);
+  }
+
+  .home-curriculum-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-curriculum-title {
+    text-align: center;
+  }
+
+  .home-curriculum-title h2 {
+    color: white;
+    margin-bottom: 5px;
+  }
+
+  .home-curriculum-title span {
+    color: rgba(136, 136, 136, 1);
+    font-size: 0.8em;
+    font-weight: 400;
+  }
+
+  .home-curriculum-contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 60px;
+  }
+
+  .home-curriculum-contents button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .home-curriculum-contents button img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .home-curriculum-btn-disabled {
+    cursor: default;
+  }
+
+  .home-curriculum-btn-enabled {
+    cursor: pointer;
+  }
+
+  .home-curriculum-contents span {
+    color: white;
+    width: 100px;
+    padding-bottom: 8px;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 700;
+    font-family: "Noto Sans KR";
+  }
+
+  .home-curriculum-table {
+    max-width: 1000px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1.5px solid rgba(230, 63, 55, 1);
+  }
+
+  .home-curriculum-table table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+  }
+
+  .home-curriculum-table th {
+    padding: 10px;
+    color: rgba(230, 63, 55, 1);
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Noto Sans KR";
+  }
+
+  .home-curriculum-table td {
+    font-family: "Noto Sans KR";
+    padding: 15px;
+    border-top: 0.5px solid rgb(78, 78, 78);
+    border-bottom: 0.5px solid rgb(78, 78, 78);
+    border-collapse: collapse;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+  }
+
+  .home-curriculum-table-date {
+    width: 40px;
+  }
+
+  .home-curriculum-table-content {
+    width: 200px;
+  }
+}
+
+/* Mobile- */
+@media all and (max-width: 479px) {
+  .home-curriculum {
+    height: auto;
+    background-color: rgba(27, 27, 29, 1);
+  }
+
+  .home-curriculum-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-curriculum-title {
+    width: 80%;
+    text-align: center;
+  }
+
+  .home-curriculum-title h2 {
+    color: white;
+    margin-bottom: 5px;
+  }
+
+  .home-curriculum-title span {
+    color: rgba(136, 136, 136, 1);
+    font-size: 0.8em;
+    font-weight: 400;
+  }
+
+  .home-curriculum-contents {
+    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 35px;
+  }
+
+  .home-curriculum-contents button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .home-curriculum-contents button img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .home-curriculum-btn-disabled {
+    width: 35px;
+    height: 35px;
+    cursor: default;
+    padding: 0px;
+  }
+
+  .home-curriculum-btn-enabled {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .home-curriculum-contents span {
+    color: white;
+    width: 100px;
+    padding-bottom: 8px;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 700;
+    font-family: "Noto Sans KR";
+  }
+
+  .home-curriculum-table {
+    max-width: 1000px;
+    width: 80%;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1.5px solid rgba(230, 63, 55, 1);
+  }
+
+  .home-curriculum-table table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+  }
+
+  .home-curriculum-table th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgba(230, 63, 55, 1);
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Noto Sans KR";
+  }
+
+  .home-curriculum-table td {
+    font-family: "Noto Sans KR";
+    padding: 15px;
+    border-top: 0.5px solid rgb(78, 78, 78);
+    border-bottom: 0.5px solid rgb(78, 78, 78);
+    border-collapse: collapse;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+  }
+
+  .home-curriculum-table-date {
+    width: 50px;
+  }
+
+  .home-curriculum-table-content {
+    width: 250px;
+  }
+}
+
 /*
 -----------------
 ---Home-Review---
@@ -2309,6 +3326,7 @@ body {
     background-color: white;
     margin-top: 30px;
     margin-bottom: 40px;
+    overflow-x: hidden;
   }
 
   .animation_list {
@@ -2361,6 +3379,232 @@ body {
     max-width: 1200px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 70px;
+  }
+
+  .home-review-box {
+    width: 400px;
+    height: auto;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 20px;
+  }
+
+  .home-review-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .home-review-memoji {
+    width: 110px;
+    height: 110px;
+  }
+
+  .home-review-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding-top: 15px;
+    padding-left: 20px;
+  }
+
+  .home-review-profile-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .home-review-profile-top > span {
+    font-size: 1.3em;
+    font-weight: 700;
+    font-family: "Noto Sans KR";
+  }
+
+  .home-review-profile-role {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+  }
+
+  .home-review-profile-role > span {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .text-bg-lightgray {
+    font-size: 0.7em;
+    font-weight: 500;
+    font-family: "Noto Sans KR";
+    background-color: lightgray;
+    border-radius: 5px;
+    color: rgba(120, 120, 120, 1);
+  }
+
+  .text-bg-lightgreen {
+    font-size: 0.7em;
+    font-weight: 500;
+    font-family: "Noto Sans KR";
+    background-color: lightgreen;
+    border-radius: 5px;
+    color: rgb(22, 101, 36);
+  }
+
+  .home-review-profile-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 23px;
+    color: rgba(136, 136, 136, 1);
+    font-size: 0.9em;
+    font-weight: 400;
+    font-family: "Noto Sans KR";
+  }
+
+  .home-review-divider {
+    width: 100%;
+    height: 0.5px;
+    background-color: lightgray;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .home-review-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .home-review-detail-title {
+    font-size: 1.2em;
+    font-weight: 700;
+    font-family: "Noto Sans KR";
+    margin-bottom: 13px;
+  }
+
+  .home-review-detail-content {
+    font-size: 0.9em;
+    font-weight: 500;
+    font-family: "Noto Sans KR";
+    color: rgba(137, 137, 137, 1);
+  }
+
+  .home-review-button {
+    border: none;
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(230, 63, 55, 1);
+    border-radius: 8px;
+    color: white;
+    font-family: "Noto Sans KR";
+    font-weight: 500;
+  }
+}
+
+/* Tablet */
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .home-review {
+    background-color: white;
+    height: auto;
+  }
+
+  .home-review-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-review-title {
+    text-align: center;
+  }
+
+  .home-review-logos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .logoslider {
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    overflow-x: hidden;
+  }
+
+  .animation_list {
+    width: 6510px;
+    width: auto;
+    display: flex;
+  }
+
+  .logoslider-container {
+    width: 3255px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    margin-left: 60px;
+  }
+
+  .img-box {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .animation {
+    animation-name: infinite_slide;
+    animation-duration: 18s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes infinite_slide {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      /* transform: translateX(calc(-100% - 1352px)); */
+      /* transform: translateX(calc(-3255px)); */
+      transform: translateX(calc(-3315px));
+      /* 한 컨테이너가 완벽히 끝나면 바로 리셋 할 수 있게 하기 위해,
+      사이즈를 컨테이너 width 만큼 계산 + 컨테이너 시작의 왼쪽 마진 값
+      3225px + 60px = 3315px
+      */
+    }
+  }
+
+  .home-review-contents {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -2486,6 +3730,458 @@ body {
   .home-review-button {
     border: none;
     margin-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(230, 63, 55, 1);
+    border-radius: 8px;
+    color: white;
+    font-family: "Noto Sans KR";
+    font-weight: 500;
+  }
+}
+
+/* Mobile */
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .home-review {
+    background-color: white;
+    height: auto;
+  }
+
+  .home-review-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-review-title {
+    text-align: center;
+  }
+
+  .home-review-logos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .logoslider {
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    overflow-x: hidden;
+  }
+
+  .animation_list {
+    width: 6510px;
+    width: auto;
+    display: flex;
+  }
+
+  .logoslider-container {
+    width: 3255px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    margin-left: 60px;
+  }
+
+  .img-box {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .animation {
+    animation-name: infinite_slide;
+    animation-duration: 18s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes infinite_slide {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      /* transform: translateX(calc(-100% - 1352px)); */
+      /* transform: translateX(calc(-3255px)); */
+      transform: translateX(calc(-3315px));
+      /* 한 컨테이너가 완벽히 끝나면 바로 리셋 할 수 있게 하기 위해,
+      사이즈를 컨테이너 width 만큼 계산 + 컨테이너 시작의 왼쪽 마진 값
+      3225px + 60px = 3315px
+      */
+    }
+  }
+
+  .home-review-contents {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 70px;
+  }
+
+  .home-review-box {
+    width: 380px;
+    height: auto;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 20px;
+  }
+
+  .home-review-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .home-review-memoji {
+    width: 90px;
+    height: 90px;
+  }
+
+  .home-review-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+
+  .home-review-profile-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .home-review-profile-top > span {
+    font-size: 1.3em;
+    font-weight: 700;
+    font-family: "Noto Sans KR";
+  }
+
+  .home-review-profile-role {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+  }
+
+  .home-review-profile-role > span {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .text-bg-lightgray {
+    font-size: 0.7em;
+    font-weight: 500;
+    font-family: "Noto Sans KR";
+    background-color: lightgray;
+    border-radius: 5px;
+    color: rgba(120, 120, 120, 1);
+  }
+
+  .text-bg-lightgreen {
+    font-size: 0.7em;
+    font-weight: 500;
+    font-family: "Noto Sans KR";
+    background-color: lightgreen;
+    border-radius: 5px;
+    color: rgb(22, 101, 36);
+  }
+
+  .home-review-profile-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 23px;
+    color: rgba(136, 136, 136, 1);
+    font-size: 0.9em;
+    font-weight: 400;
+    font-family: "Noto Sans KR";
+  }
+
+  .home-review-divider {
+    width: 100%;
+    height: 0.5px;
+    background-color: lightgray;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .home-review-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .home-review-detail-title {
+    font-size: 1.2em;
+    font-weight: 700;
+    font-family: "Noto Sans KR";
+    margin-bottom: 13px;
+  }
+
+  .home-review-detail-content {
+    font-size: 0.9em;
+    font-weight: 500;
+    font-family: "Noto Sans KR";
+    color: rgba(137, 137, 137, 1);
+  }
+
+  .home-review-button {
+    border: none;
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(230, 63, 55, 1);
+    border-radius: 8px;
+    color: white;
+    font-family: "Noto Sans KR";
+    font-weight: 500;
+  }
+}
+
+/* Mobile- */
+@media all and (max-width: 479px) {
+  .home-review {
+    background-color: white;
+    height: auto;
+  }
+
+  .home-review-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-review-title {
+    text-align: center;
+  }
+
+  .home-review-logos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .logoslider {
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    overflow-x: hidden;
+  }
+
+  .animation_list {
+    width: 6510px;
+    width: auto;
+    display: flex;
+  }
+
+  .logoslider-container {
+    width: 3255px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    margin-left: 60px;
+  }
+
+  .img-box {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .animation {
+    animation-name: infinite_slide;
+    animation-duration: 18s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes infinite_slide {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      /* transform: translateX(calc(-100% - 1352px)); */
+      /* transform: translateX(calc(-3255px)); */
+      transform: translateX(calc(-3315px));
+      /* 한 컨테이너가 완벽히 끝나면 바로 리셋 할 수 있게 하기 위해,
+      사이즈를 컨테이너 width 만큼 계산 + 컨테이너 시작의 왼쪽 마진 값
+      3225px + 60px = 3315px
+      */
+    }
+  }
+
+  .home-review-contents {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .home-review-box {
+    width: 80%;
+    height: auto;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .home-review-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .home-review-memoji {
+    width: 110px;
+    height: 110px;
+  }
+
+  .home-review-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding-top: 15px;
+  }
+
+  .home-review-profile-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .home-review-profile-top > span {
+    font-size: 1.3em;
+    font-weight: 700;
+    font-family: "Noto Sans KR";
+  }
+
+  .home-review-profile-role {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+  }
+
+  .home-review-profile-role > span {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .text-bg-lightgray {
+    font-size: 0.7em;
+    font-weight: 500;
+    font-family: "Noto Sans KR";
+    background-color: lightgray;
+    border-radius: 5px;
+    color: rgba(120, 120, 120, 1);
+  }
+
+  .text-bg-lightgreen {
+    font-size: 0.7em;
+    font-weight: 500;
+    font-family: "Noto Sans KR";
+    background-color: lightgreen;
+    border-radius: 5px;
+    color: rgb(22, 101, 36);
+  }
+
+  .home-review-profile-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 23px;
+    color: rgba(136, 136, 136, 1);
+    font-size: 0.9em;
+    font-weight: 400;
+    font-family: "Noto Sans KR";
+  }
+
+  .home-review-divider {
+    width: 100%;
+    height: 0.5px;
+    background-color: lightgray;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .home-review-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .home-review-detail-title {
+    font-size: 1.2em;
+    font-weight: 700;
+    font-family: "Noto Sans KR";
+    margin-bottom: 13px;
+  }
+
+  .home-review-detail-content {
+    font-size: 0.9em;
+    font-weight: 500;
+    font-family: "Noto Sans KR";
+    color: rgba(137, 137, 137, 1);
+  }
+
+  .home-review-button {
+    border: none;
+    margin-top: 30px;
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 15px;
@@ -2636,6 +4332,18 @@ body {
   }
 }
 
+/* Tablet */
+@media all and (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* Mobile */
+@media all and (min-width: 480px) and (max-width: 767px) {
+}
+
+/* Mobile- */
+@media all and (max-width: 479px) {
+}
+
 /*
 -----------------
 --Home-Partners--
@@ -2694,6 +4402,134 @@ body {
 
   .footer-container {
     max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-above {
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+
+  .footer-above span {
+    color: white;
+    font-family: "Noto Sans KR";
+    font-weight: 600;
+  }
+
+  .footer-below {
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .footer-below span {
+    color: rgba(93, 93, 93, 1);
+    font-family: "Noto Sans KR";
+    font-weight: 400;
+  }
+}
+
+/* Tablet */
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .footer {
+    background-color: rgba(32, 32, 36, 1);
+    height: auto;
+  }
+
+  .footer-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-above {
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+
+  .footer-above span {
+    color: white;
+    font-family: "Noto Sans KR";
+    font-weight: 600;
+  }
+
+  .footer-below {
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .footer-below span {
+    color: rgba(93, 93, 93, 1);
+    font-family: "Noto Sans KR";
+    font-weight: 400;
+  }
+}
+
+/* Mobile */
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .footer {
+    background-color: rgba(32, 32, 36, 1);
+    height: auto;
+  }
+
+  .footer-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-above {
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+
+  .footer-above span {
+    color: white;
+    font-family: "Noto Sans KR";
+    font-weight: 600;
+  }
+
+  .footer-below {
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .footer-below span {
+    color: rgba(93, 93, 93, 1);
+    font-family: "Noto Sans KR";
+    font-weight: 400;
+  }
+}
+
+/* Mobile- */
+@media all and (max-width: 479px) {
+  .footer {
+    background-color: rgba(32, 32, 36, 1);
+    height: auto;
+  }
+
+  .footer-container {
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 40px;

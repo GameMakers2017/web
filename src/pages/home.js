@@ -295,20 +295,16 @@ const Home = () => {
                 </div>
                 <div className="home-ability-item-explanation">
                   <span>
-                    기획부터 출시까지 모든 과정을 직접 경험하며,
-                    <br />
-                    게임 개발에 대한 전반적인 과정을 이해할 수 있습니다.
+                    기획부터 출시까지 모든 과정을 직접 경험하며, 게임 개발에
+                    대한 전반적인 과정을 이해할 수 있습니다.
                   </span>
                 </div>
               </div>
-              <div className="home-ability-item-image">
-                <img
-                  src={
-                    process.env.PUBLIC_URL + `/assets/home/Home_Ability_1.png`
-                  }
-                  alt="Subtitle_Star"
-                ></img>
-              </div>
+              <img
+                className="home-ability-item-image"
+                src={process.env.PUBLIC_URL + `/assets/home/Home_Ability_1.png`}
+                alt="Subtitle_Star"
+              ></img>
             </div>
             <div className="home-ability-item">
               <div className="home-ability-item-text">
@@ -324,20 +320,16 @@ const Home = () => {
                 </div>
                 <div className="home-ability-item-explanation">
                   <span>
-                    기획부터 출시까지 모든 과정을 직접 경험하며,
-                    <br />
-                    게임 개발에 대한 전반적인 과정을 이해할 수 있습니다.
+                    프로젝트를 진행하며 발생하는 여러 문제들을 팀원과 소통하며
+                    해결해 나아가는 능력을 기를 수 있습니다.
                   </span>
                 </div>
               </div>
-              <div className="home-ability-item-image">
-                <img
-                  src={
-                    process.env.PUBLIC_URL + `/assets/home/Home_Ability_2.png`
-                  }
-                  alt="Subtitle_Star"
-                ></img>
-              </div>
+              <img
+                className="home-ability-item-image"
+                src={process.env.PUBLIC_URL + `/assets/home/Home_Ability_2.png`}
+                alt="Subtitle_Star"
+              ></img>
             </div>
             <div className="home-ability-item">
               <div className="home-ability-item-text">
@@ -349,20 +341,17 @@ const Home = () => {
                 </div>
                 <div className="home-ability-item-explanation">
                   <span>
-                    기획부터 출시까지 모든 과정을 직접 경험하며,
-                    <br />
-                    게임 개발에 대한 전반적인 과정을 이해할 수 있습니다.
+                    직접 개발한 게임을 앱 마켓에 출시하는 경험을 통해 유저의
+                    평가를 받고 개선하는 라이브 서비스를 직접 경험해 볼 수
+                    있습니다.
                   </span>
                 </div>
               </div>
-              <div className="home-ability-item-image">
-                <img
-                  src={
-                    process.env.PUBLIC_URL + `/assets/home/Home_Ability_3.png`
-                  }
-                  alt="Subtitle_Star"
-                ></img>
-              </div>
+              <img
+                className="home-ability-item-image"
+                src={process.env.PUBLIC_URL + `/assets/home/Home_Ability_3.png`}
+                alt="Subtitle_Star"
+              ></img>
             </div>
             <div className="home-ability-item">
               <div className="home-ability-item-text">
@@ -378,20 +367,16 @@ const Home = () => {
                 </div>
                 <div className="home-ability-item-explanation">
                   <span>
-                    기획부터 출시까지 모든 과정을 직접 경험하며,
-                    <br />
-                    게임 개발에 대한 전반적인 과정을 이해할 수 있습니다.
+                    3N 뿐만 아니라 게입업게 전반적으로 포진되어 있는 게임업계
+                    선배들과 네트워킹을 할 수 있는 기회가 있습니다.
                   </span>
                 </div>
               </div>
-              <div className="home-ability-item-image">
-                <img
-                  src={
-                    process.env.PUBLIC_URL + `/assets/home/Home_Ability_4.png`
-                  }
-                  alt="Subtitle_Star"
-                ></img>
-              </div>
+              <img
+                className="home-ability-item-image"
+                src={process.env.PUBLIC_URL + `/assets/home/Home_Ability_4.png`}
+                alt="Subtitle_Star"
+              ></img>
             </div>
           </div>
         </div>
@@ -410,7 +395,7 @@ const Home = () => {
               <br />
               Google TOP 20에 선정된 게임들이 있습니다.
             </p>
-            <button>프로젝트 더보기</button>
+            <a>프로젝트 더보기</a>
           </div>
           <div className="home-games-right">
             <img
