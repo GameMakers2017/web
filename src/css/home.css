@@ -3,7 +3,6 @@
 body {
   background-color: white;
   margin: 0;
-  /* font-family: "NotoSansKR "; */
   overflow-x: hidden;
 }
 
@@ -1196,10 +1195,11 @@ body {
   }
 
   .home-benefits-item-explanation {
+    font-family: "Noto Sans KR";
     font-size: 0.9em;
     color: rgba(142, 142, 142, 1);
     padding-bottom: 10px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 20px;
     text-align: center;
   }
@@ -1473,6 +1473,7 @@ body {
   }
 
   .home-benefits-item-explanation {
+    font-family: "Noto Sans KR";
     font-size: 0.8em;
     color: rgba(142, 142, 142, 1);
     padding-bottom: 20px;
@@ -4225,6 +4226,8 @@ body {
   }
 
   .home-faq-title > h2 {
+    font-family: "Noto Sans KR";
+    font-size: 1.8em;
     margin-top: 10px;
     margin-bottom: 60px;
   }
@@ -4237,42 +4240,410 @@ body {
     gap: 10px;
   }
 
-  .home-faq-item {
-    background-color: rgba(237, 237, 237, 1);
+  .home-faq-accordion{
+    width: 800px;
+    border: 1px solid rgb(230, 230, 230);
     border-radius: 10px;
-    border: 1px solid rgb(215, 215, 215);
-    width: 700px;
-    height: auto;
   }
 
-  .home-faq-item-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 20px;
-    gap: 15px;
+  input[id*="answer"]{
+    display: none;
   }
 
-  .home-faq-item-container > h2 {
-    margin: 0px;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
-    font-size: 1.2em;
-    font-weight: 700;
+  input[id*="answer"] + label {
     font-family: "Noto Sans KR";
+    display: block;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 0;
+    color: #000;
+    font-size: 1.1em;
+    font-weight: 700;
+    background: rgb(247, 247, 247);
+    cursor: pointer;
+    position: relative;
+  }
+
+  input[id*="answer"] + label span {
+    font-weight: 900;
     color: rgba(230, 63, 55, 1);
   }
 
-  .home-faq-item-container > span {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 1em;
-    font-weight: 600;
+
+  input[id*="answer"] + label + em {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    display: inline-block;
+    background: url();
+  }
+
+  input[id*="answer"] + label + div {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     font-family: "Noto Sans KR";
-    color: rgb(48, 48, 48);
+    max-height: 0;
+    transition: all .35s;
+    overflow: hidden;
+    background: white;
+    font-size: 1em;
+    line-height: 1.7em;
+  }
+
+  input[id*="answer"] + label + div p {
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  input[id*="answer"]:checked + label + div {
+    max-height: 150px;
+    
+  }
+
+  input[id*="answer"]:checked + label em{
+    background-position: 0 -30px;
   }
 }
+
+/* Tablet */
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .home-faq {
+    background-color: white;
+    height: auto;
+  }
+
+  .home-faq-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-faq-title {
+    text-align: center;
+  }
+
+  .home-faq-title > h2 {
+    font-family: "Noto Sans KR";
+    font-size: 1.8em;
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+
+  .home-faq-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .home-faq-accordion{
+    width: 80%;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 10px;
+  }
+
+  input[id*="answer"]{
+    display: none;
+  }
+
+  input[id*="answer"] + label {
+    font-family: "Noto Sans KR";
+    display: block;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 0;
+    color: #000;
+    font-weight: 700;
+    background: rgb(247, 247, 247);
+    cursor: pointer;
+    position: relative;
+  }
+
+  input[id*="answer"] + label span {
+    font-weight: 900;
+    color: rgba(230, 63, 55, 1);
+  }
+
+
+  input[id*="answer"] + label + em {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    display: inline-block;
+    background: url();
+  }
+
+  input[id*="answer"] + label + div {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: "Noto Sans KR";
+    max-height: 0;
+    transition: all .35s;
+    overflow: hidden;
+    background: white;
+    font-size: 0.9em;
+    line-height: 1.7em;
+  }
+
+  input[id*="answer"] + label + div p {
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  input[id*="answer"]:checked + label + div {
+    max-height: 150px;
+    
+  }
+
+  input[id*="answer"]:checked + label em{
+    background-position: 0 -30px;
+  }
+}
+
+/* Mobile */
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .home-faq {
+    background-color: white;
+    height: auto;
+  }
+
+  .home-faq-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-faq-title {
+    text-align: center;
+  }
+
+  .home-faq-title > h2 {
+    font-family: "Noto Sans KR";
+    font-size: 1.8em;
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+
+  .home-faq-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .home-faq-accordion{
+    width: 80%;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 10px;
+  }
+
+  input[id*="answer"]{
+    display: none;
+  }
+
+  input[id*="answer"] + label {
+    font-family: "Noto Sans KR";
+    display: block;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 0;
+    color: #000;
+    font-weight: 700;
+    background: rgb(247, 247, 247);
+    cursor: pointer;
+    position: relative;
+  }
+
+  input[id*="answer"] + label span {
+    font-weight: 900;
+    color: rgba(230, 63, 55, 1);
+  }
+
+
+  input[id*="answer"] + label + em {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    display: inline-block;
+    background: url();
+  }
+
+  input[id*="answer"] + label + div {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: "Noto Sans KR";
+    max-height: 0;
+    transition: all .35s;
+    overflow: hidden;
+    background: white;
+    font-size: 0.9em;
+    line-height: 1.7em;
+  }
+
+  input[id*="answer"] + label + div p {
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  input[id*="answer"]:checked + label + div {
+    max-height: 150px;
+    
+  }
+
+  input[id*="answer"]:checked + label em{
+    background-position: 0 -30px;
+  }
+}
+
+/* Mobile- */
+@media all and (max-width: 479px) {
+  .home-faq {
+    background-color: white;
+    height: auto;
+  }
+
+  .home-faq-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-faq-title {
+    text-align: center;
+  }
+
+  .home-faq-title > h2 {
+    font-family: "Noto Sans KR";
+    font-size: 1.4em;
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+
+  .home-faq-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .home-faq-accordion{
+    width: 80%;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 10px;
+  }
+
+  input[id*="answer"]{
+    display: none;
+  }
+
+  input[id*="answer"] + label {
+    font-family: "Noto Sans KR";
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border-bottom: 0;
+    color: #000;
+    font-size: 0.7em;
+    font-weight: 700;
+    background: rgb(247, 247, 247);
+    cursor: pointer;
+    position: relative;
+  }
+
+  input[id*="answer"] + label span {
+    font-weight: 900;
+    color: rgba(230, 63, 55, 1);
+  }
+
+
+  input[id*="answer"] + label + em {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    display: inline-block;
+    background: url();
+  }
+
+  input[id*="answer"] + label + div {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: "Noto Sans KR";
+    max-height: 0;
+    transition: all .35s;
+    overflow: hidden;
+    background: white;
+    font-size: 0.7em;
+    line-height: 1.7em;
+  }
+
+  input[id*="answer"] + label + div p {
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  input[id*="answer"]:checked + label + div {
+    max-height: 150px;
+    
+  }
+
+  input[id*="answer"]:checked + label em{
+    background-position: 0 -30px;
+  }
+}
+
 
 /*
 -----------------
@@ -4297,15 +4668,23 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 150px;
+    gap: 170px;
   }
 
-  .home-inquiry-title h1 {
+  .home-inquiry-title h2 {
+    font-family: "Noto Sans KR";
+    font-size: 1.8em;
+    font-weight: 600;
     color: white;
-    line-height: 45px;
+    line-height: 55px;
   }
 
-  .home-inquiry-title h1 span {
+  .home-inquiry-title h2 span {
+    font-family: "Noto Sans KR";
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 60px;
     color: rgba(230, 63, 55, 1);
   }
 
@@ -4352,13 +4731,20 @@ body {
     gap: 100px;
   }
 
-  .home-inquiry-title h1 {
+  .home-inquiry-title h2 {
+    font-family: "Noto Sans KR";
+    font-size: 1.6em;
+    font-weight: 600;
     color: white;
-    line-height: 45px;
-    font-size: 1.7em;
+    line-height: 55px;
   }
 
-  .home-inquiry-title h1 span {
+  .home-inquiry-title h2 span {
+    font-family: "Noto Sans KR";
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 60px;
     color: rgba(230, 63, 55, 1);
   }
 
@@ -4394,6 +4780,7 @@ body {
   }
 
   .home-inquiry-container {
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 30px;
@@ -4402,20 +4789,27 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 45px;
   }
 
   .home-inquiry-title{
-    width: 245px;
+    width: 265px;
   }
 
-  .home-inquiry-title h1 {
+  .home-inquiry-title h2 {
+    font-family: "Noto Sans KR";
+    font-size: 1.3em;
+    font-weight: 600;
     color: white;
     line-height: 35px;
-    font-size: 1.3em;
   }
 
-  .home-inquiry-title h1 span {
+  .home-inquiry-title h2 span {
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 60px;
     color: rgba(230, 63, 55, 1);
   }
 
@@ -4428,9 +4822,9 @@ body {
   }
 
   .home-inquiry-image a {
-    background-color: white;
-    color: black;
-    font-size: 1em;
+    background-color: rgba(230, 63, 55, 1);
+    color: white;
+    font-size: 0.9em;
     font-weight: 600;
     font-family: "Noto Sans KR";
     padding-top: 13px;
@@ -4453,28 +4847,36 @@ body {
   .home-inquiry-container {
     margin-left: auto;
     margin-right: auto;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 30px;
   }
 
   .home-inquiry-title{
     text-align: center;
-    width: 245px;
+    width: 90%;
   }
 
-  .home-inquiry-title h1 {
-    margin: 0;
+  .home-inquiry-title h2 {
+    font-family: "Noto Sans KR";
+    font-size: 1.6em;
+    font-weight: 600;
     color: white;
-    line-height: 35px;
-    font-size: 1.3em;
+    line-height: 40px;
+    margin-block-start: 0;
+    margin-block-end: 0;
   }
 
-  .home-inquiry-title h1 span {
+  .home-inquiry-title h2 span {
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 60px;
     color: rgba(230, 63, 55, 1);
   }
 
@@ -4536,12 +4938,195 @@ body {
     margin-bottom: 60px;
   }
 
-  .home-partners-item-box {
+  .home-partners-item{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 35px;
+  }
+
+  .home-partners-item img{
+    width: 260px;
+    height: auto;
+  }
+
+  .home-partners-item-box {
+    display: grid;
+    grid-template-columns: 260px 260px 260px;
+    grid-template-rows: auto;
+    column-gap: 30px;
+    row-gap: 50px;
+    text-align: center;
+  }
+
+  .home-partners-item span{
+    font-family: "Noto Sans KR";
+    font-weight: 600;
+    font-size: 1.1em;
+    color: black;
+  }
+}
+
+/* Tablet */
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .home-partners {
+    background-color: white;
+    height: auto;
+  }
+
+  .home-partners-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-partners-title {
+    text-align: center;
+  }
+
+  .home-partners-title h2 {
+    font-family: "Noto Sans KR";
+    font-size: 1.8em;
+    margin-bottom: 60px;
+  }
+
+  .home-partners-item-box {
+    display: grid;
+    grid-template-columns: 230px 230px 230px;
+    grid-template-rows: auto;
+    column-gap: 0px;
+    row-gap: 20px;
+    text-align: center;
+  }
+
+  .home-partners-item span{
+    font-family: "Noto Sans KR";
+    font-weight: 600;
+    font-size: 1.1em;
+    color: black;
+  }
+  
+}
+
+/* Mobile */
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .home-partners {
+    background-color: white;
+    height: auto;
+  }
+
+  .home-partners-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-partners-title {
+    text-align: center;
+  }
+
+  .home-partners-title h2 {
+    font-family: "Noto Sans KR";
+    font-size: 1.8em;
+    margin-bottom: 60px;
+  }
+
+  .home-partners-item-box {
+    display: grid;
+    grid-template-columns: 140px 140px 140px;
+    grid-template-rows: auto;
+    column-gap: 0px;
+    row-gap: 20px;
+    text-align: center;
+  }
+
+  .home-partners-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-partners-item img{
+    width: 140px;
+    height: auto;
+  }
+
+  .home-partners-item span{
+    font-family: "Noto Sans KR";
+    font-weight: 600;
+    font-size: 0.9em;
+    color: black;
+  }
+}
+
+/* Mobile- */
+@media all and (max-width: 479px) {
+  .home-partners {
+    background-color: white;
+    height: auto;
+  }
+
+  .home-partners-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-partners-title {
+    text-align: center;
+  }
+
+  .home-partners-title h2 {
+    font-family: "Noto Sans KR";
+    font-size: 1.4em;
+    margin-bottom: 60px;
+  }
+
+  .home-partners-item-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .home-partners-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-partners-item img{
+    width: 220px;
+    height: auto;
+  }
+
+  .home-partners-item span{
+    font-family: "Noto Sans KR";
+    font-weight: 600;
+    font-size: 1em;
+    color: black;
   }
 }
 

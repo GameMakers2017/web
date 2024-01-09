@@ -515,65 +515,67 @@ const Home = () => {
             <h2>자주 묻는 질문</h2>
           </div>
           <div className="home-faq-contents">
-            <div className="home-faq-item">
-              <div className="home-faq-item-container">
-                <h2>Q.</h2>
-                <span>게임개발 경험이 없어도 지원이 가능한가요?</span>
+            <div className="home-faq-accordion">
+              <input type="checkbox" id="answer01"></input>
+              <label for="answer01"><span>Q.</span>&nbsp;&nbsp; 챌린저와 일반회원의 차이가 무엇인가요?<em></em></label>
+              <div>
+                <p>
+                  A. 챌린저는 동아리의 운영을 담당하는 회원을 칭하며, 일반회원은 게임 개발을 담당하는 회원을 칭합니다.
+                </p>
               </div>
             </div>
-            <div className="home-faq-item">
-              <div className="home-faq-item-container">
-                <h2>Q.</h2>
-                <span>게임개발 경험이 없어도 지원이 가능한가요?</span>
+            <div className="home-faq-accordion">
+              <input type="checkbox" id="answer02"></input>
+              <label for="answer02"><span>Q.</span>&nbsp;&nbsp; 한 기수에 몇 명의 회원을 모집하나요?<em></em></label>
+              <div>
+                <p>
+                  A. 보통 40~50명 정도의 회원을 선발하고 있습니다.
+                </p>
               </div>
             </div>
-            <div className="home-faq-item">
-              <div className="home-faq-item-container">
-                <h2>Q.</h2>
-                <span>게임개발 경험이 없어도 지원이 가능한가요?</span>
+            <div className="home-faq-accordion">
+              <input type="checkbox" id="answer03"></input>
+              <label for="answer03"><span>Q.</span>&nbsp;&nbsp; 정기 모집 일정이 어떻게 되나요?<em></em></label>
+              <div>
+                <p>
+                  A. 매년 1월과 6월에 정기 모집을 진행하고 있습니다.
+                </p>
               </div>
             </div>
-            <div className="home-faq-item">
-              <div className="home-faq-item-container">
-                <h2>Q.</h2>
-                <span>게임개발 경험이 없어도 지원이 가능한가요?</span>
+            <div className="home-faq-accordion">
+              <input type="checkbox" id="answer04"></input>
+              <label for="answer04"><span>Q.</span>&nbsp;&nbsp; 졸업생은 지원 못하나요?<em></em></label>
+              <div>
+                <p>
+                  컨텐츠 내용입니다. 자주 묻는 질문 자주 묻는 질문 자주 묻는 질문
+                </p>
               </div>
             </div>
-            <div className="home-faq-item">
-              <div className="home-faq-item-container">
-                <h2>Q.</h2>
-                <span>게임개발 경험이 없어도 지원이 가능한가요?</span>
+            <div className="home-faq-accordion">
+              <input type="checkbox" id="answer05"></input>
+              <label for="answer05"><span>Q.</span>&nbsp;&nbsp; 두 가지 이상의 직군에 지원할 수 있나요?<em></em></label>
+              <div>
+                <p>
+                  컨텐츠 내용입니다. 자주 묻는 질문 자주 묻는 질문 자주 묻는 질문
+                  컨텐츠 내용입니다. 자주 묻는 질문 자주 묻는 질문 자주 묻는 질문
+                  컨텐츠 내용입니다. 자주 묻는 질문 자주 묻는 질문 자주 묻는 질문
+                  컨텐츠 내용입니다. 자주 묻는 질문 자주 묻는 질문 자주 묻는 질문
+                  컨텐츠 내용입니다. 자주 묻는 질문 자주 묻는 질문 자주 묻는 질문
+                </p>
               </div>
             </div>
-            <div className="home-faq-item">
-              <div className="home-faq-item-container">
-                <h2>Q.</h2>
-                <span>게임개발 경험이 없어도 지원이 가능한가요?</span>
-              </div>
-            </div>
-            <div className="home-faq-item">
-              <div className="home-faq-item-container">
-                <h2>Q.</h2>
-                <span>게임개발 경험이 없어도 지원이 가능한가요?</span>
-              </div>
-            </div>
-            <div className="home-faq-item">
-              <div className="home-faq-item-container">
-                <h2>Q.</h2>
-                <span>게임개발 경험이 없어도 지원이 가능한가요?</span>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
       <div className="home-inquiry">
         <div className="home-inquiry-container">
           <div className="home-inquiry-title">
-            <h1>
+            <h2>
               <span>궁금한 것이 있으세요?</span>
               <br />
               신속하게 해결해 드리겠습니다.
-            </h1>
+            </h2>
           </div>
           <div className="home-inquiry-image">
             <img
@@ -592,27 +594,45 @@ const Home = () => {
           <div className="home-partners-item-box">
             <div className="home-partners-item">
               <img
-                src={process.env.PUBLIC_URL + `/assets/home/Home_Inquiry.png`}
+                src={process.env.PUBLIC_URL + `/assets/home/Home_Partner_Unity.png`}
                 alt="benefits1"
               ></img>
+              <span>유니티</span>
             </div>
             <div className="home-partners-item">
               <img
-                src={process.env.PUBLIC_URL + `/assets/home/Home_Inquiry.png`}
+                src={process.env.PUBLIC_URL + `/assets/home/Home_Partner_Asus.png`}
                 alt="benefits1"
               ></img>
+              <span>에이수스</span>
             </div>
             <div className="home-partners-item">
               <img
-                src={process.env.PUBLIC_URL + `/assets/home/Home_Inquiry.png`}
+                src={process.env.PUBLIC_URL + `/assets/home/Home_Partner_Gongun.png`}
                 alt="benefits1"
               ></img>
+              <span>곤군게임즈</span>
             </div>
             <div className="home-partners-item">
               <img
-                src={process.env.PUBLIC_URL + `/assets/home/Home_Inquiry.png`}
+                src={process.env.PUBLIC_URL + `/assets/home/Home_Partner_Rog.png`}
                 alt="benefits1"
               ></img>
+              <span>로그</span>
+            </div>
+            <div className="home-partners-item">
+              <img
+                src={process.env.PUBLIC_URL + `/assets/home/Home_Partner_Intech.png`}
+                alt="benefits1"
+              ></img>
+              <span>인텍앤컴퍼니</span>
+            </div>
+            <div className="home-partners-item">
+              <img
+                src={process.env.PUBLIC_URL + `/assets/home/Home_Partner_Minimap.png`}
+                alt="benefits1"
+              ></img>
+              <span>미니맵</span>
             </div>
           </div>
         </div>
