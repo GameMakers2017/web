@@ -24,12 +24,12 @@ const Nav = () => {
             <Link className="navbar-menu" to={"/review"}>
               활동후기
             </Link>
-            <Link className="navbar-menu" to={"/hof"}>
+            {/* <Link className="navbar-menu" to={"/hof"}>
               명예의 전당
             </Link>
             <Link className="navbar-menu" to={"/recruit"}>
               모집
-            </Link>
+            </Link> */}
             <Link className="navbar-menu" to={"/inquiry"}>
               문의
             </Link>
