@@ -482,7 +482,7 @@ body {
 
   .home-statistics-title h2 {
     font-family: "Noto Sans KR";
-    font-size: 1.6em;
+    font-size: 1.8em;
     font-weight: 600;
     margin-bottom: 10px;
   }
@@ -774,7 +774,7 @@ body {
 
   .home-wish-title h2 {
     font-family: "Noto Sans KR";
-    font-size: 1.6em;
+    font-size: 1.8em;
     font-weight: 600;
     color: white;
     margin-top: 12px;
@@ -1154,6 +1154,7 @@ body {
 
   .home-benefits-title h2 {
     font-family: "Noto Sans KR";
+    font-size: 1.8em;
     margin-top: 10px;
     margin-bottom: 60px;
   }
@@ -1535,9 +1536,10 @@ body {
 
   .home-activity-title h2 {
     font-family: "Noto Sans KR";
+    font-size: 1.8em;
     margin-top: 10px;
     margin-bottom: 40px;
-    line-height: 35px;
+    line-height: 45px;
   }
 
   .home-activity-subtitle {
@@ -2502,6 +2504,11 @@ body {
     color: white;
     font-family: "Noto Sans KR";
     font-weight: 500;
+    text-decoration-line: none;
+  }
+
+  .home-games-left a:hover{
+    cursor: pointer;
   }
 }
 
@@ -2567,6 +2574,11 @@ body {
     color: white;
     font-family: "Noto Sans KR";
     font-weight: 500;
+    text-decoration-line: none;
+  }
+
+  .home-games-left a:hover{
+    cursor: pointer;
   }
 
   .home-games-right {
@@ -2643,6 +2655,11 @@ body {
     font-family: "Noto Sans KR";
     font-weight: 500;
     font-size: 0.7em;
+    text-decoration-line: none;
+  }
+
+  .home-games-left a:hover{
+    cursor: pointer;
   }
 
   .home-games-right {
@@ -2719,6 +2736,11 @@ body {
     font-family: "Noto Sans KR";
     font-weight: 500;
     font-size: 0.5em;
+    text-decoration-line: none;
+  }
+
+  .home-games-left a:hover{
+    cursor: pointer;
   }
 
   .home-games-right {
@@ -2797,6 +2819,11 @@ body {
     font-family: "Noto Sans KR";
     font-weight: 500;
     font-size: 0.5em;
+    text-decoration-line: none;
+  }
+
+  .home-games-left a:hover{
+    cursor: pointer;
   }
 
   .home-games-right {
@@ -3313,6 +3340,11 @@ body {
     text-align: center;
   }
 
+  .home-review-title h2{
+    font-family: "Noto Sans KR";
+    font-size: 1.8em;
+  }
+
   .home-review-logos {
     width: 100%;
     height: auto;
@@ -3514,6 +3546,17 @@ body {
     color: white;
     font-family: "Noto Sans KR";
     font-weight: 500;
+  }
+
+  .home-review-button a{
+    font-family: "Noto Sans KR";
+    font-weight: 500;
+    color: white;
+    text-decoration-line: none;
+  }
+
+  .home-review-button a:hover{
+    cursor: pointer;
   }
 }
 
@@ -3741,6 +3784,17 @@ body {
     font-family: "Noto Sans KR";
     font-weight: 500;
   }
+
+  .home-review-button a{
+    font-family: "Noto Sans KR";
+    font-weight: 500;
+    color: white;
+    text-decoration-line: none;
+  }
+
+  .home-review-button a:hover{
+    cursor: pointer;
+  }
 }
 
 /* Mobile */
@@ -3966,6 +4020,17 @@ body {
     color: white;
     font-family: "Noto Sans KR";
     font-weight: 500;
+  }
+
+  .home-review-button a{
+    font-family: "Noto Sans KR";
+    font-weight: 500;
+    color: white;
+    text-decoration-line: none;
+  }
+
+  .home-review-button a:hover{
+    cursor: pointer;
   }
 }
 
@@ -4193,6 +4258,17 @@ body {
     color: white;
     font-family: "Noto Sans KR";
     font-weight: 500;
+  }
+
+  .home-review-button a{
+    font-family: "Noto Sans KR";
+    font-weight: 500;
+    color: white;
+    text-decoration-line: none;
+  }
+
+  .home-review-button a:hover{
+    cursor: pointer;
   }
 }
 
@@ -4669,10 +4745,10 @@ body {
 
   .home-inquiry-title h2 {
     font-family: "Noto Sans KR";
-    font-size: 1.8em;
+    font-size: 1.5em;
     font-weight: 600;
     color: white;
-    line-height: 55px;
+    line-height: 45px;
   }
 
   .home-inquiry-title h2 span {
@@ -4732,7 +4808,7 @@ body {
     font-size: 1.6em;
     font-weight: 600;
     color: white;
-    line-height: 55px;
+    line-height: 45px;
   }
 
   .home-inquiry-title h2 span {
@@ -4789,7 +4865,7 @@ body {
   }
 
   .home-inquiry-title{
-    width: 265px;
+    width: 285px;
   }
 
   .home-inquiry-title h2 {
@@ -4931,6 +5007,7 @@ body {
 
   .home-partners-title h2 {
     font-family: "Noto Sans KR";
+    font-size: 1.8em;
     margin-bottom: 60px;
   }
 

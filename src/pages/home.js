@@ -411,7 +411,7 @@ const Home = () => {
                   <br />
                   Google TOP 20에 선정된 게임들이 있습니다.
                 </p>
-                <a>프로젝트 더보기</a>
+                <a href="https://gamemakers.oopy.io" target="_blank" rel="noreferrer noopener">프로젝트 더보기</a>
               </div>
               <div className="home-games-right">
                 <img
@@ -525,7 +525,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="home-review-button">
-                <a>OB들의 활동후기 더보기</a>
+                <a href="https://gamemakers.oopy.io" target="_blank" rel="noreferrer noopener">OB들의 활동후기 더보기</a>
               </div>
             </div>
           </div>
@@ -606,7 +606,7 @@ const Home = () => {
                   src={process.env.PUBLIC_URL + `/assets/home/Home_Inquiry.png`}
                   alt="benefits1"
                 ></img>
-                <a href="#">문의하러 가기</a>
+                <a href="https://open.kakao.com/o/siPuAU1f" target="_blank" rel="noreferrer noopener">문의하러 가기</a>
               </div>
             </div>
           </div>
