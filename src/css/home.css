@@ -2507,7 +2507,7 @@ body {
     text-decoration-line: none;
   }
 
-  .home-games-left a:hover{
+  .home-games-left a:hover {
     cursor: pointer;
   }
 }
@@ -2577,7 +2577,7 @@ body {
     text-decoration-line: none;
   }
 
-  .home-games-left a:hover{
+  .home-games-left a:hover {
     cursor: pointer;
   }
 
@@ -2658,7 +2658,7 @@ body {
     text-decoration-line: none;
   }
 
-  .home-games-left a:hover{
+  .home-games-left a:hover {
     cursor: pointer;
   }
 
@@ -2739,7 +2739,7 @@ body {
     text-decoration-line: none;
   }
 
-  .home-games-left a:hover{
+  .home-games-left a:hover {
     cursor: pointer;
   }
 
@@ -2822,7 +2822,7 @@ body {
     text-decoration-line: none;
   }
 
-  .home-games-left a:hover{
+  .home-games-left a:hover {
     cursor: pointer;
   }
 
@@ -3340,7 +3340,7 @@ body {
     text-align: center;
   }
 
-  .home-review-title h2{
+  .home-review-title h2 {
     font-family: "Noto Sans KR";
     font-size: 1.8em;
   }
@@ -3548,14 +3548,14 @@ body {
     font-weight: 500;
   }
 
-  .home-review-button a{
+  .home-review-button a {
     font-family: "Noto Sans KR";
     font-weight: 500;
     color: white;
     text-decoration-line: none;
   }
 
-  .home-review-button a:hover{
+  .home-review-button a:hover {
     cursor: pointer;
   }
 }
@@ -3785,14 +3785,14 @@ body {
     font-weight: 500;
   }
 
-  .home-review-button a{
+  .home-review-button a {
     font-family: "Noto Sans KR";
     font-weight: 500;
     color: white;
     text-decoration-line: none;
   }
 
-  .home-review-button a:hover{
+  .home-review-button a:hover {
     cursor: pointer;
   }
 }
@@ -4022,14 +4022,14 @@ body {
     font-weight: 500;
   }
 
-  .home-review-button a{
+  .home-review-button a {
     font-family: "Noto Sans KR";
     font-weight: 500;
     color: white;
     text-decoration-line: none;
   }
 
-  .home-review-button a:hover{
+  .home-review-button a:hover {
     cursor: pointer;
   }
 }
@@ -4260,14 +4260,14 @@ body {
     font-weight: 500;
   }
 
-  .home-review-button a{
+  .home-review-button a {
     font-family: "Noto Sans KR";
     font-weight: 500;
     color: white;
     text-decoration-line: none;
   }
 
-  .home-review-button a:hover{
+  .home-review-button a:hover {
     cursor: pointer;
   }
 }
@@ -4316,13 +4316,13 @@ body {
     gap: 10px;
   }
 
-  .home-faq-accordion{
+  .home-faq-accordion {
     width: 800px;
     border: 1px solid rgb(230, 230, 230);
     border-radius: 10px;
   }
 
-  input[id*="answer"]{
+  input[id*="answer"] {
     display: none;
   }
 
@@ -4345,7 +4345,6 @@ body {
     color: rgba(230, 63, 55, 1);
   }
 
-
   input[id*="answer"] + label + em {
     position: absolute;
     top: 50%;
@@ -4361,7 +4360,7 @@ body {
     border-bottom-right-radius: 10px;
     font-family: "Noto Sans KR";
     max-height: 0;
-    transition: all .35s;
+    transition: all 0.35s;
     overflow: hidden;
     background: white;
     font-size: 1em;
@@ -4380,10 +4379,9 @@ body {
 
   input[id*="answer"]:checked + label + div {
     max-height: 150px;
-    
   }
 
-  input[id*="answer"]:checked + label em{
+  input[id*="answer"]:checked + label em {
     background-position: 0 -30px;
   }
 }
@@ -4425,13 +4423,13 @@ body {
     gap: 10px;
   }
 
-  .home-faq-accordion{
+  .home-faq-accordion {
     width: 80%;
     border: 1px solid rgb(230, 230, 230);
     border-radius: 10px;
   }
 
-  input[id*="answer"]{
+  input[id*="answer"] {
     display: none;
   }
 
@@ -4453,7 +4451,6 @@ body {
     color: rgba(230, 63, 55, 1);
   }
 
-
   input[id*="answer"] + label + em {
     position: absolute;
     top: 50%;
@@ -4469,7 +4466,7 @@ body {
     border-bottom-right-radius: 10px;
     font-family: "Noto Sans KR";
     max-height: 0;
-    transition: all .35s;
+    transition: all 0.35s;
     overflow: hidden;
     background: white;
     font-size: 0.9em;
@@ -4488,10 +4485,9 @@ body {
 
   input[id*="answer"]:checked + label + div {
     max-height: 150px;
-    
   }
 
-  input[id*="answer"]:checked + label em{
+  input[id*="answer"]:checked + label em {
     background-position: 0 -30px;
   }
 }
@@ -4533,13 +4529,13 @@ body {
     gap: 10px;
   }
 
-  .home-faq-accordion{
+  .home-faq-accordion {
     width: 80%;
     border: 1px solid rgb(230, 230, 230);
     border-radius: 10px;
   }
 
-  input[id*="answer"]{
+  input[id*="answer"] {
     display: none;
   }
 
@@ -4561,7 +4557,6 @@ body {
     color: rgba(230, 63, 55, 1);
   }
 
-
   input[id*="answer"] + label + em {
     position: absolute;
     top: 50%;
@@ -4577,7 +4572,7 @@ body {
     border-bottom-right-radius: 10px;
     font-family: "Noto Sans KR";
     max-height: 0;
-    transition: all .35s;
+    transition: all 0.35s;
     overflow: hidden;
     background: white;
     font-size: 0.9em;
@@ -4596,10 +4591,9 @@ body {
 
   input[id*="answer"]:checked + label + div {
     max-height: 150px;
-    
   }
 
-  input[id*="answer"]:checked + label em{
+  input[id*="answer"]:checked + label em {
     background-position: 0 -30px;
   }
 }
@@ -4641,13 +4635,13 @@ body {
     gap: 10px;
   }
 
-  .home-faq-accordion{
+  .home-faq-accordion {
     width: 80%;
     border: 1px solid rgb(230, 230, 230);
     border-radius: 10px;
   }
 
-  input[id*="answer"]{
+  input[id*="answer"] {
     display: none;
   }
 
@@ -4673,7 +4667,6 @@ body {
     color: rgba(230, 63, 55, 1);
   }
 
-
   input[id*="answer"] + label + em {
     position: absolute;
     top: 50%;
@@ -4689,7 +4682,7 @@ body {
     border-bottom-right-radius: 10px;
     font-family: "Noto Sans KR";
     max-height: 0;
-    transition: all .35s;
+    transition: all 0.35s;
     overflow: hidden;
     background: white;
     font-size: 0.7em;
@@ -4708,14 +4701,12 @@ body {
 
   input[id*="answer"]:checked + label + div {
     max-height: 150px;
-    
   }
 
-  input[id*="answer"]:checked + label em{
+  input[id*="answer"]:checked + label em {
     background-position: 0 -30px;
   }
 }
-
 
 /*
 -----------------
@@ -4864,7 +4855,7 @@ body {
     gap: 45px;
   }
 
-  .home-inquiry-title{
+  .home-inquiry-title {
     width: 285px;
   }
 
@@ -4928,7 +4919,7 @@ body {
     gap: 30px;
   }
 
-  .home-inquiry-title{
+  .home-inquiry-title {
     text-align: center;
     width: 90%;
   }
@@ -5011,14 +5002,14 @@ body {
     margin-bottom: 60px;
   }
 
-  .home-partners-item{
+  .home-partners-item {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .home-partners-item img{
+  .home-partners-item img {
     width: 260px;
     height: auto;
   }
@@ -5032,7 +5023,7 @@ body {
     text-align: center;
   }
 
-  .home-partners-item span{
+  .home-partners-item span {
     font-family: "Noto Sans KR";
     font-weight: 600;
     font-size: 1.1em;
@@ -5078,13 +5069,12 @@ body {
     text-align: center;
   }
 
-  .home-partners-item span{
+  .home-partners-item span {
     font-family: "Noto Sans KR";
     font-weight: 600;
     font-size: 1.1em;
     color: black;
   }
-  
 }
 
 /* Mobile */
@@ -5125,19 +5115,19 @@ body {
     text-align: center;
   }
 
-  .home-partners-item{
+  .home-partners-item {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .home-partners-item img{
+  .home-partners-item img {
     width: 140px;
     height: auto;
   }
 
-  .home-partners-item span{
+  .home-partners-item span {
     font-family: "Noto Sans KR";
     font-weight: 600;
     font-size: 0.9em;
@@ -5183,19 +5173,19 @@ body {
     gap: 20px;
   }
 
-  .home-partners-item{
+  .home-partners-item {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .home-partners-item img{
+  .home-partners-item img {
     width: 220px;
     height: auto;
   }
 
-  .home-partners-item span{
+  .home-partners-item span {
     font-family: "Noto Sans KR";
     font-weight: 600;
     font-size: 1em;
