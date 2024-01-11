@@ -252,11 +252,14 @@ const Curriculum = () => {
               {curriculumData.map((e) => {
                 if (e.month === month) {
                   return (
-                    <tr>
+                    <tr key={e.id}>
                       <td>{e.week}</td>
                       <td>{e.content}</td>
                     </tr>
                   );
+                }
+                else {
+                  return (null)
                 }
               })}
             </thead>

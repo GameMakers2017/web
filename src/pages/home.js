@@ -14,7 +14,7 @@ const Home = () => {
             <div className="home-main-container">
               <div className="home-main-left">
                 <div className="home-main-left-title">
-                  <p>누구나 자신만의 게을</p>
+                  <p>누구나 자신만의 게임을</p>
                   <p>만들 수 있습니다.</p>
                 </div>
                 <div className="home-main-left-subtext">
@@ -540,7 +540,7 @@ const Home = () => {
               <div className="home-faq-contents">
                 <div className="home-faq-accordion">
                   <input type="checkbox" id="answer01"></input>
-                  <label for="answer01"><span>Q.</span>&nbsp;&nbsp; 챌린저와 일반회원의 차이가 무엇인가요?<em></em></label>
+                  <label htmlFor="answer01"><span>Q.</span>&nbsp;&nbsp; 챌린저와 일반회원의 차이가 무엇인가요?<em></em></label>
                   <div>
                     <p>
                       A. 챌린저는 동아리의 운영을 담당하는 회원을 칭하며, 일반회원은 게임 개발을 담당하는 회원을 칭합니다.
@@ -549,7 +549,7 @@ const Home = () => {
                 </div>
                 <div className="home-faq-accordion">
                   <input type="checkbox" id="answer02"></input>
-                  <label for="answer02"><span>Q.</span>&nbsp;&nbsp; 한 기수에 몇 명의 회원을 모집하나요?<em></em></label>
+                  <label htmlFor="answer02"><span>Q.</span>&nbsp;&nbsp; 한 기수에 몇 명의 회원을 모집하나요?<em></em></label>
                   <div>
                     <p>
                       A. 보통 40~50명 정도의 회원을 선발하고 있습니다.
@@ -558,7 +558,7 @@ const Home = () => {
                 </div>
                 <div className="home-faq-accordion">
                   <input type="checkbox" id="answer03"></input>
-                  <label for="answer03"><span>Q.</span>&nbsp;&nbsp; 정기 모집 일정이 어떻게 되나요?<em></em></label>
+                  <label htmlFor="answer03"><span>Q.</span>&nbsp;&nbsp; 정기 모집 일정이 어떻게 되나요?<em></em></label>
                   <div>
                     <p>
                       A. 매년 1월과 6월에 정기 모집을 진행하고 있습니다.
@@ -567,7 +567,7 @@ const Home = () => {
                 </div>
                 <div className="home-faq-accordion">
                   <input type="checkbox" id="answer04"></input>
-                  <label for="answer04"><span>Q.</span>&nbsp;&nbsp; 졸업생은 지원 못하나요?<em></em></label>
+                  <label htmlFor="answer04"><span>Q.</span>&nbsp;&nbsp; 졸업생은 지원 못하나요?<em></em></label>
                   <div>
                     <p>
                       컨텐츠 내용입니다. 자주 묻는 질문 자주 묻는 질문 자주 묻는 질문
@@ -576,7 +576,7 @@ const Home = () => {
                 </div>
                 <div className="home-faq-accordion">
                   <input type="checkbox" id="answer05"></input>
-                  <label for="answer05"><span>Q.</span>&nbsp;&nbsp; 두 가지 이상의 직군에 지원할 수 있나요?<em></em></label>
+                  <label htmlFor="answer05"><span>Q.</span>&nbsp;&nbsp; 두 가지 이상의 직군에 지원할 수 있나요?<em></em></label>
                   <div>
                     <p>
                       컨텐츠 내용입니다. 자주 묻는 질문 자주 묻는 질문 자주 묻는 질문
