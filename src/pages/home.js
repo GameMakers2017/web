@@ -9,7 +9,6 @@ const Home = () => {
     <>
       <main>
         <div>
-          <div></div>
         </div>
         <section id="home-main">
           <div className="home-main">
