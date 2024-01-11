@@ -8,12 +8,13 @@ const Home = () => {
   return (
     <>
       <main>
+        <span></span>
         <section id="home-main">
           <div className="home-main">
             <div className="home-main-container">
               <div className="home-main-left">
                 <div className="home-main-left-title">
-                  <p>누구나 자신만의 게임을</p>
+                  <p>누구나 자신만의 게을</p>
                   <p>만들 수 있습니다.</p>
                 </div>
                 <div className="home-main-left-subtext">
