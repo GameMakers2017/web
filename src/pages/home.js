@@ -8,15 +8,13 @@ const Home = () => {
   return (
     <>
       <main>
-        <div>
-        </div>
         <section id="home-main">
           <div className="home-main">
             <div className="home-main-container">
               <div className="home-main-left">
                 <div className="home-main-left-title">
                   <p>누구나 자신만의 게임을</p>
-                  <p>만들 수 있습니다.</p>
+                  <p>만들 습니다.</p>
                 </div>
                 <div className="home-main-left-subtext">
                   <p>전국 게임개발 연합동아리 GameMakers는</p>
