@@ -8,6 +8,7 @@ const Home = () => {
   return (
     <>
       <main>
+        <span></span>
         <section id="home-main">
           <div className="home-main">
             <div className="home-main-container">
