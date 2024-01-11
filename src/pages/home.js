@@ -8,7 +8,6 @@ const Home = () => {
   return (
     <>
       <main>
-        <span></span>
         <section id="home-main">
           <div className="home-main">
             <div className="home-main-container">
@@ -33,7 +32,8 @@ const Home = () => {
                   className="home-main-right-image"
                   alt="main_image"
                   src={
-                    process.env.PUBLIC_URL + `/assets/home/Home_Main_Objects.png`
+                    process.env.PUBLIC_URL +
+                    `/assets/home/Home_Main_Objects.png`
                   }
                 ></img>
               </div>
@@ -73,7 +73,9 @@ const Home = () => {
             <div className="home-wish-container">
               <div className="home-wish-emoji">
                 <img
-                  src={process.env.PUBLIC_URL + `/assets/home/Home_Wish_Emoji.png`}
+                  src={
+                    process.env.PUBLIC_URL + `/assets/home/Home_Wish_Emoji.png`
+                  }
                   alt="이모지"
                 ></img>
               </div>
@@ -85,7 +87,8 @@ const Home = () => {
                   <div className="home-wish-item-container">
                     <img
                       src={
-                        process.env.PUBLIC_URL + `/assets/home/Home_Wish_Check.png`
+                        process.env.PUBLIC_URL +
+                        `/assets/home/Home_Wish_Check.png`
                       }
                       alt="이모지"
                     ></img>
@@ -99,7 +102,8 @@ const Home = () => {
                   <div className="home-wish-item-container">
                     <img
                       src={
-                        process.env.PUBLIC_URL + `/assets/home/Home_Wish_Check.png`
+                        process.env.PUBLIC_URL +
+                        `/assets/home/Home_Wish_Check.png`
                       }
                       alt="이모지"
                     ></img>
@@ -113,7 +117,8 @@ const Home = () => {
                   <div className="home-wish-item-container">
                     <img
                       src={
-                        process.env.PUBLIC_URL + `/assets/home/Home_Wish_Check.png`
+                        process.env.PUBLIC_URL +
+                        `/assets/home/Home_Wish_Check.png`
                       }
                       alt="이모지"
                     ></img>
@@ -126,7 +131,8 @@ const Home = () => {
                   <div className="home-wish-item-container">
                     <img
                       src={
-                        process.env.PUBLIC_URL + `/assets/home/Home_Wish_Check.png`
+                        process.env.PUBLIC_URL +
+                        `/assets/home/Home_Wish_Check.png`
                       }
                       alt="이모지"
                     ></img>
@@ -144,7 +150,9 @@ const Home = () => {
           <div className="home-wish-baseline">
             <img
               alt="로고"
-              src={process.env.PUBLIC_URL + `/assets/home/Home_Wish_BottomLine.png`}
+              src={
+                process.env.PUBLIC_URL + `/assets/home/Home_Wish_BottomLine.png`
+              }
             ></img>
           </div>
         </section>
@@ -160,13 +168,14 @@ const Home = () => {
                   <span>POINT 1.</span>
                   <h3>프로젝트 팀 매칭</h3>
                   <div className="home-benefits-item-explanation">
-                    기획, 아트 디자이너, 프로그래머가 한 팀이 되어 게임을 개발할 수
-                    있도록 팀을 매칭해 드립니다.
+                    기획, 아트 디자이너, 프로그래머가 한 팀이 되어 게임을 개발할
+                    수 있도록 팀을 매칭해 드립니다.
                   </div>
                   <div className="home-benefits-item-img">
                     <img
                       src={
-                        process.env.PUBLIC_URL + `/assets/home/Home_Benefits_1.png`
+                        process.env.PUBLIC_URL +
+                        `/assets/home/Home_Benefits_1.png`
                       }
                       alt="benefits1"
                     ></img>
@@ -182,7 +191,8 @@ const Home = () => {
                   <div className="home-benefits-item-img">
                     <img
                       src={
-                        process.env.PUBLIC_URL + `/assets/home/Home_Benefits_2.png`
+                        process.env.PUBLIC_URL +
+                        `/assets/home/Home_Benefits_2.png`
                       }
                       alt="benefits1"
                     ></img>
@@ -198,7 +208,8 @@ const Home = () => {
                   <div className="home-benefits-item-img">
                     <img
                       src={
-                        process.env.PUBLIC_URL + `/assets/home/Home_Benefits_3.png`
+                        process.env.PUBLIC_URL +
+                        `/assets/home/Home_Benefits_3.png`
                       }
                       alt="benefits1"
                     ></img>
@@ -214,7 +225,8 @@ const Home = () => {
                   <div className="home-benefits-item-img">
                     <img
                       src={
-                        process.env.PUBLIC_URL + `/assets/home/Home_Benefits_4.png`
+                        process.env.PUBLIC_URL +
+                        `/assets/home/Home_Benefits_4.png`
                       }
                       alt="benefits1"
                     ></img>
@@ -230,7 +242,8 @@ const Home = () => {
                   <div className="home-benefits-item-img">
                     <img
                       src={
-                        process.env.PUBLIC_URL + `/assets/home/Home_Benefits_5.png`
+                        process.env.PUBLIC_URL +
+                        `/assets/home/Home_Benefits_5.png`
                       }
                       alt="benefits1"
                     ></img>
@@ -246,7 +259,8 @@ const Home = () => {
                   <div className="home-benefits-item-img">
                     <img
                       src={
-                        process.env.PUBLIC_URL + `/assets/home/Home_Benefits_6.png`
+                        process.env.PUBLIC_URL +
+                        `/assets/home/Home_Benefits_6.png`
                       }
                       alt="benefits1"
                     ></img>
@@ -317,7 +331,9 @@ const Home = () => {
                   </div>
                   <img
                     className="home-ability-item-image"
-                    src={process.env.PUBLIC_URL + `/assets/home/Home_Ability_1.png`}
+                    src={
+                      process.env.PUBLIC_URL + `/assets/home/Home_Ability_1.png`
+                    }
                     alt="Subtitle_Star"
                   ></img>
                 </div>
@@ -335,14 +351,16 @@ const Home = () => {
                     </div>
                     <div className="home-ability-item-explanation">
                       <span>
-                        프로젝트를 진행하며 발생하는 여러 문제들을 팀원과 소통하며
-                        해결해 나아가는 능력을 기를 수 있습니다.
+                        프로젝트를 진행하며 발생하는 여러 문제들을 팀원과
+                        소통하며 해결해 나아가는 능력을 기를 수 있습니다.
                       </span>
                     </div>
                   </div>
                   <img
                     className="home-ability-item-image"
-                    src={process.env.PUBLIC_URL + `/assets/home/Home_Ability_2.png`}
+                    src={
+                      process.env.PUBLIC_URL + `/assets/home/Home_Ability_2.png`
+                    }
                     alt="Subtitle_Star"
                   ></img>
                 </div>
@@ -364,7 +382,9 @@ const Home = () => {
                   </div>
                   <img
                     className="home-ability-item-image"
-                    src={process.env.PUBLIC_URL + `/assets/home/Home_Ability_3.png`}
+                    src={
+                      process.env.PUBLIC_URL + `/assets/home/Home_Ability_3.png`
+                    }
                     alt="Subtitle_Star"
                   ></img>
                 </div>
@@ -382,14 +402,16 @@ const Home = () => {
                     </div>
                     <div className="home-ability-item-explanation">
                       <span>
-                        3N 뿐만 아니라 게입업게 전반적으로 포진되어 있는 게임업계
-                        선배들과 네트워킹을 할 수 있는 기회가 있습니다.
+                        3N 뿐만 아니라 게입업게 전반적으로 포진되어 있는
+                        게임업계 선배들과 네트워킹을 할 수 있는 기회가 있습니다.
                       </span>
                     </div>
                   </div>
                   <img
                     className="home-ability-item-image"
-                    src={process.env.PUBLIC_URL + `/assets/home/Home_Ability_4.png`}
+                    src={
+                      process.env.PUBLIC_URL + `/assets/home/Home_Ability_4.png`
+                    }
                     alt="Subtitle_Star"
                   ></img>
                 </div>
@@ -412,11 +434,19 @@ const Home = () => {
                   <br />
                   Google TOP 20에 선정된 게임들이 있습니다.
                 </p>
-                <a href="https://gamemakers.oopy.io" target="_blank" rel="noreferrer noopener">프로젝트 더보기</a>
+                <a
+                  href="https://gamemakers.oopy.io"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  프로젝트 더보기
+                </a>
               </div>
               <div className="home-games-right">
                 <img
-                  src={process.env.PUBLIC_URL + `/assets/home/Home_Games_Games.png`}
+                  src={
+                    process.env.PUBLIC_URL + `/assets/home/Home_Games_Games.png`
+                  }
                   alt="Subtitle_Star"
                 ></img>
               </div>
@@ -472,12 +502,13 @@ const Home = () => {
                       "인생의 전환점" 이라고 말하고 싶습니다.
                     </div>
                     <div className="home-review-detail-content">
-                      GameMakers를 하는 동안 팀 해체, 팀원 간의 갈등, 산으로 가는
-                      프로젝트 등 우여곡절이 있엇지만 그 속에서 많은 걸 경험하고
-                      배울 수 있었습니다. 그리고 이 때 얻은 경험을 토대로 좋은
-                      팀원들과 Electroad라는 게임을 만들어 인디게임 페스티벌에도
-                      나갈 수 있었고요. 그래서 저는 GameMakers를 통해 잊지 못할
-                      추억과 경험을 얻을 수 있었고 좋은 시간이었다고 생각합니다.
+                      GameMakers를 하는 동안 팀 해체, 팀원 간의 갈등, 산으로
+                      가는 프로젝트 등 우여곡절이 있엇지만 그 속에서 많은 걸
+                      경험하고 배울 수 있었습니다. 그리고 이 때 얻은 경험을
+                      토대로 좋은 팀원들과 Electroad라는 게임을 만들어 인디게임
+                      페스티벌에도 나갈 수 있었고요. 그래서 저는 GameMakers를
+                      통해 잊지 못할 추억과 경험을 얻을 수 있었고 좋은
+                      시간이었다고 생각합니다.
                     </div>
                   </div>
                 </div>
@@ -515,18 +546,25 @@ const Home = () => {
                       "인생의 전환점" 이라고 말하고 싶습니다.
                     </div>
                     <div className="home-review-detail-content">
-                      GameMakers를 하는 동안 팀 해체, 팀원 간의 갈등, 산으로 가는
-                      프로젝트 등 우여곡절이 있엇지만 그 속에서 많은 걸 경험하고
-                      배울 수 있었습니다. 그리고 이 때 얻은 경험을 토대로 좋은
-                      팀원들과 Electroad라는 게임을 만들어 인디게임 페스티벌에도
-                      나갈 수 있었고요. 그래서 저는 GameMakers를 통해 잊지 못할
-                      추억과 경험을 얻을 수 있었고 좋은 시간이었다고 생각합니다.
+                      GameMakers를 하는 동안 팀 해체, 팀원 간의 갈등, 산으로
+                      가는 프로젝트 등 우여곡절이 있엇지만 그 속에서 많은 걸
+                      경험하고 배울 수 있었습니다. 그리고 이 때 얻은 경험을
+                      토대로 좋은 팀원들과 Electroad라는 게임을 만들어 인디게임
+                      페스티벌에도 나갈 수 있었고요. 그래서 저는 GameMakers를
+                      통해 잊지 못할 추억과 경험을 얻을 수 있었고 좋은
+                      시간이었다고 생각합니다.
                     </div>
                   </div>
                 </div>
               </div>
               <div className="home-review-button">
-                <a href="https://gamemakers.oopy.io" target="_blank" rel="noreferrer noopener">OB들의 활동후기 더보기</a>
+                <a
+                  href="https://gamemakers.oopy.io"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  OB들의 활동후기 더보기
+                </a>
               </div>
             </div>
           </div>
@@ -540,54 +578,66 @@ const Home = () => {
               <div className="home-faq-contents">
                 <div className="home-faq-accordion">
                   <input type="checkbox" id="answer01"></input>
-                  <label for="answer01"><span>Q.</span>&nbsp;&nbsp; 챌린저와 일반회원의 차이가 무엇인가요?<em></em></label>
+                  <label for="answer01">
+                    <span>Q.</span>&nbsp;&nbsp; 챌린저와 일반회원의 차이가
+                    무엇인가요?<em></em>
+                  </label>
                   <div>
                     <p>
-                      A. 챌린저는 동아리의 운영을 담당하는 회원을 칭하며, 일반회원은 게임 개발을 담당하는 회원을 칭합니다.
+                      A. 챌린저는 동아리의 운영을 담당하는 회원을 칭하며,
+                      일반회원은 게임 개발을 담당하는 회원을 칭합니다.
                     </p>
                   </div>
                 </div>
                 <div className="home-faq-accordion">
                   <input type="checkbox" id="answer02"></input>
-                  <label for="answer02"><span>Q.</span>&nbsp;&nbsp; 한 기수에 몇 명의 회원을 모집하나요?<em></em></label>
+                  <label for="answer02">
+                    <span>Q.</span>&nbsp;&nbsp; 한 기수에 몇 명의 회원을
+                    모집하나요?<em></em>
+                  </label>
                   <div>
-                    <p>
-                      A. 보통 40~50명 정도의 회원을 선발하고 있습니다.
-                    </p>
+                    <p>A. 보통 40~50명 정도의 회원을 선발하고 있습니다.</p>
                   </div>
                 </div>
                 <div className="home-faq-accordion">
                   <input type="checkbox" id="answer03"></input>
-                  <label for="answer03"><span>Q.</span>&nbsp;&nbsp; 정기 모집 일정이 어떻게 되나요?<em></em></label>
+                  <label for="answer03">
+                    <span>Q.</span>&nbsp;&nbsp; 정기 모집 일정이 어떻게 되나요?
+                    <em></em>
+                  </label>
                   <div>
-                    <p>
-                      A. 매년 1월과 6월에 정기 모집을 진행하고 있습니다.
-                    </p>
+                    <p>A. 매년 1월과 6월에 정기 모집을 진행하고 있습니다.</p>
                   </div>
                 </div>
                 <div className="home-faq-accordion">
                   <input type="checkbox" id="answer04"></input>
-                  <label for="answer04"><span>Q.</span>&nbsp;&nbsp; 졸업생은 지원 못하나요?<em></em></label>
+                  <label for="answer04">
+                    <span>Q.</span>&nbsp;&nbsp; 졸업생은 지원 못하나요?<em></em>
+                  </label>
                   <div>
                     <p>
-                      컨텐츠 내용입니다. 자주 묻는 질문 자주 묻는 질문 자주 묻는 질문
+                      컨텐츠 내용입니다. 자주 묻는 질문 자주 묻는 질문 자주 묻는
+                      질문
                     </p>
                   </div>
                 </div>
                 <div className="home-faq-accordion">
                   <input type="checkbox" id="answer05"></input>
-                  <label for="answer05"><span>Q.</span>&nbsp;&nbsp; 두 가지 이상의 직군에 지원할 수 있나요?<em></em></label>
+                  <label for="answer05">
+                    <span>Q.</span>&nbsp;&nbsp; 두 가지 이상의 직군에 지원할 수
+                    있나요?<em></em>
+                  </label>
                   <div>
                     <p>
-                      컨텐츠 내용입니다. 자주 묻는 질문 자주 묻는 질문 자주 묻는 질문
-                      컨텐츠 내용입니다. 자주 묻는 질문 자주 묻는 질문 자주 묻는 질문
-                      컨텐츠 내용입니다. 자주 묻는 질문 자주 묻는 질문 자주 묻는 질문
-                      컨텐츠 내용입니다. 자주 묻는 질문 자주 묻는 질문 자주 묻는 질문
-                      컨텐츠 내용입니다. 자주 묻는 질문 자주 묻는 질문 자주 묻는 질문
+                      컨텐츠 내용입니다. 자주 묻는 질문 자주 묻는 질문 자주 묻는
+                      질문 컨텐츠 내용입니다. 자주 묻는 질문 자주 묻는 질문 자주
+                      묻는 질문 컨텐츠 내용입니다. 자주 묻는 질문 자주 묻는 질문
+                      자주 묻는 질문 컨텐츠 내용입니다. 자주 묻는 질문 자주 묻는
+                      질문 자주 묻는 질문 컨텐츠 내용입니다. 자주 묻는 질문 자주
+                      묻는 질문 자주 묻는 질문
                     </p>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
@@ -607,7 +657,13 @@ const Home = () => {
                   src={process.env.PUBLIC_URL + `/assets/home/Home_Inquiry.png`}
                   alt="benefits1"
                 ></img>
-                <a href="https://open.kakao.com/o/siPuAU1f" target="_blank" rel="noreferrer noopener">문의하러 가기</a>
+                <a
+                  href="https://open.kakao.com/o/siPuAU1f"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  문의하러 가기
+                </a>
               </div>
             </div>
           </div>
@@ -621,42 +677,60 @@ const Home = () => {
               <div className="home-partners-item-box">
                 <div className="home-partners-item">
                   <img
-                    src={process.env.PUBLIC_URL + `/assets/home/Home_Partner_Unity.png`}
+                    src={
+                      process.env.PUBLIC_URL +
+                      `/assets/home/Home_Partner_Unity.png`
+                    }
                     alt="benefits1"
                   ></img>
                   <span>유니티</span>
                 </div>
                 <div className="home-partners-item">
                   <img
-                    src={process.env.PUBLIC_URL + `/assets/home/Home_Partner_Asus.png`}
+                    src={
+                      process.env.PUBLIC_URL +
+                      `/assets/home/Home_Partner_Asus.png`
+                    }
                     alt="benefits1"
                   ></img>
                   <span>에이수스</span>
                 </div>
                 <div className="home-partners-item">
                   <img
-                    src={process.env.PUBLIC_URL + `/assets/home/Home_Partner_Gongun.png`}
+                    src={
+                      process.env.PUBLIC_URL +
+                      `/assets/home/Home_Partner_Gongun.png`
+                    }
                     alt="benefits1"
                   ></img>
                   <span>곤군게임즈</span>
                 </div>
                 <div className="home-partners-item">
                   <img
-                    src={process.env.PUBLIC_URL + `/assets/home/Home_Partner_Rog.png`}
+                    src={
+                      process.env.PUBLIC_URL +
+                      `/assets/home/Home_Partner_Rog.png`
+                    }
                     alt="benefits1"
                   ></img>
                   <span>로그</span>
                 </div>
                 <div className="home-partners-item">
                   <img
-                    src={process.env.PUBLIC_URL + `/assets/home/Home_Partner_Intech.png`}
+                    src={
+                      process.env.PUBLIC_URL +
+                      `/assets/home/Home_Partner_Intech.png`
+                    }
                     alt="benefits1"
                   ></img>
                   <span>인텍앤컴퍼니</span>
                 </div>
                 <div className="home-partners-item">
                   <img
-                    src={process.env.PUBLIC_URL + `/assets/home/Home_Partner_Minimap.png`}
+                    src={
+                      process.env.PUBLIC_URL +
+                      `/assets/home/Home_Partner_Minimap.png`
+                    }
                     alt="benefits1"
                   ></img>
                   <span>미니맵</span>
@@ -667,25 +741,25 @@ const Home = () => {
         </section>
       </main>
       <footer id="footer">
-          <section className="footer">
-            <div className="footer-container">
-              <div className="footer-above">
-                <span>
-                  Contact
-                  <br />
-                  gamemakers2017@gmail.com
-                </span>
-              </div>
-              <div className="footer-below">
-                <span>
-                  GameMakers ( 게임메이커스, 전국 게임개발 연합동아리 )
-                  <br />
-                  Copyright&copy;2024.GameMakers.All rights reserved.
-                </span>
-              </div>
+        <section className="footer">
+          <div className="footer-container">
+            <div className="footer-above">
+              <span>
+                Contact
+                <br />
+                gamemakers2017@gmail.com
+              </span>
             </div>
-          </section>
-        </footer>
+            <div className="footer-below">
+              <span>
+                GameMakers ( 게임메이커스, 전국 게임개발 연합동아리 )
+                <br />
+                Copyright&copy;2024.GameMakers.All rights reserved.
+              </span>
+            </div>
+          </div>
+        </section>
+      </footer>
     </>
   );
 };
