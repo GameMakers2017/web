@@ -14,7 +14,7 @@ const Home = () => {
               <div className="home-main-left">
                 <div className="home-main-left-title">
                   <p>누구나 자신만의 게임을</p>
-                  <p>만들 습니다.</p>
+                  <p>만들 수 있습니다.</p>
                 </div>
                 <div className="home-main-left-subtext">
                   <p>전국 게임개발 연합동아리 GameMakers는</p>
@@ -286,7 +286,7 @@ const Home = () => {
                   src={
                     process.env.PUBLIC_URL +
                     `/assets/home/Home_Activity_Subtitle_Star.png`
-                  }
+                  }                  
                   alt="Subtitle_Star"
                 ></img>
                 <span>실제 7기에서 진행한 행사들입니다</span>
