@@ -7,6 +7,7 @@ import LogoSlider from "../components/LogoSlider";
 const Home = () => {
   return (
     <>
+    <div></div>
       <main>
         <section id="home-main">
           <div className="home-main">
