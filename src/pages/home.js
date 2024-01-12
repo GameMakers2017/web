@@ -8,14 +8,13 @@ const Home = () => {
   return (
     <>
       <main>
-        <div><div></div></div><div></div>
         <section id="home-main">
           <div className="home-main">
             <div className="home-main-container">
               <div className="home-main-left">
                 <div className="home-main-left-title">
                   <p>누구나 자신만의 게임을</p>
-                  <p>만들 수 있습니다.</p>
+                  <p>만들 습니다.</p>
                 </div>
                 <div className="home-main-left-subtext">
                   <p>전국 게임개발 연합동아리 GameMakers는</p>
@@ -579,7 +578,7 @@ const Home = () => {
               <div className="home-faq-contents">
                 <div className="home-faq-accordion">
                   <input type="checkbox" id="answer01"></input>
-                  <label for="answer01">
+                  <label htmlFor="answer01">
                     <span>Q.</span>&nbsp;&nbsp; 챌린저와 일반회원의 차이가
                     무엇인가요?<em></em>
                   </label>
@@ -592,7 +591,7 @@ const Home = () => {
                 </div>
                 <div className="home-faq-accordion">
                   <input type="checkbox" id="answer02"></input>
-                  <label for="answer02">
+                  <label htmlFor="answer02">
                     <span>Q.</span>&nbsp;&nbsp; 한 기수에 몇 명의 회원을
                     모집하나요?<em></em>
                   </label>
@@ -602,7 +601,7 @@ const Home = () => {
                 </div>
                 <div className="home-faq-accordion">
                   <input type="checkbox" id="answer03"></input>
-                  <label for="answer03">
+                  <label htmlFor="answer03">
                     <span>Q.</span>&nbsp;&nbsp; 정기 모집 일정이 어떻게 되나요?
                     <em></em>
                   </label>
@@ -612,30 +611,25 @@ const Home = () => {
                 </div>
                 <div className="home-faq-accordion">
                   <input type="checkbox" id="answer04"></input>
-                  <label for="answer04">
+                  <label htmlFor="answer04">
                     <span>Q.</span>&nbsp;&nbsp; 졸업생은 지원 못하나요?<em></em>
                   </label>
                   <div>
                     <p>
-                      컨텐츠 내용입니다. 자주 묻는 질문 자주 묻는 질문 자주 묻는
-                      질문
+                      A. GameMakers는 게임 개발에 관심이 많은 성인 누구나 지원이 가능합니다.
                     </p>
                   </div>
                 </div>
                 <div className="home-faq-accordion">
                   <input type="checkbox" id="answer05"></input>
-                  <label for="answer05">
+                  <label htmlFor="answer05">
                     <span>Q.</span>&nbsp;&nbsp; 두 가지 이상의 직군에 지원할 수
                     있나요?<em></em>
                   </label>
                   <div>
                     <p>
-                      컨텐츠 내용입니다. 자주 묻는 질문 자주 묻는 질문 자주 묻는
-                      질문 컨텐츠 내용입니다. 자주 묻는 질문 자주 묻는 질문 자주
-                      묻는 질문 컨텐츠 내용입니다. 자주 묻는 질문 자주 묻는 질문
-                      자주 묻는 질문 컨텐츠 내용입니다. 자주 묻는 질문 자주 묻는
-                      질문 자주 묻는 질문 컨텐츠 내용입니다. 자주 묻는 질문 자주
-                      묻는 질문 자주 묻는 질문
+                      A. 두 가지 직군에는 지원이 불가능합니다. 한 가지의 직군으로 합격하신 후,
+                      팀 프로젝트 활동 시, 팀 내에서 팀원과의 상의 후 두 가지 직군의 역할을 하시는 것은 가능합니다.
                     </p>
                   </div>
                 </div>
