@@ -7,7 +7,7 @@ const activityDataList = [
     text: "팀 빌딩",
     explanation:
       "한 기수동안 게임 개발 프로젝트를 진행하기위한 팀을 결성합니다.\n한 팀에 프로그래머, 기획자, 아트 디자이너가 최소 1명씩 배정됩니다.",
-    img: process.env.PUBLIC_URL + `./assets/home/Home_Activity_Teambuilding.png`,
+    img: process.env.PUBLIC_URL + `./assets/home/Home_Activity_TeamBuilding.png`,
   },
   {
     id: 2,
