@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+    background-color: white;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* Tablet */
+@media all and (min-width: 768px) and (max-width: 1023px) {}
+
+/* Mobile */
+@media all and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile- */
+@media all and (max-width: 479px) {}
+
+/* Def */
+
+/*
+-----------------
+---Home-Footer---
+-----------------
+*/
+
+/* PC */
+@media all and (min-width: 1024px) {
+  .footer {
+    background-color: rgba(32, 32, 36, 1);
+    height: auto;
+  }
+
+  .footer-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-above {
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+
+  .footer-above span {
+    color: white;
+    font-family: "Noto Sans KR";
+    font-weight: 600;
+  }
+
+  .footer-below {
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .footer-below span {
+    color: rgba(93, 93, 93, 1);
+    font-family: "Noto Sans KR";
+    font-weight: 400;
+  }
+}
+
+/* Tablet */
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .footer {
+    background-color: rgba(32, 32, 36, 1);
+    height: auto;
+  }
+
+  .footer-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-above {
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+
+  .footer-above span {
+    color: white;
+    font-family: "Noto Sans KR";
+    font-weight: 600;
+  }
+
+  .footer-below {
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .footer-below span {
+    color: rgba(93, 93, 93, 1);
+    font-family: "Noto Sans KR";
+    font-weight: 400;
+  }
+}
+
+/* Mobile */
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .footer {
+    background-color: rgba(32, 32, 36, 1);
+    height: auto;
+  }
+
+  .footer-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-above {
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+
+  .footer-above span {
+    color: white;
+    font-family: "Noto Sans KR";
+    font-weight: 600;
+  }
+
+  .footer-below {
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .footer-below span {
+    color: rgba(93, 93, 93, 1);
+    font-family: "Noto Sans KR";
+    font-weight: 400;
+  }
+}
+
+/* Mobile- */
+@media all and (max-width: 479px) {
+  .footer {
+    background-color: rgba(32, 32, 36, 1);
+    height: auto;
+  }
+
+  .footer-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-above {
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+
+  .footer-above span {
+    color: white;
+    font-family: "Noto Sans KR";
+    font-weight: 600;
+  }
+
+  .footer-below {
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .footer-below span {
+    color: rgba(93, 93, 93, 1);
+    font-family: "Noto Sans KR";
+    font-weight: 400;
+  }
+}
