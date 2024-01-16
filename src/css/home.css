@@ -2023,11 +2023,14 @@ body {
 
   .home-ability-title span {
     color: rgba(230, 63, 55, 1);
+    font-family: "Noto Sans KR";
     font-size: 1em;
     font-weight: 700;
   }
 
   .home-ability-title h2 {
+    font-family: "Noto Sans KR";
+    font-size: 1.8em;
     margin-top: 10px;
     margin-bottom: 60px;
   }
@@ -2479,6 +2482,7 @@ body {
 
   .home-games-left h1 {
     font-family: "Noto Sans KR";
+    font-size: 1.8em;
     margin-top: 5px;
     margin-bottom: 0px;
     color: white;
@@ -2869,6 +2873,8 @@ body {
 
   .home-curriculum-title h2 {
     color: white;
+    font-family: Noto Sans KR;
+    font-size: 1.8em;
     margin-bottom: 5px;
   }
 
