@@ -25,14 +25,14 @@ const Inquiry = () => {
           </div>
         </div>
       </section>
-      <section id="home-faq">
-        <div className="home-faq">
-          <div className="home-faq-container">
-            <div className="home-faq-title">
+      <section id="inquiry-faq">
+        <div className="inquiry-faq">
+          <div className="inquiry-faq-container">
+            <div className="inquiry-faq-title">
               <h2>자주 묻는 질문</h2>
             </div>
-            <div className="home-faq-contents">
-              <div className="home-faq-accordion">
+            <div className="inquiry-faq-contents">
+              <div className="inquiry-faq-accordion">
                 <input type="checkbox" id="answer01"></input>
                 <label htmlFor="answer01">
                   <span>Q.</span>&nbsp;&nbsp; 챌린저와 일반회원의 차이가
@@ -45,7 +45,7 @@ const Inquiry = () => {
                   </p>
                 </div>
               </div>
-              <div className="home-faq-accordion">
+              <div className="inquiry-faq-accordion">
                 <input type="checkbox" id="answer02"></input>
                 <label htmlFor="answer02">
                   <span>Q.</span>&nbsp;&nbsp; 한 기수에 몇 명의 회원을
@@ -55,7 +55,7 @@ const Inquiry = () => {
                   <p>A. 보통 40~50명 정도의 회원을 선발하고 있습니다.</p>
                 </div>
               </div>
-              <div className="home-faq-accordion">
+              <div className="inquiry-faq-accordion">
                 <input type="checkbox" id="answer03"></input>
                 <label htmlFor="answer03">
                   <span>Q.</span>&nbsp;&nbsp; 정기 모집 일정이 어떻게 되나요?
@@ -65,7 +65,7 @@ const Inquiry = () => {
                   <p>A. 매년 1월과 6월에 정기 모집을 진행하고 있습니다.</p>
                 </div>
               </div>
-              <div className="home-faq-accordion">
+              <div className="inquiry-faq-accordion">
                 <input type="checkbox" id="answer04"></input>
                 <label htmlFor="answer04">
                   <span>Q.</span>&nbsp;&nbsp; 졸업생은 지원 못하나요?<em></em>
@@ -76,7 +76,7 @@ const Inquiry = () => {
                   </p>
                 </div>
               </div>
-              <div className="home-faq-accordion">
+              <div className="inquiry-faq-accordion">
                 <input type="checkbox" id="answer05"></input>
                 <label htmlFor="answer05">
                   <span>Q.</span>&nbsp;&nbsp; 두 가지 이상의 직군에 지원할 수

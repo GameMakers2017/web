@@ -456,6 +456,144 @@ const Home = () => {
         <section id="home-curriculum">
           <Curriculum />
         </section>
+        <section id="home-sns">
+          <div className="home-sns">
+            <div className="home-sns-container">
+              <div className="home-sns-left">
+                <div className="home-sns-title">
+                  <span>운영 채널</span>
+                  <h2>SNS 채널 팔로우로<br/>다양한 소식을 접해보세요.</h2>
+                </div>
+                <div className="home-sns-context">
+                  <span>
+                    동아리에서 진행하는 이벤트, 정기모임 활동 발표회, MT, 세미나, 신작 게임 추천 등을
+                    각 SNS채널에 업로드하여 여러분들과 소통을 하고 있습니다.
+                  </span>
+                </div>
+                <div className="home-sns-record">
+                  <span>유튜브 누적 시청 시간</span>
+                  <h2>577시간</h2>
+                </div>
+                <div className="home-sns-record">
+                  <span>블로그 누적 조회수</span>
+                  <h2>28,895회</h2>
+                </div>
+              </div>
+              <div className="home-sns-right">
+                <div className="home-sns-item">
+                  <div className="home-sns-item-container">
+                    <div className="home-sns-item-icon">
+                      <img
+                    src={
+                      process.env.PUBLIC_URL + `/assets/home/Home_SNS_Blog_Icon.png`
+                    }
+                    alt="Subtitle_Star"
+                      ></img>
+                    </div>
+                    <div className="home-sns-item-name-blog">블로그</div>
+                    <div className="home-sns-item-context">주로 동아리에서 진행하는 행사, 이벤트를 다루어 활동들을 기록해 놓습니다.</div>
+                    <a className="home-sns-item-moveBtn" href="https://blog.naver.com/gamemakers2017" target="_blank" rel="noreferrer noopener">
+                      <img
+                      src={
+                        process.env.PUBLIC_URL + `/assets/home/Home_SNS_Move_Btn.png`
+                      }
+                      alt="Subtitle_Star"
+                        ></img>
+                    </a>
+                  </div>
+                </div>
+                <div className="home-sns-item">
+                  <div className="home-sns-item-container">
+                    <div className="home-sns-item-icon">
+                      <img
+                    src={
+                      process.env.PUBLIC_URL + `/assets/home/Home_SNS_Insta_Icon.png`
+                    }
+                    alt="Subtitle_Star"
+                      ></img>
+                    </div>
+                    <div className="home-sns-item-name-instagram">인스타그램</div>
+                    <div className="home-sns-item-context">동아리 행사 활동기록, 신규 게임 추천 등 홍보팀이 전담하여 여러분들에게 새로운 소식을 전합니다.</div>
+                    <a className="home-sns-item-moveBtn" href="https://www.instagram.com/gamemakers_official/" target="_blank" rel="noreferrer noopener">
+                    <img
+                    src={
+                      process.env.PUBLIC_URL + `/assets/home/Home_SNS_Move_Btn.png`
+                    }
+                    alt="Subtitle_Star"
+                      ></img>
+                    </a>
+                  </div>
+                </div>
+                <div className="home-sns-item">
+                  <div className="home-sns-item-container">
+                    <div className="home-sns-item-icon">
+                      <img
+                    src={
+                      process.env.PUBLIC_URL + `/assets/home/Home_SNS_Youtube_Icon.png`
+                    }
+                    alt="Subtitle_Star"
+                      ></img>
+                    </div>
+                    <div className="home-sns-item-name-youtube">유튜브</div>
+                    <div className="home-sns-item-context">개발중인 게임과 완성된 게임의 홍보, 다양한 컨텐츠를 주제로 영상을 업로드하고 있습니다.</div>
+                    <a className="home-sns-item-moveBtn" href="https://www.youtube.com/@gamemakersofficial9897" target="_blank" rel="noreferrer noopener">
+                    <img
+                    src={
+                      process.env.PUBLIC_URL + `/assets/home/Home_SNS_Move_Btn.png`
+                    }
+                    alt="Subtitle_Star"
+                      ></img>
+                    </a>
+                  </div>
+                </div>
+                <div className="home-sns-item">
+                  <div className="home-sns-item-container">
+                    <div className="home-sns-item-icon">
+                      <img
+                    src={
+                      process.env.PUBLIC_URL + `/assets/home/Home_SNS_Facebook_Icon.png`
+                    }
+                    alt="Subtitle_Star"
+                      ></img>
+                    </div>
+                    <div className="home-sns-item-name-facebook">페이스북</div>
+                    <div className="home-sns-item-context">동아리 행사 활동기록, 신규 게임 추천 등 홍보팀이 전담하여 여러분들에게 새로운 소식을 전합니다.</div>
+                    <a className="home-sns-item-moveBtn" href="https://www.facebook.com/gamemakers97" target="_blank" rel="noreferrer noopener">
+                    <img
+                    src={
+                      process.env.PUBLIC_URL + `/assets/home/Home_SNS_Move_Btn.png`
+                    }
+                    alt="Subtitle_Star"
+                      ></img>
+                    </a>
+                  </div>
+                </div>
+                <div className="home-sns-item">
+                  <div className="home-sns-item-container">
+                    <div className="home-sns-item-icon">
+                      <img
+                    src={
+                      process.env.PUBLIC_URL + `/assets/home/Home_SNS_Notion_Icon.png`
+                    }
+                    alt="Subtitle_Star"
+                      ></img>
+                    </div>
+                    <div className="home-sns-item-name-notion">노션</div>
+                    <div className="home-sns-item-context">동아리 행사 활동기록, 신규 게임 추천 등 홍보팀이 전담하여 여러분들에게 새로운 소식을 전합니다.</div>
+                    <a className="home-sns-item-moveBtn" href="https://gamemakers.oopy.io" target="_blank" rel="noreferrer noopener">
+                    <img
+                    src={
+                      process.env.PUBLIC_URL + `/assets/home/Home_SNS_Move_Btn.png`
+                    }
+                    alt="Subtitle_Star"
+                      ></img>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <section id="home-review">
           <div className="home-review">
             <div className="home-review-container">
@@ -565,74 +703,6 @@ const Home = () => {
                 >
                   OB들의 활동후기 더보기
                 </a>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section id="home-faq">
-          <div className="home-faq">
-            <div className="home-faq-container">
-              <div className="home-faq-title">
-                <h2>자주 묻는 질문</h2>
-              </div>
-              <div className="home-faq-contents">
-                <div className="home-faq-accordion">
-                  <input type="checkbox" id="answer01"></input>
-                  <label htmlFor="answer01">
-                    <span>Q.</span>&nbsp;&nbsp; 챌린저와 일반회원의 차이가
-                    무엇인가요?<em></em>
-                  </label>
-                  <div>
-                    <p>
-                      A. 챌린저는 동아리의 운영을 담당하는 회원을 칭하며,
-                      일반회원은 게임 개발을 담당하는 회원을 칭합니다.
-                    </p>
-                  </div>
-                </div>
-                <div className="home-faq-accordion">
-                  <input type="checkbox" id="answer02"></input>
-                  <label htmlFor="answer02">
-                    <span>Q.</span>&nbsp;&nbsp; 한 기수에 몇 명의 회원을
-                    모집하나요?<em></em>
-                  </label>
-                  <div>
-                    <p>A. 보통 40~50명 정도의 회원을 선발하고 있습니다.</p>
-                  </div>
-                </div>
-                <div className="home-faq-accordion">
-                  <input type="checkbox" id="answer03"></input>
-                  <label htmlFor="answer03">
-                    <span>Q.</span>&nbsp;&nbsp; 정기 모집 일정이 어떻게 되나요?
-                    <em></em>
-                  </label>
-                  <div>
-                    <p>A. 매년 1월과 6월에 정기 모집을 진행하고 있습니다.</p>
-                  </div>
-                </div>
-                <div className="home-faq-accordion">
-                  <input type="checkbox" id="answer04"></input>
-                  <label htmlFor="answer04">
-                    <span>Q.</span>&nbsp;&nbsp; 졸업생은 지원 못하나요?<em></em>
-                  </label>
-                  <div>
-                    <p>
-                      A. GameMakers는 게임 개발에 관심이 많은 성인 누구나 지원이 가능합니다.
-                    </p>
-                  </div>
-                </div>
-                <div className="home-faq-accordion">
-                  <input type="checkbox" id="answer05"></input>
-                  <label htmlFor="answer05">
-                    <span>Q.</span>&nbsp;&nbsp; 두 가지 이상의 직군에 지원할 수
-                    있나요?<em></em>
-                  </label>
-                  <div>
-                    <p>
-                      A. 두 가지 직군에는 지원이 불가능합니다. 한 가지의 직군으로 합격하신 후,
-                      팀 프로젝트 활동 시, 팀 내에서 팀원과의 상의 후 두 가지 직군의 역할을 하시는 것은 가능합니다.
-                    </p>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

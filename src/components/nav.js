@@ -31,7 +31,7 @@ const Nav = () => {
               모집
             </Link> */}
             <Link className="navbar-menu" to={"/inquiry"}>
-              문의
+              빠른문의
             </Link>
           </div>
         </div>

@@ -3314,6 +3314,982 @@ body {
 
 /*
 -----------------
+----Home-SNS-----
+-----------------
+*/
+
+/* PC+ */
+@media all and (min-width: 1200px) {
+  .home-sns{
+    background-color: rgba(244, 245, 248, 1);
+    height: auto;
+  }
+
+  .home-sns-container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+  }
+
+  .home-sns-left{
+    max-width: 400px;
+  }
+
+  .home-sns-title span{
+    color: rgba(230, 63, 55, 1);
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  .home-sns-title h2{
+    font-family: "Noto Sans KR";
+    font-size: 1.8em;
+    margin-top: 10px;
+  }
+
+  .home-sns-context{
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 250px;
+  }
+
+  .home-sns-record{
+    margin-bottom: 60px;
+  }
+
+  .home-sns-record span{
+    font-family: "Noto Sans KR";
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+
+  .home-sns-record h2{
+    font-family: "Noto Sans KR";
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-top: 0px;
+  }
+
+  .home-sns-right{
+    max-width: 640px;
+    display: grid;
+    grid-template-columns: 280px 280px;
+    grid-auto-rows: 270px 270px;
+    grid-gap: 10px;
+  }
+
+  .home-sns-item:nth-child(1){
+    margin-top: 152px;
+  }
+
+  .home-sns-item:nth-child(3){
+    margin-top: 152px;
+  }
+
+  .home-sns-item:nth-child(5){
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .home-sns-item{
+    width: 280px;
+    height: 270px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 3px 0 rgba(0,0,0,0.1);
+  }
+  
+  .home-sns-item-container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .home-sns-item-icon{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+
+  .home-sns-item-name-blog{
+    font-family: "Noto Sans KR";
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to top, rgba(0, 199, 60, 0.5), rgba(0, 199, 60, 0.5));
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    font-weight: 700;
+  }
+
+  .home-sns-item-name-instagram{
+    font-family: "Noto Sans KR";
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to right, rgba(245, 198, 28, 0.5), rgba(227, 31, 146, 0.5), rgba(100, 3, 194, 0.5));
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    font-weight: 700;
+  }
+
+  .home-sns-item-name-youtube{
+    font-family: "Noto Sans KR";
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to top, rgba(247, 0, 0, 0.5), rgba(247, 0, 0, 0.5));
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    font-weight: 700;
+  }
+
+  .home-sns-item-name-facebook{
+    font-family: "Noto Sans KR";
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to top, rgba(22, 116, 234, 0.5), rgba(22, 116, 234, 0.5));
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    font-weight: 700;
+  }
+
+  .home-sns-item-name-notion{
+    font-family: "Noto Sans KR";
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    font-weight: 700;
+  }
+
+  .home-sns-item-context{
+    font-family: "Noto Sans KR";
+    font-size: 0.9em;
+    font-weight: 500;
+    height: 100px;
+  }
+
+  .home-sns-item-moveBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .home-sns-item-moveBtn img{
+    width: 90px;
+    height: 25px;
+  }
+
+  .home-sns-item-moveBtn:hover{
+    cursor: pointer;
+  }
+}
+
+/* PC */
+@media all and (min-width: 1024px) and (max-width: 1199px) {
+  .home-sns{
+    background-color: rgba(244, 245, 248, 1);
+    height: auto;
+  }
+
+  .home-sns-container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+  }
+
+  .home-sns-left{
+    max-width: 300px;
+  }
+
+  .home-sns-title span{
+    color: rgba(230, 63, 55, 1);
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  .home-sns-title h2{
+    font-family: "Noto Sans KR";
+    font-size: 1.8em;
+    margin-top: 10px;
+  }
+
+  .home-sns-context{
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 250px;
+  }
+
+  .home-sns-record{
+    margin-bottom: 60px;
+  }
+
+  .home-sns-record span{
+    font-family: "Noto Sans KR";
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+
+  .home-sns-record h2{
+    font-family: "Noto Sans KR";
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-top: 0px;
+  }
+
+  .home-sns-right{
+    max-width: 640px;
+    display: grid;
+    grid-template-columns: 260px 260px;
+    grid-auto-rows: 270px 270px;
+    grid-gap: 10px;
+  }
+
+  .home-sns-item:nth-child(1){
+    margin-top: 152px;
+  }
+
+  .home-sns-item:nth-child(3){
+    margin-top: 152px;
+  }
+
+  .home-sns-item:nth-child(5){
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .home-sns-item{
+    width: 260px;
+    height: 270px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 3px 0 rgba(0,0,0,0.1);
+  }
+  
+  .home-sns-item-container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .home-sns-item-icon{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+
+  .home-sns-item-name-blog{
+    font-family: "Noto Sans KR";
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to top, rgba(0, 199, 60, 0.5), rgba(0, 199, 60, 0.5));
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    font-weight: 700;
+  }
+
+  .home-sns-item-name-instagram{
+    font-family: "Noto Sans KR";
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to right, rgba(245, 198, 28, 0.5), rgba(227, 31, 146, 0.5), rgba(100, 3, 194, 0.5));
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    font-weight: 700;
+  }
+
+  .home-sns-item-name-youtube{
+    font-family: "Noto Sans KR";
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to top, rgba(247, 0, 0, 0.5), rgba(247, 0, 0, 0.5));
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    font-weight: 700;
+  }
+
+  .home-sns-item-name-facebook{
+    font-family: "Noto Sans KR";
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to top, rgba(22, 116, 234, 0.5), rgba(22, 116, 234, 0.5));
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    font-weight: 700;
+  }
+
+  .home-sns-item-name-notion{
+    font-family: "Noto Sans KR";
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    font-weight: 700;
+  }
+
+  .home-sns-item-context{
+    font-family: "Noto Sans KR";
+    font-size: 0.9em;
+    font-weight: 500;
+    height: 100px;
+  }
+
+  .home-sns-item-moveBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .home-sns-item-moveBtn img{
+    width: 90px;
+    height: 25px;
+  }
+
+  .home-sns-item-moveBtn:hover{
+    cursor: pointer;
+  }
+}
+
+/* Tablet */
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .home-sns{
+    background-color: rgba(244, 245, 248, 1);
+    height: auto;
+  }
+
+  .home-sns-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .home-sns-left{
+    max-width: 250px;
+  }
+
+  .home-sns-title span{
+    color: rgba(230, 63, 55, 1);
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  .home-sns-title h2{
+    font-family: "Noto Sans KR";
+    font-size: 1.6em;
+    margin-top: 10px;
+  }
+
+  .home-sns-context{
+    font-family: "Noto Sans KR";
+    font-size: 0.9em;
+    font-weight: 400;
+    margin-bottom: 250px;
+  }
+
+  .home-sns-record{
+    margin-bottom: 60px;
+  }
+
+  .home-sns-record span{
+    font-family: "Noto Sans KR";
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+
+  .home-sns-record h2{
+    font-family: "Noto Sans KR";
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-top: 0px;
+  }
+
+  .home-sns-right{
+    max-width: 640px;
+    display: grid;
+    grid-template-columns: 220px 220px;
+    grid-auto-rows: 250px 250px;
+    grid-gap: 10px;
+  }
+
+  .home-sns-item:nth-child(1){
+    margin-top: 152px;
+  }
+
+  .home-sns-item:nth-child(3){
+    margin-top: 152px;
+  }
+
+  .home-sns-item:nth-child(5){
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .home-sns-item{
+    width: 220px;
+    height: 250px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 3px 0 rgba(0,0,0,0.1);
+  }
+  
+  .home-sns-item-container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .home-sns-item-icon{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+
+  .home-sns-item-name-blog{
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to top, rgba(0, 199, 60, 0.5), rgba(0, 199, 60, 0.5));
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    font-weight: 700;
+  }
+
+  .home-sns-item-name-instagram{
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to right, rgba(245, 198, 28, 0.5), rgba(227, 31, 146, 0.5), rgba(100, 3, 194, 0.5));
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    font-weight: 700;
+  }
+
+  .home-sns-item-name-youtube{
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to top, rgba(247, 0, 0, 0.5), rgba(247, 0, 0, 0.5));
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    font-weight: 700;
+  }
+
+  .home-sns-item-name-facebook{
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to top, rgba(22, 116, 234, 0.5), rgba(22, 116, 234, 0.5));
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    font-weight: 700;
+  }
+
+  .home-sns-item-name-notion{
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    font-weight: 700;
+  }
+
+  .home-sns-item-context{
+    font-family: "Noto Sans KR";
+    font-size: 0.8em;
+    font-weight: 500;
+    height: 100px;
+  }
+
+  .home-sns-item-moveBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .home-sns-item-moveBtn img{
+    width: 60px;
+    height: 17px;
+  }
+
+  .home-sns-item-moveBtn:hover{
+    cursor: pointer;
+  }
+}
+
+/* Mobile */
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .home-sns{
+    background-color: rgba(244, 245, 248, 1);
+    height: auto;
+  }
+
+  .home-sns-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-sns-title{
+    text-align: center;
+  }
+
+  .home-sns-title span{
+    color: rgba(230, 63, 55, 1);
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  .home-sns-title h2{
+    font-family: "Noto Sans KR";
+    font-size: 1.6em;
+    margin-top: 10px;
+  }
+
+  .home-sns-context{
+    text-align: center;
+    font-family: "Noto Sans KR";
+    font-size: 0.9em;
+    font-weight: 400;
+    margin-bottom: 90px;
+  }
+
+  .home-sns-record{
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  .home-sns-record span{
+    font-family: "Noto Sans KR";
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+
+  .home-sns-record h2{
+    font-family: "Noto Sans KR";
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-top: 0px;
+  }
+
+  .home-sns-right{
+    max-width: 640px;
+    display: grid;
+    grid-template-columns: 220px 220px;
+    grid-auto-rows: 250px 250px;
+    grid-gap: 10px;
+  }
+
+  .home-sns-item:nth-child(1){
+    margin-top: 152px;
+  }
+
+  .home-sns-item:nth-child(3){
+    margin-top: 152px;
+  }
+
+  .home-sns-item:nth-child(5){
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .home-sns-item{
+    width: 220px;
+    height: 250px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 3px 0 rgba(0,0,0,0.1);
+  }
+  
+  .home-sns-item-container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .home-sns-item-icon{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+
+  .home-sns-item-name-blog{
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to top, rgba(0, 199, 60, 0.5), rgba(0, 199, 60, 0.5));
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    font-weight: 700;
+  }
+
+  .home-sns-item-name-instagram{
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to right, rgba(245, 198, 28, 0.5), rgba(227, 31, 146, 0.5), rgba(100, 3, 194, 0.5));
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    font-weight: 700;
+  }
+
+  .home-sns-item-name-youtube{
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to top, rgba(247, 0, 0, 0.5), rgba(247, 0, 0, 0.5));
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    font-weight: 700;
+  }
+
+  .home-sns-item-name-facebook{
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to top, rgba(22, 116, 234, 0.5), rgba(22, 116, 234, 0.5));
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    font-weight: 700;
+  }
+
+  .home-sns-item-name-notion{
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    font-weight: 700;
+  }
+
+  .home-sns-item-context{
+    font-family: "Noto Sans KR";
+    font-size: 0.8em;
+    font-weight: 500;
+    height: 100px;
+  }
+
+  .home-sns-item-moveBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .home-sns-item-moveBtn img{
+    width: 60px;
+    height: 17px;
+  }
+
+  .home-sns-item-moveBtn:hover{
+    cursor: pointer;
+  }
+}
+
+/* Mobile- */
+@media all and (max-width: 479px) {
+  .home-sns{
+    background-color: rgba(244, 245, 248, 1);
+    height: auto;
+  }
+
+  .home-sns-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-sns-title{
+    text-align: center;
+  }
+
+  .home-sns-title span{
+    color: rgba(230, 63, 55, 1);
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  .home-sns-title h2{
+    font-family: "Noto Sans KR";
+    font-size: 1.6em;
+    margin-top: 10px;
+  }
+
+  .home-sns-context{
+    text-align: center;
+    font-family: "Noto Sans KR";
+    font-size: 0.9em;
+    font-weight: 400;
+    margin-bottom: 90px;
+  }
+
+  .home-sns-record{
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  .home-sns-record span{
+    font-family: "Noto Sans KR";
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+
+  .home-sns-record h2{
+    font-family: "Noto Sans KR";
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-top: 0px;
+  }
+
+  .home-sns-right{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .home-sns-item:nth-child(5){
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .home-sns-item{
+    width: 100%;
+    height: 240px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 3px 0 rgba(0,0,0,0.1);
+  }
+  
+  .home-sns-item-container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .home-sns-item-icon{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+
+  .home-sns-item-name-blog{
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to top, rgba(0, 199, 60, 0.5), rgba(0, 199, 60, 0.5));
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    font-weight: 700;
+  }
+
+  .home-sns-item-name-instagram{
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to right, rgba(245, 198, 28, 0.5), rgba(227, 31, 146, 0.5), rgba(100, 3, 194, 0.5));
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    font-weight: 700;
+  }
+
+  .home-sns-item-name-youtube{
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to top, rgba(247, 0, 0, 0.5), rgba(247, 0, 0, 0.5));
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    font-weight: 700;
+  }
+
+  .home-sns-item-name-facebook{
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to top, rgba(22, 116, 234, 0.5), rgba(22, 116, 234, 0.5));
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    font-weight: 700;
+  }
+
+  .home-sns-item-name-notion{
+    font-family: "Noto Sans KR";
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    font-weight: 700;
+  }
+
+  .home-sns-item-context{
+    font-family: "Noto Sans KR";
+    font-size: 0.8em;
+    font-weight: 500;
+    height: 80px;
+  }
+
+  .home-sns-item-moveBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .home-sns-item-moveBtn img{
+    width: 60px;
+    height: 17px;
+  }
+
+  .home-sns-item-moveBtn:hover{
+    cursor: pointer;
+  }
+}
+
+/*
+-----------------
 ---Home-Review---
 -----------------
 */

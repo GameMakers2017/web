@@ -274,12 +274,12 @@ body {
 
 /* PC */
 @media all and (min-width: 1024px) {
-  .home-faq {
+  .inquiry-faq {
     background-color: white;
     height: auto;
   }
 
-  .home-faq-container {
+  .inquiry-faq-container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -291,18 +291,18 @@ body {
     align-items: center;
   }
 
-  .home-faq-title {
+  .inquiry-faq-title {
     text-align: center;
   }
 
-  .home-faq-title>h2 {
+  .inquiry-faq-title>h2 {
     font-family: "Noto Sans KR";
     font-size: 1.8em;
     margin-top: 10px;
     margin-bottom: 60px;
   }
 
-  .home-faq-contents {
+  .inquiry-faq-contents {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -310,7 +310,7 @@ body {
     gap: 10px;
   }
 
-  .home-faq-accordion {
+  .inquiry-faq-accordion {
     width: 800px;
     border: 1px solid rgb(230, 230, 230);
     border-radius: 10px;
@@ -382,12 +382,12 @@ body {
 
 /* Tablet */
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .home-faq {
+  .inquiry-faq {
     background-color: white;
     height: auto;
   }
 
-  .home-faq-container {
+  .inquiry-faq-container {
     margin-left: auto;
     margin-right: auto;
     padding-top: 120px;
@@ -398,18 +398,18 @@ body {
     align-items: center;
   }
 
-  .home-faq-title {
+  .inquiry-faq-title {
     text-align: center;
   }
 
-  .home-faq-title>h2 {
+  .inquiry-faq-title>h2 {
     font-family: "Noto Sans KR";
     font-size: 1.8em;
     margin-top: 10px;
     margin-bottom: 60px;
   }
 
-  .home-faq-contents {
+  .inquiry-faq-contents {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -417,7 +417,7 @@ body {
     gap: 10px;
   }
 
-  .home-faq-accordion {
+  .inquiry-faq-accordion {
     width: 80%;
     border: 1px solid rgb(230, 230, 230);
     border-radius: 10px;
@@ -488,12 +488,12 @@ body {
 
 /* Mobile */
 @media all and (min-width: 480px) and (max-width: 767px) {
-  .home-faq {
+  .inquiry-faq {
     background-color: white;
     height: auto;
   }
 
-  .home-faq-container {
+  .inquiry-faq-container {
     margin-left: auto;
     margin-right: auto;
     padding-top: 120px;
@@ -504,18 +504,18 @@ body {
     align-items: center;
   }
 
-  .home-faq-title {
+  .inquiry-faq-title {
     text-align: center;
   }
 
-  .home-faq-title>h2 {
+  .inquiry-faq-title>h2 {
     font-family: "Noto Sans KR";
     font-size: 1.8em;
     margin-top: 10px;
     margin-bottom: 60px;
   }
 
-  .home-faq-contents {
+  .inquiry-faq-contents {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -523,7 +523,7 @@ body {
     gap: 10px;
   }
 
-  .home-faq-accordion {
+  .inquiry-faq-accordion {
     width: 80%;
     border: 1px solid rgb(230, 230, 230);
     border-radius: 10px;
@@ -594,12 +594,12 @@ body {
 
 /* Mobile- */
 @media all and (max-width: 479px) {
-  .home-faq {
+  .inquiry-faq {
     background-color: white;
     height: auto;
   }
 
-  .home-faq-container {
+  .inquiry-faq-container {
     margin-left: auto;
     margin-right: auto;
     padding-top: 120px;
@@ -610,18 +610,18 @@ body {
     align-items: center;
   }
 
-  .home-faq-title {
+  .inquiry-faq-title {
     text-align: center;
   }
 
-  .home-faq-title>h2 {
+  .inquiry-faq-title>h2 {
     font-family: "Noto Sans KR";
     font-size: 1.4em;
     margin-top: 10px;
     margin-bottom: 60px;
   }
 
-  .home-faq-contents {
+  .inquiry-faq-contents {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -629,7 +629,7 @@ body {
     gap: 10px;
   }
 
-  .home-faq-accordion {
+  .inquiry-faq-accordion {
     width: 80%;
     border: 1px solid rgb(230, 230, 230);
     border-radius: 10px;
