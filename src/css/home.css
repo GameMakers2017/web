@@ -4402,7 +4402,7 @@ body {
 
   .home-review-box {
     width: 400px;
-    height: auto;
+    height: 380px;
     border: 1px solid lightgray;
     border-radius: 15px;
     padding: 20px;
@@ -4507,11 +4507,12 @@ body {
     font-weight: 700;
     font-family: "Noto Sans KR";
     margin-bottom: 13px;
+    height: 60px;
   }
 
   .home-review-detail-content {
     font-size: 0.9em;
-    font-weight: 500;
+    font-weight: 400;
     font-family: "Noto Sans KR";
     color: rgba(137, 137, 137, 1);
   }
@@ -4748,7 +4749,7 @@ body {
 
   .home-review-detail-content {
     font-size: 0.9em;
-    font-weight: 500;
+    font-weight: 400;
     font-family: "Noto Sans KR";
     color: rgba(137, 137, 137, 1);
   }
@@ -4985,7 +4986,7 @@ body {
 
   .home-review-detail-content {
     font-size: 0.9em;
-    font-weight: 500;
+    font-weight: 400;
     font-family: "Noto Sans KR";
     color: rgba(137, 137, 137, 1);
   }
@@ -5223,7 +5224,7 @@ body {
 
   .home-review-detail-content {
     font-size: 0.9em;
-    font-weight: 500;
+    font-weight: 400;
     font-family: "Noto Sans KR";
     color: rgba(137, 137, 137, 1);
   }
