@@ -18,10 +18,10 @@ const Nav = () => {
             </Link>
           </div>
           <div className="navbar-menu-container">
-            {/* <Link className="navbar-menu" to={"/project"}>
+            <Link className="navbar-menu" to={"/project"}>
               프로젝트
             </Link>
-            <Link className="navbar-menu" to={"/review"}>
+            {/* <Link className="navbar-menu" to={"/review"}>
               활동후기
             </Link> */}
             {/* <Link className="navbar-menu" to={"/hof"}>
