@@ -8,18 +8,22 @@ body {
 
 /* PC */
 @media all and (min-width: 1024px) {
+
 }
 
 /* Tablet */
 @media all and (min-width: 768px) and (max-width: 1023px) {
+
 }
 
 /* Mobile */
 @media all and (min-width: 480px) and (max-width: 767px) {
+
 }
 
 /* Mobile- */
 @media all and (max-width: 479px) {
+
 }
 
 /* Def */
@@ -30,8 +34,8 @@ body {
 -----------------
 */
 
-/* PC */
-@media all and (min-width: 1024px) {
+/* PC+ */
+@media all and (min-width: 1200px) {
     .project-main{
         height: auto;
         background-color: white;
@@ -42,7 +46,7 @@ body {
         margin-left: auto;
         margin-right: auto;
         padding-top: 70px;
-        padding-bottom: 70px;
+        padding-bottom: 100px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -95,5 +99,278 @@ body {
         font-family: "Noto Sans KR";
         font-weight: 600;
         font-size: 1.1em;
+    }
+}
+
+/* PC */
+@media all and (min-width: 1024px) and (max-width: 1199px) {
+    .project-main{
+        height: auto;
+        background-color: white;
+    }
+
+    .project-main-container{
+        max-width: 920px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 70px;
+        padding-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .project-main-title{
+        text-align: center;
+        margin-bottom: 70px;
+    }
+
+    .project-main-title h2{
+        font-family: "Noto Sans KR";
+        font-size: 2.2em;
+        margin-bottom: 10px;
+    }
+
+    .project-main-title span{
+        color: black;
+        font-family: "Noto Sans KR";
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+
+    .project-main-games{
+        display: grid;
+        grid-template-columns: 120px 120px 120px 120px 120px;
+        grid-template-rows: auto;
+        column-gap: 70px;
+        row-gap: 70px;
+        text-align: center;
+    }
+
+    .project-main-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-main-item-container img{
+        width: 120px;
+        height: 120px;
+        border-radius: 20px;
+        margin-bottom: 15px;
+    }
+
+    .project-main-item-container span{
+        font-family: "Noto Sans KR";
+        font-weight: 600;
+        font-size: 1.1em;
+    }
+}
+
+/* Tablet */
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    .project-main{
+        height: auto;
+        background-color: white;
+    }
+
+    .project-main-container{
+        max-width: 920px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 70px;
+        padding-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .project-main-title{
+        text-align: center;
+        margin-bottom: 70px;
+    }
+
+    .project-main-title h2{
+        font-family: "Noto Sans KR";
+        font-size: 2.2em;
+        margin-bottom: 10px;
+    }
+
+    .project-main-title span{
+        color: black;
+        font-family: "Noto Sans KR";
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+
+    .project-main-games{
+        display: grid;
+        grid-template-columns: 120px 120px 120px 120px;
+        grid-template-rows: auto;
+        column-gap: 60px;
+        row-gap: 50px;
+        text-align: center;
+    }
+
+    .project-main-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-main-item-container img{
+        width: 120px;
+        height: 120px;
+        border-radius: 20px;
+        margin-bottom: 15px;
+    }
+
+    .project-main-item-container span{
+        font-family: "Noto Sans KR";
+        font-weight: 600;
+        font-size: 1.1em;
+    }
+}
+
+/* Mobile */
+@media all and (min-width: 480px) and (max-width: 767px) {
+    .project-main{
+        height: auto;
+        background-color: white;
+    }
+
+    .project-main-container{
+        max-width: 920px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 70px;
+        padding-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .project-main-title{
+        text-align: center;
+        margin-bottom: 70px;
+    }
+
+    .project-main-title h2{
+        font-family: "Noto Sans KR";
+        font-size: 2.2em;
+        margin-bottom: 10px;
+    }
+
+    .project-main-title span{
+        color: black;
+        font-family: "Noto Sans KR";
+        font-size: 1.1em;
+        font-weight: 400;
+    }
+
+    .project-main-games{
+        display: grid;
+        grid-template-columns: 120px 120px 120px;
+        grid-template-rows: auto;
+        column-gap: 40px;
+        row-gap: 40px;
+        text-align: center;
+    }
+
+    .project-main-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-main-item-container img{
+        width: 120px;
+        height: 120px;
+        border-radius: 20px;
+        margin-bottom: 5px;
+    }
+
+    .project-main-item-container span{
+        font-family: "Noto Sans KR";
+        font-weight: 600;
+        font-size: 1em;
+    }
+}
+
+/* Mobile- */
+@media all and (max-width: 479px) {
+    .project-main{
+        height: auto;
+        background-color: white;
+    }
+
+    .project-main-container{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 70px;
+        padding-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .project-main-title{
+        text-align: center;
+        margin-bottom: 40px;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+    .project-main-title h2{
+        font-family: "Noto Sans KR";
+        font-size: 1.9em;
+        margin-bottom: 10px;
+    }
+
+    .project-main-title span{
+        color: black;
+        font-family: "Noto Sans KR";
+        font-size: 1em;
+        font-weight: 400;
+    }
+
+    .project-main-games{
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        column-gap: auto;
+        row-gap: 20px;
+        text-align: center;
+    }
+
+    .project-main-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-main-item-container img{
+        max-width: 80px;
+        max-height: 80px;
+        border-radius: 15px;
+    }
+
+    .project-main-item-container span{
+        font-family: "Noto Sans KR";
+        font-weight: 600;
+        font-size: 0.7em;
     }
 }
